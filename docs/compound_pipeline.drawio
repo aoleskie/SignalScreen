@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.2.6">
+  <diagram name="Page-1" id="mpfNnRBfo4wIA3f3Fe2o">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-68" edge="1" parent="1" source="7hjFwTFnEjdjfbLLBP7z-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PubChem" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-67" edge="1" parent="1" source="7hjFwTFnEjdjfbLLBP7z-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7hjFwTFnEjdjfbLLBP7z-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ChemEMBL" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BindingDB" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-71" edge="1" parent="1" source="7hjFwTFnEjdjfbLLBP7z-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7hjFwTFnEjdjfbLLBP7z-70" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-66" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;(Process A)&lt;/div&gt;&lt;div&gt;“Fetch metadata”&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-69" edge="1" parent="1" source="7hjFwTFnEjdjfbLLBP7z-65" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="170" as="sourcePoint" />
+            <mxPoint x="260" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-70" parent="1" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" value="raw_metadata" vertex="1">
+          <mxGeometry height="40" width="190" x="520" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-74" edge="1" parent="1" source="7hjFwTFnEjdjfbLLBP7z-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7hjFwTFnEjdjfbLLBP7z-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="raw_metadata" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-77" edge="1" parent="1" source="7hjFwTFnEjdjfbLLBP7z-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7hjFwTFnEjdjfbLLBP7z-80" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-78" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;(Process B)&lt;/div&gt;&lt;div&gt;“Fetch bioactivity / assay data”&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-80" parent="1" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" value="raw_bioactivity" vertex="1">
+          <mxGeometry height="40" width="190" x="520" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-81" edge="1" parent="1" source="7hjFwTFnEjdjfbLLBP7z-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7hjFwTFnEjdjfbLLBP7z-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="raw_metadata + raw_bioactivity" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-83" edge="1" parent="1" source="7hjFwTFnEjdjfbLLBP7z-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7hjFwTFnEjdjfbLLBP7z-85" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-84" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;(Process C)&amp;nbsp;&lt;/div&gt;&lt;div&gt;“Normalize &amp;amp; dedupe / unify identifiers”&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-85" parent="1" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" value="processed_data" vertex="1">
+          <mxGeometry height="40" width="190" x="520" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-86" edge="1" parent="1" source="7hjFwTFnEjdjfbLLBP7z-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7hjFwTFnEjdjfbLLBP7z-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-87" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="processed_data" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-88" edge="1" parent="1" source="7hjFwTFnEjdjfbLLBP7z-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7hjFwTFnEjdjfbLLBP7z-90" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-89" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;(Process D)&lt;/div&gt;&lt;div&gt;“Filter &amp;amp; prioritize (potency, selectivity, assay quality)”&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-90" parent="1" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" value="candidate_compounds" vertex="1">
+          <mxGeometry height="40" width="190" x="520" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-91" edge="1" parent="1" source="7hjFwTFnEjdjfbLLBP7z-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7hjFwTFnEjdjfbLLBP7z-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="candidate_compounds" vertex="1">
+          <mxGeometry height="40" width="130" x="70" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-93" edge="1" parent="1" source="7hjFwTFnEjdjfbLLBP7z-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7hjFwTFnEjdjfbLLBP7z-95" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-94" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;(Process E)&lt;/div&gt;&lt;div&gt;“Export &amp;amp; output”&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-95" parent="1" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" value="Final output file / database" vertex="1">
+          <mxGeometry height="40" width="190" x="520" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjFwTFnEjdjfbLLBP7z-107" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Notes:&lt;/h1&gt;&lt;p&gt;Process A: uses API calls to fetch SMILES, synonyms, CAS, PubChem CID, ChEMBL ID, etc.&lt;/p&gt;&lt;li data-start=&quot;2192&quot; data-end=&quot;2332&quot;&gt;&lt;p data-start=&quot;2194&quot; data-end=&quot;2332&quot;&gt;Process B: fetches all relevant bioactivity data for specified targets (e.g. RARG, RARA, RARB), binding assays, functional assays, etc.&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;2192&quot; data-end=&quot;2332&quot;&gt;&lt;p data-start=&quot;2194&quot; data-end=&quot;2332&quot;&gt;Process C: cleans data, unifies identifiers, converts units, removes duplicates (e.g. via canonical SMILES or InChIKey), merges metadata + bioactivity.&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;2192&quot; data-end=&quot;2332&quot;&gt;&lt;p data-start=&quot;2194&quot; data-end=&quot;2332&quot;&gt;Process D: applies user-defined filters (e.g. potency threshold, subtype selectivity, assay type preference), flags off-target activities.&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;2633&quot; data-end=&quot;2793&quot;&gt;&lt;p data-start=&quot;2635&quot; data-end=&quot;2793&quot;&gt;Process E: writes final candidate list(s) to output format(s) and possibly summary statistics / reports (e.g. potency distributions, selectivity breakdown).&lt;/p&gt;&lt;/li&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="260" width="540" x="100" y="720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
