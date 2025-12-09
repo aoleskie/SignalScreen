@@ -16,6 +16,7 @@ project_root/
 │   └── output/                   # final compound list(s) plus any summary tables or filtered “top candidates”
 │
 ├── src/                          # source code / scripts
+│   ├── fetch_gtopdb_targets.py
 │   ├── fetch_metadata.py         # script to fetch general compound metadata (SMILES, identifiers, synonyms)  
 │   ├── fetch_bioactivity.py      # script to fetch bioactivity data for specified targets (binding, functional assays)  
 │   ├── normalize.py              # code to clean, normalize, dedupe metadata + bioactivity, unify identifiers/synonyms  
@@ -24,8 +25,7 @@ project_root/
 │
 ├── docs/                         # documentation & notes  
 │   ├── README.md                 # this file  
-│   ├── DESIGN.md                 # optional: describe design decisions, data-flow diagram, filtering logic, caveats  
-│   └── data_flow_diagram.drawio  # optional: visualization of data flow from raw fetch → processing → output  
+│   └── data_flow_diagram.drawio  # visualization of data flow from raw fetch → processing → output  
 │
 ├── requirements.txt              # list of Python (or other) dependencies needed to run the scripts  
 ├── run_pipeline.sh               # convenience shell script to run the entire pipeline end-to-end  
