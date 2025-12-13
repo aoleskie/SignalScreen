@@ -4,10 +4,6 @@ score_rarg_activity.py
 Rank ligands by activity and specificity toward retinoic acid receptor gamma (RARG)
 based on a pre-processed activities.tsv file.
 
-This module is designed to mirror the structure of fetch_gtopdb_targets.py:
-- clean functional API
-- importable
-- optional standalone execution
 """
 
 import pandas as pd

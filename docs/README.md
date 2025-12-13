@@ -2,7 +2,7 @@
 A python implementation to find candidate compounds
 
 ## Overview   
-- Mine literature/databases to find tool-compounds for  RAR, especially RARG.
+- Mine databases to find tool-compounds for  RAR, especially RARG.
 - Need for retinoid-like activity with lower irritation; enabling primary screening; providing medicinal-chemistry-ready data.  
 - Contains python code, data, and documentation
 
@@ -19,18 +19,22 @@ project_root/
 ├── src/                            # source code / scripts
 │   ├── fetch_gtopdb_targets.py     # script to fetch GtoP DB target
 │   ├── fetch_chembl_for_targets.py # script to fetch general compound metadata (SMILES, identifiers, synonyms)  
-│   ├── fetch_bioactivity.py        # script to fetch bioactivity data for specified targets (binding, functional assays)  
-│   ├── normalize.py                # code to clean, normalize, dedupe metadata + bioactivity, unify identifiers/synonyms  
-│   ├── filter_prioritize.py        # logic to apply potency/selectivity filters and choose “top candidates”  
-│   └── export.py                   # script to export final lists / outputs (CSV/JSON/SQLite)  
+│   ├── sort_rarg_ligands.py        # Rank ligands by activity and specificity toward retinoic acid receptor gamma (RARG)
+│   ├── fetch_compound_info.py      # Enrich the top N sorted ligands with PubChem CID and synonyms
+│   ├── fetch_target_info.py        # Find compound target info and call Reactome's AnalysisService 
+│   ├── fetch_clinical_trials.py    # Queries CT.gov for name/synonym matches for each ligand
+│   ├── fetch_literature.py         # Search for literature about ligands on pubmed, chembl, and bindingdb
+│   ├── build_ligand_summary.py     # Build and save a summary DB
+│   ├── open_targets_known_drugs.py # Query Open Targets for known drugs of a target
+│   └── fetch_top_drugs.py          # Given df_ot_drugs, return each unique drug with its highest phase
 │
-├── docs/                         # documentation & notes  
-│   ├── README.md                 # this file  
-│   └── data_flow_diagram.drawio  # visualization of data flow from raw fetch → processing → output  
+├── docs/                           # documentation & notes  
+│   ├── README.md                   # this file  
+│   └── data_flow_diagram.drawio    # visualization of data flow from raw fetch → processing → output  
 │
-├── requirements.txt              # list of Python (or other) dependencies needed to run the scripts  
-├── run_pipeline.sh               # convenience shell script to run the entire pipeline end-to-end  
-└── .gitignore                    # standard ignore file (e.g. for large raw downloads, API keys, temporary files)  
+├── requirements.txt                # list of Python (or other) dependencies needed to run the scripts  
+├── RAR_candidates.ipynb            # python notebook to run full analysis example 
+└── .gitignore                      # standard ignore file (e.g. for large raw downloads, API keys, temporary files)  
 ```
 
 

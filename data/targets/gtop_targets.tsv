@@ -1,0 +1,4 @@
+gtop_target_id	name	type	familyIds	synonyms	gene_symbol	chembl_target_url	drugbank_target_url	systematic_nomenclature
+590	Retinoic acid receptor-&alpha;	NHR	85	['RAR alpha 1', 'RAR', 'RAR&alpha;', 'retinoic acid receptor']	RARA	https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2055	http://www.drugbank.ca/biodb/polypeptides/P10276	NR1B1
+591	Retinoic acid receptor-&beta;	NHR	85	['HAP', 'HBV-activated protein', 'RAR beta 2', 'retinoic acid receptor']	RARB	https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2008	http://www.drugbank.ca/biodb/polypeptides/P10826	NR1B2
+592	Retinoic acid receptor-&gamma;	NHR	85	['RARC', 'RAR&gamma;', 'RAR gamma 2', 'retinoic acid receptor']	RARG	https://www.ebi.ac.uk/chembl/explore/target/CHEMBL2003	http://www.drugbank.ca/biodb/polypeptides/P13631	NR1B3

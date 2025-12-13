@@ -25,13 +25,13 @@ def parse_gtop_id(x: str) -> int:
 
 def single_target_api(tid: int) -> dict:
     url = f"{API_BASE}/{tid}"
-    resp = requests.get(url, timeout=15)
+    resp = requests.get(url, timeout=30)
     resp.raise_for_status()
     return resp.json()
 
 def synonym_target_api(tid: int) -> dict:
     url = f"{API_BASE}/{tid}/synonyms"
-    resp = requests.get(url, timeout=15)
+    resp = requests.get(url, timeout=30)
     resp.raise_for_status()
     return resp.json()
 

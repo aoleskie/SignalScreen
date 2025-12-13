@@ -1,0 +1,522 @@
+ligand_id	pathway_id	pathway_name	entities_found
+CHEMBL132033	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL132033	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL132033	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL132033	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL132033	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL132033	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL132033	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL132033	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL132033	R-HSA-1266738	Developmental Biology	1968
+CHEMBL132033	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL132033	R-HSA-162582	Signal Transduction	3051
+CHEMBL132033	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL132033	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL132033	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL132033	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL132033	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL132033	R-HSA-2990846	SUMOylation	193
+CHEMBL132033	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL132033	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL330998	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL330998	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL330998	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL330998	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL330998	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL330998	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL330998	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL330998	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL330998	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL330998	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL330998	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL330998	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL330998	R-HSA-1266738	Developmental Biology	1968
+CHEMBL330998	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL330998	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL330998	R-HSA-2990846	SUMOylation	193
+CHEMBL330998	R-HSA-162582	Signal Transduction	3051
+CHEMBL330998	R-HSA-9031525	NR1H2 & NR1H3 regulate gene expression to limit cholesterol uptake 	10
+CHEMBL330998	R-HSA-9031528	NR1H2 & NR1H3 regulate gene expression linked to triglyceride lipolysis in adipose	10
+CHEMBL330998	R-HSA-9632974	NR1H2 & NR1H3 regulate gene expression linked to gluconeogenesis 	10
+CHEMBL330998	R-HSA-9623433	NR1H2 & NR1H3 regulate gene expression to control bile acid homeostasis	15
+CHEMBL330998	R-HSA-9029558	NR1H2 & NR1H3 regulate gene expression linked to lipogenesis	17
+CHEMBL330998	R-HSA-200425	Carnitine shuttle	32
+CHEMBL330998	R-HSA-193807	Synthesis of bile acids and bile salts via 27-hydroxycholesterol	33
+CHEMBL330998	R-HSA-9933387	RORA,B,C and NR1D1 (REV-ERBA) regulate gene expression	36
+CHEMBL330998	R-HSA-159418	Recycling of bile acids and salts	39
+CHEMBL330998	R-HSA-1368108	BMAL1:CLOCK,NPAS2 activates circadian expression	41
+CHEMBL330998	R-HSA-9931509	Expression of BMAL (ARNTL), CLOCK, and NPAS2	46
+CHEMBL330998	R-HSA-9843743	Transcriptional regulation of brown and beige adipocyte differentiation	47
+CHEMBL330998	R-HSA-9844594	Transcriptional regulation of brown and beige adipocyte differentiation by EBF2	47
+CHEMBL330998	R-HSA-9029569	NR1H3 & NR1H2 regulate gene expression linked to cholesterol transport and efflux	66
+CHEMBL330998	R-HSA-211976	Endogenous sterols	69
+CHEMBL330998	R-HSA-9707616	Heme signaling	70
+CHEMBL330998	R-HSA-2426168	Activation of gene expression by SREBF (SREBP)	71
+CHEMBL330998	R-HSA-193368	Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol	75
+CHEMBL330998	R-HSA-9024446	NR1H2 and NR1H3-mediated signaling	85
+CHEMBL330998	R-HSA-1655829	Regulation of cholesterol biosynthesis by SREBP (SREBF)	87
+CHEMBL330998	R-HSA-2151201	Transcriptional activation of mitochondrial biogenesis	89
+CHEMBL330998	R-HSA-9707564	Cytoprotection by HMOX1	91
+CHEMBL330998	R-HSA-381340	Transcriptional regulation of white adipocyte differentiation	107
+CHEMBL330998	R-HSA-192105	Synthesis of bile acids and bile salts	110
+CHEMBL330998	R-HSA-194068	Bile acid and bile salt metabolism	122
+CHEMBL330998	R-HSA-1592230	Mitochondrial biogenesis	131
+CHEMBL330998	R-HSA-9841922	MLL4 and MLL3 complexes regulate expression of PPARG target genes in adipogenesis and hepatic steatosis	139
+CHEMBL330998	R-HSA-9851695	Epigenetic regulation of adipogenesis genes by MLL3 and MLL4 complexes	139
+CHEMBL330998	R-HSA-9818564	Epigenetic regulation of gene expression by MLL3 and MLL4 complexes	139
+CHEMBL330998	R-HSA-9843745	Adipogenesis	147
+CHEMBL330998	R-HSA-9909396	Circadian clock	148
+CHEMBL330998	R-HSA-9917777	Epigenetic regulation by WDR5-containing histone modifying complexes	171
+CHEMBL330998	R-HSA-1989781	PPARA activates gene expression	173
+CHEMBL330998	R-HSA-400206	Regulation of lipid metabolism by PPARalpha	175
+CHEMBL330998	R-HSA-211897	Cytochrome P450 - arranged by substrate type	185
+CHEMBL330998	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL330998	R-HSA-9711123	Cellular response to chemical stress	288
+CHEMBL330998	R-HSA-211945	Phase I - Functionalization of compounds	298
+CHEMBL330998	R-HSA-1852241	Organelle biogenesis and maintenance	340
+CHEMBL330998	R-HSA-8957322	Metabolism of steroids	344
+CHEMBL330998	R-HSA-212165	Epigenetic regulation of gene expression	345
+CHEMBL330998	R-HSA-8978868	Fatty acid metabolism	429
+CHEMBL330998	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL330998	R-HSA-211859	Biological oxidations	544
+CHEMBL330998	R-HSA-2262752	Cellular responses to stress	1039
+CHEMBL330998	R-HSA-8953897	Cellular responses to stimuli	1166
+CHEMBL330998	R-HSA-556833	Metabolism of lipids	1510
+CHEMBL330998	R-HSA-1430728	Metabolism	3775
+CHEMBL336311	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL336311	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL336311	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL336311	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL336311	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL336311	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL336311	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL336311	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL336311	R-HSA-1266738	Developmental Biology	1968
+CHEMBL336311	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL336311	R-HSA-162582	Signal Transduction	3051
+CHEMBL336311	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL336311	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL336311	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL336311	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL336311	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL336311	R-HSA-2990846	SUMOylation	193
+CHEMBL336311	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL336311	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL350485	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL350485	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL350485	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL350485	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL350485	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL350485	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL350485	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL350485	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL350485	R-HSA-1266738	Developmental Biology	1968
+CHEMBL350485	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL350485	R-HSA-162582	Signal Transduction	3051
+CHEMBL350485	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL350485	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL350485	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL350485	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL350485	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL350485	R-HSA-2990846	SUMOylation	193
+CHEMBL350485	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL350485	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL3707313	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL3707313	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL3707313	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL3707313	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL3707313	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL3707313	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL3707313	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL3707313	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL3707313	R-HSA-1266738	Developmental Biology	1968
+CHEMBL3707313	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL3707313	R-HSA-162582	Signal Transduction	3051
+CHEMBL3707313	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL3707313	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL3707313	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL3707313	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL3707313	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL3707313	R-HSA-2990846	SUMOylation	193
+CHEMBL3707313	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL3707313	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL3901588	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL3901588	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL3901588	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL3901588	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL3901588	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL3901588	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL3901588	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL3901588	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL3901588	R-HSA-1266738	Developmental Biology	1968
+CHEMBL3901588	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL3901588	R-HSA-162582	Signal Transduction	3051
+CHEMBL3901588	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL3901588	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL3901588	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL3901588	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL3901588	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL3901588	R-HSA-2990846	SUMOylation	193
+CHEMBL3901588	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL3901588	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL3907274	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL3907274	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL3907274	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL3907274	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL3907274	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL3907274	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL3907274	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL3907274	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL3907274	R-HSA-1266738	Developmental Biology	1968
+CHEMBL3907274	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL3907274	R-HSA-162582	Signal Transduction	3051
+CHEMBL3907274	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL3907274	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL3907274	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL3907274	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL3907274	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL3907274	R-HSA-2990846	SUMOylation	193
+CHEMBL3907274	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL3907274	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL3910072	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL3910072	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL3910072	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL3910072	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL3910072	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL3910072	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL3910072	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL3910072	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL3910072	R-HSA-1266738	Developmental Biology	1968
+CHEMBL3910072	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL3910072	R-HSA-162582	Signal Transduction	3051
+CHEMBL3910072	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL3910072	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL3910072	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL3910072	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL3910072	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL3910072	R-HSA-2990846	SUMOylation	193
+CHEMBL3910072	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL3910072	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL3926084	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL3926084	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL3926084	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL3926084	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL3926084	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL3926084	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL3926084	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL3926084	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL3926084	R-HSA-1266738	Developmental Biology	1968
+CHEMBL3926084	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL3926084	R-HSA-162582	Signal Transduction	3051
+CHEMBL3926084	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL3926084	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL3926084	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL3926084	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL3926084	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL3926084	R-HSA-2990846	SUMOylation	193
+CHEMBL3926084	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL3926084	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL3931870	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL3931870	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL3931870	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL3931870	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL3931870	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL3931870	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL3931870	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL3931870	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL3931870	R-HSA-1266738	Developmental Biology	1968
+CHEMBL3931870	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL3931870	R-HSA-162582	Signal Transduction	3051
+CHEMBL3931870	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL3931870	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL3931870	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL3931870	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL3931870	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL3931870	R-HSA-2990846	SUMOylation	193
+CHEMBL3931870	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL3931870	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL3936922	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL3936922	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL3936922	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL3936922	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL3936922	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL3936922	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL3936922	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL3936922	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL3936922	R-HSA-1266738	Developmental Biology	1968
+CHEMBL3936922	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL3936922	R-HSA-162582	Signal Transduction	3051
+CHEMBL3936922	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL3936922	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL3936922	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL3936922	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL3936922	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL3936922	R-HSA-2990846	SUMOylation	193
+CHEMBL3936922	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL3936922	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL3939687	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL3939687	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL3939687	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL3939687	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL3939687	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL3939687	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL3939687	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL3939687	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL3939687	R-HSA-1266738	Developmental Biology	1968
+CHEMBL3939687	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL3939687	R-HSA-162582	Signal Transduction	3051
+CHEMBL3939687	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL3939687	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL3939687	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL3939687	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL3939687	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL3939687	R-HSA-2990846	SUMOylation	193
+CHEMBL3939687	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL3939687	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL3945228	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL3945228	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL3945228	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL3945228	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL3945228	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL3945228	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL3945228	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL3945228	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL3945228	R-HSA-1266738	Developmental Biology	1968
+CHEMBL3945228	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL3945228	R-HSA-162582	Signal Transduction	3051
+CHEMBL3945228	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL3945228	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL3945228	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL3945228	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL3945228	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL3945228	R-HSA-2990846	SUMOylation	193
+CHEMBL3945228	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL3945228	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL3957342	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL3957342	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL3957342	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL3957342	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL3957342	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL3957342	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL3957342	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL3957342	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL3957342	R-HSA-1266738	Developmental Biology	1968
+CHEMBL3957342	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL3957342	R-HSA-162582	Signal Transduction	3051
+CHEMBL3957342	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL3957342	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL3957342	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL3957342	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL3957342	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL3957342	R-HSA-2990846	SUMOylation	193
+CHEMBL3957342	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL3957342	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL3960035	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL3960035	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL3960035	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL3960035	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL3960035	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL3960035	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL3960035	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL3960035	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL3960035	R-HSA-1266738	Developmental Biology	1968
+CHEMBL3960035	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL3960035	R-HSA-162582	Signal Transduction	3051
+CHEMBL3960035	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL3960035	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL3960035	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL3960035	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL3960035	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL3960035	R-HSA-2990846	SUMOylation	193
+CHEMBL3960035	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL3960035	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL4202830	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL4202830	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL4202830	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL4202830	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL4202830	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL4202830	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL4202830	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL4202830	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL4202830	R-HSA-1266738	Developmental Biology	1968
+CHEMBL4202830	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL4202830	R-HSA-162582	Signal Transduction	3051
+CHEMBL4202830	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL4202830	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL4202830	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL4202830	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL4202830	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL4202830	R-HSA-2990846	SUMOylation	193
+CHEMBL4202830	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL4202830	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL4205733	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL4205733	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL4205733	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL4205733	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL4205733	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL4205733	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL4205733	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL4205733	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL4205733	R-HSA-1266738	Developmental Biology	1968
+CHEMBL4205733	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL4205733	R-HSA-162582	Signal Transduction	3051
+CHEMBL4205733	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL4205733	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL4205733	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL4205733	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL4205733	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL4205733	R-HSA-2990846	SUMOylation	193
+CHEMBL4205733	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL4205733	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL4210099	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL4210099	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL4210099	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL4210099	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL4210099	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL4210099	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL4210099	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL4210099	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL4210099	R-HSA-1266738	Developmental Biology	1968
+CHEMBL4210099	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL4210099	R-HSA-162582	Signal Transduction	3051
+CHEMBL4210099	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL4210099	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL4210099	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL4210099	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL4210099	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL4210099	R-HSA-2990846	SUMOylation	193
+CHEMBL4210099	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL4210099	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL4210595	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL4210595	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL4210595	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL4210595	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL4210595	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL4210595	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL4210595	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL4210595	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL4210595	R-HSA-1266738	Developmental Biology	1968
+CHEMBL4210595	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL4210595	R-HSA-162582	Signal Transduction	3051
+CHEMBL4210595	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL4210595	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL4210595	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL4210595	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL4210595	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL4210595	R-HSA-2990846	SUMOylation	193
+CHEMBL4210595	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL4210595	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL421773	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL421773	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL421773	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL421773	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL421773	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL421773	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL421773	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL421773	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL421773	R-HSA-1266738	Developmental Biology	1968
+CHEMBL421773	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL421773	R-HSA-162582	Signal Transduction	3051
+CHEMBL421773	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL421773	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL421773	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL421773	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL421773	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL421773	R-HSA-2990846	SUMOylation	193
+CHEMBL421773	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL421773	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL4217953	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL4217953	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL4217953	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL4217953	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL4217953	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL4217953	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL4217953	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL4217953	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL4217953	R-HSA-1266738	Developmental Biology	1968
+CHEMBL4217953	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL4217953	R-HSA-162582	Signal Transduction	3051
+CHEMBL4217953	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL4217953	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL4217953	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL4217953	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL4217953	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL4217953	R-HSA-2990846	SUMOylation	193
+CHEMBL4217953	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL4217953	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL424190	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL424190	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL424190	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL424190	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL424190	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL424190	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL424190	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL424190	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL424190	R-HSA-1266738	Developmental Biology	1968
+CHEMBL424190	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL424190	R-HSA-162582	Signal Transduction	3051
+CHEMBL424190	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL424190	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL424190	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL424190	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL424190	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL424190	R-HSA-2990846	SUMOylation	193
+CHEMBL424190	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL424190	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL5947674	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL5947674	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL5947674	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL5947674	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL5947674	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL5947674	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL5947674	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL5947674	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL5947674	R-HSA-1266738	Developmental Biology	1968
+CHEMBL5947674	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL5947674	R-HSA-162582	Signal Transduction	3051
+CHEMBL5947674	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL5947674	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL5947674	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL5947674	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL5947674	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL5947674	R-HSA-2990846	SUMOylation	193
+CHEMBL5947674	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL5947674	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL77961	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL77961	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL77961	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL77961	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL77961	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL77961	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL77961	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL77961	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL77961	R-HSA-1266738	Developmental Biology	1968
+CHEMBL77961	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL77961	R-HSA-162582	Signal Transduction	3051
+CHEMBL77961	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL77961	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL77961	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL77961	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL77961	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL77961	R-HSA-2990846	SUMOylation	193
+CHEMBL77961	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL77961	R-HSA-392499	Metabolism of proteins	2430
+CHEMBL82089	R-HSA-5362517	Signaling by Retinoic Acid	68
+CHEMBL82089	R-HSA-383280	Nuclear Receptor transcription pathway	86
+CHEMBL82089	R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	116
+CHEMBL82089	R-HSA-5619507	Activation of HOX genes during differentiation	116
+CHEMBL82089	R-HSA-9006931	Signaling by Nuclear Receptors	383
+CHEMBL82089	R-HSA-212436	Generic Transcription Pathway	1574
+CHEMBL82089	R-HSA-73857	RNA Polymerase II Transcription	1715
+CHEMBL82089	R-HSA-74160	Gene expression (Transcription)	1958
+CHEMBL82089	R-HSA-1266738	Developmental Biology	1968
+CHEMBL82089	R-HSA-9839394	TGFBR3 expression	31
+CHEMBL82089	R-HSA-162582	Signal Transduction	3051
+CHEMBL82089	R-HSA-4090294	SUMOylation of intracellular receptors	40
+CHEMBL82089	R-HSA-9839373	Signaling by TGFBR3	54
+CHEMBL82089	R-HSA-9616222	Transcriptional regulation of granulopoiesis	70
+CHEMBL82089	R-HSA-9006936	Signaling by TGFB family members	178
+CHEMBL82089	R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	184
+CHEMBL82089	R-HSA-2990846	SUMOylation	193
+CHEMBL82089	R-HSA-597592	Post-translational protein modification	1680
+CHEMBL82089	R-HSA-392499	Metabolism of proteins	2430
