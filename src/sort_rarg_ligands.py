@@ -1,201 +1,134 @@
 """
-score_rarg_activity.py
+sort_rarg_ligands.py
 
 Rank ligands by activity and specificity toward retinoic acid receptor gamma (RARG)
 based on a pre-processed activities.tsv file.
 
+Scoring is continuous rather than binned. The previous binned version saturated at
+20 + 20 = 40, which produced a 10-way tie at the top of the table and made the
+"top N" cut an arbitrary slice of that tie.
 """
 
 import pandas as pd
 
+# RAR subtype ChEMBL target IDs
+TARGET_MAP = {
+    "CHEMBL2055": "RARA",
+    "CHEMBL2008": "RARB",
+    "CHEMBL2003": "RARG",
+}
 
-# -----------------------------------------------------------
-# Helper: compute best potency for one ligand + one target
-# -----------------------------------------------------------
+# Activity: linear in pChEMBL, 0 at ACTIVITY_FLOOR, 20 at ACTIVITY_CEIL.
+# The floor keeps the old "below pChEMBL 6 is worthless" cutoff; the ceiling sits
+# above the strongest value in the dataset so nothing saturates.
+ACTIVITY_FLOOR = 6.0
+ACTIVITY_CEIL = 10.5
+ACTIVITY_MAX = 20.0
 
-def _best_pchembl(sub_df, target):
-    """Return best pChEMBL value for a target or None."""
-    hits = sub_df[sub_df["target_gene_symbol"] == target]
-    if hits.empty:
-        return None
-    return hits["pchembl_value"].max()
+# Selectivity: linear in delta = pRARG - max(pRARA, pRARB).
+SELECTIVITY_PER_LOG = 10.0
+SELECTIVITY_MAX = 20.0
+SELECTIVITY_MIN = -10.0
 
-
-# -----------------------------------------------------------
-# Helper: compute activity score for RARG potency
-# -----------------------------------------------------------
-
-def _score_rarg_activity(best_rarg):
-    """Activity score (0–15)."""
-    if best_rarg is None:
-        return 0
-    if best_rarg >= 8.0: return 15
-    if best_rarg >= 7.5: return 12
-    if best_rarg >= 7.0: return 10
-    if best_rarg >= 6.5: return 6
-    if best_rarg >= 6.0: return 4
-    return 0
+# Applied when RARG potency is known but neither other subtype was measured.
+# Unmeasured is not the same as selective, so this is a mild reward only; the
+# selectivity_evidence column records which ligands got it.
+SELECTIVITY_NO_DATA = 5.0
 
 
-# -----------------------------------------------------------
-# Helper: compute selectivity score
-# -----------------------------------------------------------
+def _score_rarg_activity(p_rarg):
+    """Potency score, 0-20, linear in pChEMBL between the floor and ceiling."""
+    if p_rarg is None:
+        return 0.0
+    scaled = ACTIVITY_MAX * (p_rarg - ACTIVITY_FLOOR) / (ACTIVITY_CEIL - ACTIVITY_FLOOR)
+    return round(min(max(scaled, 0.0), ACTIVITY_MAX), 3)
 
-def _score_rarg_selectivity(best_rarg, best_rara, best_rarb):
-    """Selectivity: reward being stronger on RARG than RARA/RARB."""
-    if best_rarg is None:
-        return -10  # strong penalty if RARG is missing entirely
 
-    competitors = [x for x in (best_rara, best_rarb) if x is not None]
+def _score_rarg_selectivity(p_rarg, p_rara, p_rarb):
+    """Selectivity score, -10 to 20, linear in the log-unit gap over RARA/RARB."""
+    if p_rarg is None:
+        return SELECTIVITY_MIN, None, "no_rarg_data"
+
+    competitors = [p for p in (p_rara, p_rarb) if p is not None]
     if not competitors:
-        return 5  # mild reward (no competing data)
+        return SELECTIVITY_NO_DATA, None, "no_subtype_data"
 
-    delta = best_rarg - max(competitors)
+    delta = p_rarg - max(competitors)
+    scaled = SELECTIVITY_PER_LOG * delta
+    score = min(max(scaled, SELECTIVITY_MIN), SELECTIVITY_MAX)
+    return round(score, 3), round(delta, 3), "measured"
 
-    if delta >= 1.0: return 20
-    if delta >= 0.7: return 12
-    if delta >= 0.4: return 6
-    if delta >= 0.2: return 3
-    if delta >= 0.0: return 0
-    return -5  # RARG is weaker than other subtypes
-
-
-# -----------------------------------------------------------
-# Helper: off-target penalty
-# -----------------------------------------------------------
-
-def _score_off_target_penalty(sub_df):
-    """Penalize the number of non-RAR targets."""
-    rar_targets = {"RARG", "RARA", "RARB"}
-    all_targets = sub_df["target_gene_symbol"].dropna().unique()
-    off_targets = [t for t in all_targets if t not in rar_targets]
-    return -2 * len(off_targets), off_targets
-
-
-# -----------------------------------------------------------
-# MAIN FUNCTION
-# -----------------------------------------------------------
 
 def score_ligands_by_rarg(activities_tsv, ligands_tsv=None):
     """
-    Score ligands for potency and selectivity toward RARG using only
-    the three nuclear receptor targets:
-
-        RARA  = CHEMBL2055
-        RARB  = CHEMBL2008
-        RARG  = CHEMBL2003
+    Score ligands for potency and selectivity toward RARG using direct binding
+    data against the three RAR subtypes (RARA/RARB/RARG).
 
     Parameters
     ----------
-    activities_tsv : str
-        Path to activities.tsv containing columns:
-        - molecule_chembl_id
-        - target_chembl_id
-        - pchembl_value
-
-    ligands_tsv : str or None
-        Optional: attach ligand_name or metadata
+    activities_tsv : str or Path
+        Path to activities.tsv with columns molecule_chembl_id, target_chembl_id,
+        pchembl_value.
+    ligands_tsv : str or Path or None
+        Optional ligands.tsv; when given, canonical_smiles and names are merged in.
 
     Returns
     -------
     pandas.DataFrame
-        Columns include:
-        - molecule_chembl_id
-        - best_RARG
-        - best_RARA
-        - best_RARB
-        - activity_score
-        - selectivity_score
-        - total_score
+        Sorted best-first on (total_score, best_RARG, selectivity_delta).
     """
-    import pandas as pd
-
-    # Load activities file
     acts = pd.read_csv(activities_tsv, sep="\t")
-    acts["pchembl_value"] = pd.to_numeric(acts["pchembl_value"], errors="coerce")
 
-    # Required columns check
     required_cols = {"molecule_chembl_id", "target_chembl_id", "pchembl_value"}
     missing = required_cols - set(acts.columns)
     if missing:
         raise ValueError(f"activities.tsv missing required columns: {missing}")
 
-    # Map CHEMBL IDs to canonical names
-    TARGET_MAP = {
-        "CHEMBL2055": "RARA",
-        "CHEMBL2008": "RARB",
-        "CHEMBL2003": "RARG",
-    }
-
-    # Convert target_chembl_id → gene symbol
+    acts["pchembl_value"] = pd.to_numeric(acts["pchembl_value"], errors="coerce")
     acts["target_gene"] = acts["target_chembl_id"].map(TARGET_MAP)
 
     def best_p(df, gene):
         sub = df[df["target_gene"] == gene]
-        return sub["pchembl_value"].max() if not sub.empty else None
+        val = sub["pchembl_value"].max()
+        return None if pd.isna(val) else float(val)
 
     rows = []
     for chembl_id, sub in acts.groupby("molecule_chembl_id"):
-
         p_rarg = best_p(sub, "RARG")
         p_rara = best_p(sub, "RARA")
         p_rarb = best_p(sub, "RARB")
 
-        # ----------- RARG Activity -----------
-        if p_rarg is None:
-            activity_score = 0
-        elif p_rarg >= 8.0: activity_score = 20
-        elif p_rarg >= 7.5: activity_score = 15
-        elif p_rarg >= 7.0: activity_score = 12
-        elif p_rarg >= 6.5: activity_score = 8
-        elif p_rarg >= 6.0: activity_score = 4
-        else: activity_score = 0
-
-        # ----------- Selectivity -------------
-        other = [p for p in [p_rara, p_rarb] if p is not None]
-        if p_rarg is None:
-            selectivity_score = -10
-        elif not other:
-            selectivity_score = 5
-        else:
-            delta = p_rarg - max(other)
-            if delta >= 1.0: selectivity_score = 20
-            elif delta >= 0.7: selectivity_score = 12
-            elif delta >= 0.4: selectivity_score = 6
-            elif delta >= 0.2: selectivity_score = 3
-            elif delta >= 0.0: selectivity_score = 0
-            else: selectivity_score = -10
-
-        total_score = activity_score + selectivity_score
+        activity_score = _score_rarg_activity(p_rarg)
+        selectivity_score, delta, evidence = _score_rarg_selectivity(p_rarg, p_rara, p_rarb)
 
         rows.append({
             "molecule_chembl_id": chembl_id,
             "best_RARG": p_rarg,
             "best_RARA": p_rara,
             "best_RARB": p_rarb,
+            "selectivity_delta": delta,
+            "selectivity_evidence": evidence,
             "activity_score": activity_score,
             "selectivity_score": selectivity_score,
-            "total_score": total_score,
+            "total_score": round(activity_score + selectivity_score, 3),
         })
 
     df_out = pd.DataFrame(rows)
 
-    # Optional merge with ligand metadata
-    # if ligands_tsv:
-    #     ligs = pd.read_csv(ligands_tsv, sep="\t")
-    #     if "molecule_chembl_id" in ligs.columns:
-    #         df_out = df_out.merge(
-    #             ligs[["molecule_chembl_id", "ligand_name"]]
-    #             if "ligand_name" in ligs.columns
-    #             else ligs[["molecule_chembl_id"]],
-    #             on="molecule_chembl_id",
-    #             how="left"
-    #         )
+    # Explicit tie-break: raw RARG potency first, then the selectivity gap.
+    df_out = df_out.sort_values(
+        ["total_score", "best_RARG", "selectivity_delta"],
+        ascending=False,
+        na_position="last",
+    ).reset_index(drop=True)
 
-    df_out = df_out.sort_values("total_score", ascending=False).reset_index(drop=True)
+    if ligands_tsv:
+        ligs = pd.read_csv(ligands_tsv, sep="\t")
+        keep = [c for c in ("molecule_chembl_id", "canonical_smiles", "names") if c in ligs.columns]
+        if len(keep) > 1:
+            df_out = df_out.merge(ligs[keep], on="molecule_chembl_id", how="left")
+
     return df_out
-
-
 
 
 if __name__ == "__main__":
@@ -204,11 +137,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Rank ligands by RARG potency + specificity.")
     parser.add_argument("--activities", required=True, help="Path to activities.tsv")
     parser.add_argument("--ligands", required=False, help="Optional path to ligands.tsv")
-    parser.add_argument("--id", default="pubchem_cid", help="Identifier column to group by")
-
+    parser.add_argument("--out", default="data/processed/sorted_ligands_RARG.tsv",
+                        help="Output TSV path")
     args = parser.parse_args()
 
-    df = score_ligands_by_rarg(args.activities, args.ligands, args.id)
-    df.to_csv("ranked_ligands.tsv", sep="\t", index=False)
-    print("Wrote ranked_ligands.tsv")
-    print(df.head())
+    df = score_ligands_by_rarg(args.activities, args.ligands)
+    from pathlib import Path
+    Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(args.out, sep="\t", index=False)
+    print(f"Wrote {len(df)} scored ligands to {args.out}")
+    print(df.head().to_string())
