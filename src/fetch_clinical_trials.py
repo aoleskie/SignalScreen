@@ -3,8 +3,69 @@ import requests
 import pandas as pd
 from pathlib import Path
 import time
+import re
+
+from src.compound_names import is_searchable_term, strip_source_tag
 
 CT_BASE = "https://clinicaltrials.gov/api/v2/studies"
+
+
+def _normalize(text):
+    """Lowercase, collapse punctuation to spaces, for tolerant name matching."""
+    return re.sub(r"[^a-z0-9]+", " ", (text or "").lower()).strip()
+
+
+def _tokens(text):
+    return _normalize(text).split()
+
+
+# Words that may legitimately precede a drug name in an intervention label:
+# route, formulation and dosing qualifiers. Anything else before the name means
+# it is a different chemical entity -- '13-cis-retinoic acid' is not
+# 'retinoic acid', and 'isotretinoin' is not 'tretinoin'.
+_ALLOWED_PREFIX_WORDS = {
+    "oral", "topical", "intravenous", "iv", "injection", "injectable",
+    "inhaled", "subcutaneous", "systemic", "low", "high", "dose", "doses",
+    "single", "daily", "twice", "once", "micronized", "liposomal", "liposome",
+    "cream", "gel", "lotion", "ointment", "foam", "solution", "capsule",
+    "capsules", "tablet", "tablets", "sustained", "release", "extended",
+    "placebo", "matching", "drug", "study", "arm", "group", "the", "a", "of",
+}
+
+
+def intervention_names(study: dict):
+    """Every intervention name and alias declared by a study."""
+    module = (study.get("protocolSection", {}) or {}).get("armsInterventionsModule", {}) or {}
+    names = []
+    for iv in module.get("interventions", []) or []:
+        if iv.get("name"):
+            names.append(iv["name"])
+        names.extend(iv.get("otherNames") or [])
+    return names
+
+
+def study_matches_term(study: dict, term: str):
+    """
+    True when the compound is actually an intervention in this study.
+
+    ClinicalTrials.gov matches loosely: query.intr='Vitamin A acid' returns 1888
+    studies, nearly all of which are about some other vitamin. Requiring the term
+    to appear in a declared intervention name is what makes the count mean
+    something. Returns the matching intervention name for provenance.
+    """
+    needle = _tokens(term)
+    if not needle:
+        return None
+
+    for name in intervention_names(study):
+        hay = _tokens(name)
+        for i in range(len(hay) - len(needle) + 1):
+            if hay[i:i + len(needle)] != needle:
+                continue
+            # Anchored at the start, or preceded only by route/formulation words.
+            if i == 0 or all(w in _ALLOWED_PREFIX_WORDS for w in hay[:i]):
+                return name
+    return None
 
 
 # ------------------------------------------------------------
@@ -18,8 +79,11 @@ def query_clinical_trials(term: str, max_studies: int = 200) -> list[dict]:
     if not term:
         return []
 
+    # query.intr searches intervention fields specifically. query.term searches
+    # everything, which is how a compound picked up trials that merely mention a
+    # related word somewhere in the protocol.
     params = {
-        "query.term": term,
+        "query.intr": term,
         "pageSize": max_studies,
     }
     r = requests.get(CT_BASE, params=params, timeout=30)
@@ -102,19 +166,30 @@ def clinical_trials_for_names(names: list[str], max_studies_per_term: int = 200)
     """
     results = []
     seen_nct = set()
+    searched = set()
     skipped = 0
+    unrelated = 0
 
     for raw_name in names:
+        if not isinstance(raw_name, str):
+            continue
         term = raw_name.strip()
         if not term:
             continue
 
-        # CT.gov's query parser rejects brackets outright, and no trial is
-        # registered under a full IUPAC name anyway. Skip instead of spending a
-        # request on a guaranteed 400.
-        if any(ch in term for ch in "[]"):
+        # Database accessions, InChIKeys, CAS numbers and IUPAC strings are never
+        # what a trial registers an intervention under, and brackets make CT.gov's
+        # query parser return a 400 outright. Development codes (CD5789,
+        # BMS-189961) are kept -- trials really do use those.
+        term = strip_source_tag(term)
+        if not is_searchable_term(term):
             skipped += 1
             continue
+
+        key = term.lower()
+        if key in searched:
+            continue
+        searched.add(key)
 
         # Pass the raw term: requests percent-encodes params itself. Encoding it
         # here first produced double-encoded queries (%27 -> %2527) that CT.gov
@@ -129,12 +204,20 @@ def clinical_trials_for_names(names: list[str], max_studies_per_term: int = 200)
             if not nct or nct in seen_nct:
                 continue
 
+            matched = study_matches_term(st, term)
+            if not matched:
+                unrelated += 1
+                continue
+
             seen_nct.add(nct)
             parsed["search_term"] = term
+            parsed["matched_intervention"] = matched
             results.append(parsed)
 
     if skipped:
-        print(f"  (skipped {skipped} structural/IUPAC synonym(s) CT.gov cannot parse)")
+        print(f"  (skipped {skipped} non-name synonym(s))")
+    if unrelated:
+        print(f"  (dropped {unrelated} study hit(s) with no matching intervention)")
 
     return results
 
@@ -163,9 +246,11 @@ def build_clinical_trials(
         synonyms = [n.strip() for n in name_field.split("|") if n.strip()]
 
         # Add best name first if available
-        best_name = row.get("best_pubchem_name") or row.get("pref_name")
-        if best_name:
-            synonyms.insert(0, best_name)
+        # best_name is legitimately blank for compounds with no common name, and
+        # pandas gives that back as NaN, which is truthy.
+        best_name = row.get("best_name") or row.get("pref_name")
+        if isinstance(best_name, str) and best_name.strip():
+            synonyms.insert(0, best_name.strip())
 
         # Deduplicate
         synonyms = list(dict.fromkeys(synonyms))
@@ -182,6 +267,7 @@ def build_clinical_trials(
                 "indication": hit["indication"],
                 "sponsor": hit["sponsor"],
                 "results_available": hit["results_available"],
+                "matched_intervention": hit["matched_intervention"],
             })
 
     df_out = pd.DataFrame(rows)

@@ -190,7 +190,7 @@ def build_ligand_summary(
     for _, comp in df_compound.iterrows():
         ligand_id = comp["molecule_chembl_id"]
 
-        best_name = comp.get("best_pubchem_name") or comp.get("pref_name")
+        best_name = comp.get("best_name") or comp.get("pref_name")
         smiles = comp.get("canonical_smiles")
         pubchem_cid = comp.get("pubchem_cid")
         cas = comp.get("cas_number")
