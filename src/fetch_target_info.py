@@ -6,6 +6,52 @@ import time
 CHEMBL_BASE = "https://www.ebi.ac.uk/chembl/api/data"
 REACTOME_BASE = "https://reactome.org/AnalysisService/identifiers"
 
+# Only these assay endpoints are comparable as "how tightly does this bind".
+# Everything else ChEMBL returns for a molecule (ADMET readouts such as Fu, Ratio
+# EC50, Efficacy, activity percentages) lives on an unrelated scale and must never
+# compete for "best affinity" -- a fraction-unbound of 0.0001 is not a 0.1 pM binder.
+AFFINITY_TYPES = {"IC50", "EC50", "Ki", "Kd", "AC50", "XC50"}
+
+# Multipliers onto nM, so values from different assays are actually comparable.
+UNIT_TO_NM = {
+    "M": 1e9,
+    "mM": 1e6,
+    "uM": 1e3,
+    "µM": 1e3,
+    "μM": 1e3,
+    "nM": 1.0,
+    "pM": 1e-3,
+    "fM": 1e-6,
+}
+
+# A ">" relation means the assay never reached an endpoint, so the true value is
+# unbounded above; treating it as an exact measurement invents potency.
+EXACT_RELATIONS = {"=", None, ""}
+
+
+def normalize_affinity_nm(act):
+    """
+    Return the activity's value in nM, or None if it is not a comparable
+    affinity measurement.
+    """
+    if act.get("standard_type") not in AFFINITY_TYPES:
+        return None
+    if act.get("standard_relation") not in EXACT_RELATIONS:
+        return None
+
+    factor = UNIT_TO_NM.get(act.get("standard_units"))
+    if factor is None:
+        return None
+
+    try:
+        value = float(act.get("standard_value"))
+    except (TypeError, ValueError):
+        return None
+    if value <= 0:
+        return None
+
+    return value * factor
+
 def robust_get(
     url,
     params=None,
@@ -106,20 +152,23 @@ def get_ligand_targets(mol_id):
             "best_assay_type": None,
             "best_affinity": None,
             "units": None,
+            "n_affinity_measurements": 0,
         })
-        # Choose best potency (lowest numeric)
-        try:
-            value = float(act.get("standard_value")) if act.get("standard_value") else None
-        except:
-            value = None
-        if value is not None:
-            current = rec["best_affinity"]
-            if current is None or value < current:
-                rec.update({
-                    "best_assay_type": act.get("standard_type"),
-                    "best_affinity": value,
-                    "units": act.get("standard_units"),
-                })
+
+        # Choose best potency: strongest (lowest) value among comparable
+        # affinity endpoints only, after converting everything to nM.
+        value_nm = normalize_affinity_nm(act)
+        if value_nm is None:
+            continue
+
+        rec["n_affinity_measurements"] += 1
+        current = rec["best_affinity"]
+        if current is None or value_nm < current:
+            rec.update({
+                "best_assay_type": act.get("standard_type"),
+                "best_affinity": value_nm,
+                "units": "nM",
+            })
 
     # Fetch metadata for each target
     for tid, rec in target_map.items():

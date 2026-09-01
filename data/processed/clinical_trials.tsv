@@ -1,15 +1,1187 @@
 ligand_id	search_term	nct_id	phase	status	indication	sponsor	results_available
+CHEMBL38	Retinoic acid	NCT07675460	NA	COMPLETED	Dry Eye; Choroidal Thickness; Retinal Vascularisation; Acne Cystic; Isotretinoin	Demet Mutlu	False
+CHEMBL38	Retinoic acid	NCT07504458	PHASE3	RECRUITING	Acute Promyelocytic Leukemia (APL); Acute Promyelocytic Leukaemia; Acute Promyelocytic Leukemia With PML-RARA; Acute Promyelocytic Leukemia With t(15;17)(q24.1;q21.2); PML-RARA; Acute Promyelocytic Leukemia	Quetzal Therapeutics	False
+CHEMBL38	Retinoic acid	NCT00001504	PHASE1	COMPLETED	Breast Cancer; Breast Neoplasm	National Cancer Institute (NCI)	False
+CHEMBL38	Retinoic acid	NCT04618328	PHASE2	UNKNOWN	Immune Thrombocytopenia	Peking University People's Hospital	False
+CHEMBL38	Retinoic acid	NCT04361422	PHASE3	UNKNOWN	COVID-19	Tanta University	False
+CHEMBL38	Retinoic acid	NCT00555399	PHASE1; PHASE2	TERMINATED	Glioblastoma Multiforme; Anaplastic Glioma	M.D. Anderson Cancer Center	True
+CHEMBL38	Retinoic acid	NCT02752763	PHASE4	COMPLETED	Dry Eye	Niğde State Hospital	False
+CHEMBL38	Retinoic acid	NCT01306955	PHASE4	UNKNOWN	Behcet's Disease	Tehran University of Medical Sciences	False
+CHEMBL38	Retinoic acid	NCT01313728	PHASE4	COMPLETED	Acne Vulgaris	Bausch Health Americas, Inc.	True
+CHEMBL38	Retinoic acid	NCT00867672	PHASE2	COMPLETED	Acute Myeloid Leukemia	University Hospital Freiburg	False
+CHEMBL38	Retinoic acid	NCT04730895	PHASE1; PHASE2	UNKNOWN	Covid19 Vaccine	Kafrelsheikh University	False
+CHEMBL38	Retinoic acid	NCT07142070	NA	NOT_YET_RECRUITING	Periodontal Diseases; Inflammation	Medipol University	False
+CHEMBL38	Retinoic acid	NCT07639151	NA	NOT_YET_RECRUITING	Hydration; Carbon-dioxide Laser; Laser Therapy; Hydrogel	Dr.dr.Irma Bernadette, SpKK (K)	False
+CHEMBL38	Retinoic acid	NCT01191541	PHASE4	COMPLETED	Leukemia	Xiaofan Zhu	True
+CHEMBL38	Retinoic acid	NCT00603772	PHASE1	COMPLETED	Healthy	Coria Laboratories, Ltd.	False
+CHEMBL38	Retinoic acid	NCT02717884	PHASE1; PHASE2	UNKNOWN	Acute Myeloid Leukemia; Myelodysplastic Syndrome	Michael Luebbert	False
+CHEMBL38	Retinoic acid	NCT01237808	PHASE3	COMPLETED	Acute Myeloid Leukemia (AML)	University of Ulm	False
+CHEMBL38	Retinoic acid	NCT00002188	PHASE2	COMPLETED	Sarcoma, Kaposi; HIV Infections	Anderson Clinical Research	False
+CHEMBL38	Retinoic acid	NCT00000621	PHASE2	COMPLETED	Emphysema; Lung Diseases; Lung Diseases, Obstructive; Chronic Obstructive Pulmonary Disease	National Heart, Lung, and Blood Institute (NHLBI)	False
+CHEMBL38	Retinoic acid	NCT02942758	PHASE2	TERMINATED	Acute Myeloid Leukemia	University Hospital Regensburg	False
+CHEMBL38	Retinoic acid	NCT01704716	PHASE3	RECRUITING	Neuroblastoma	St. Anna Kinderkrebsforschung	False
+CHEMBL38	Retinoic acid	NCT00919191	PHASE4	COMPLETED	Acne Vulgaris	Bausch Health Americas, Inc.	True
+CHEMBL38	Retinoic acid	NCT01257906	NA	COMPLETED	MILD TO SEVERE ACNE VULGARIS	Actavis Mid-Atlantic LLC	False
+CHEMBL38	Retinoic acid	NCT00016159	PHASE2	COMPLETED	Leukemia	Memorial Sloan Kettering Cancer Center	False
+CHEMBL38	Retinoic acid	NCT04303169	PHASE1; PHASE2	COMPLETED	Melanoma	Merck Sharp & Dohme LLC	True
+CHEMBL38	Retinoic acid	NCT03615729		COMPLETED	Genetic Predisposition to Disease	Assiut University	False
+CHEMBL38	Retinoic acid	NCT00002737	PHASE3	COMPLETED	Kidney Cancer	European Organisation for Research and Treatment of Cancer - EORTC	False
+CHEMBL38	Retinoic acid	NCT05345002	PHASE2	RECRUITING	Glioma; IDH Mutation; Astrocytoma; Oligodendroglioma	Stephen Bagley, MD, MSCE	False
+CHEMBL38	Retinoic acid	NCT03786783	PHASE2	COMPLETED	Ganglioneuroblastoma; High Risk Neuroblastoma	National Cancer Institute (NCI)	True
+CHEMBL38	Retinoic acid	NCT00995332	PHASE1; PHASE2	COMPLETED	Acute Myelogenous Leukemia	University of Bergen	False
+CHEMBL38	Retinoic acid	NCT05002530	PHASE4	UNKNOWN	Post COVID-19 Anosmia (Loss of Smell)	Kafrelsheikh University	False
+CHEMBL38	Retinoic acid	NCT00021359	PHASE2	COMPLETED	Multiple Myeloma and Plasma Cell Neoplasm	Fox Chase Cancer Center	False
+CHEMBL38	Retinoic acid	NCT00001509	PHASE2	COMPLETED	Nephroblastoma; Neuroblastoma	National Cancer Institute (NCI)	False
+CHEMBL38	Retinoic acid	NCT03392623	EARLY_PHASE1	COMPLETED	Melasma	Universidad Autonoma de San Luis Potosí	False
+CHEMBL38	Retinoic acid	NCT00006239	PHASE1	COMPLETED	Leukemia; Myelodysplastic Syndromes; Myelodysplastic/Myeloproliferative Diseases	Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins	False
+CHEMBL38	Retinoic acid	NCT03126916	PHASE3	RECRUITING	Ganglioneuroblastoma; Ganglioneuroblastoma, Nodular; Neuroblastoma	Children's Oncology Group	False
+CHEMBL38	Retinoic acid	NCT03363347		COMPLETED	Thyroid Cancer	Heidelberg University	False
+CHEMBL38	Retinoic acid	NCT01929278	PHASE1	COMPLETED	Acne Vulgaris	Stiefel, a GSK Company	False
+CHEMBL38	Retinoic acid	NCT04113863	PHASE2	TERMINATED	Breast Neoplasm Female	Mario Negri Institute for Pharmacological Research	False
+CHEMBL38	Retinoic acid	NCT00151255	PHASE3	COMPLETED	Acute Myeloid Leukemia	University of Ulm	False
+CHEMBL38	Retinoic acid	NCT01538732	PHASE2	UNKNOWN	Lichen Planus (LP)	University of Zurich	False
+CHEMBL38	Retinoic acid	NCT01985477	PHASE1	TERMINATED	Myeloma	M.D. Anderson Cancer Center	False
+CHEMBL38	Retinoic acid	NCT06636981	PHASE2	RECRUITING	Triple Negative Breast Cancer (TNBC)	Fudan University	False
+CHEMBL38	Retinoic acid	NCT02363816		WITHDRAWN	Pediatric Population on Second Generation Antipsychotics	Wayne State University	False
+CHEMBL38	Retinoic acid	NCT02521792	PHASE2	TERMINATED	Fibrodysplasia Ossificans Progressiva	Clementia Pharmaceuticals Inc.	True
+CHEMBL38	Retinoic acid	NCT03323801	PHASE2	COMPLETED	Male Infertility, Azoospermia	University of Washington	True
+CHEMBL38	Retinoic acid	NCT03312634	PHASE3	COMPLETED	Fibrodysplasia Ossificans Progressiva	Clementia Pharmaceuticals Inc.	True
+CHEMBL38	Retinoic acid	NCT01027793	PHASE4	COMPLETED	Stretch Marks; Striae; Treatment	Hexsel Dermatology Clinic	True
+CHEMBL38	Retinoic acid	NCT00599937	PHASE3	COMPLETED	Leukemia, Promyelocytic, Acute	Groupe d'etude et de travail sur les leucemies aigues promyelocytaires	False
+CHEMBL38	Retinoic acid	NCT01592045	PHASE1; PHASE2	COMPLETED	Neuroblastoma	United Therapeutics	True
+CHEMBL38	Retinoic acid	NCT06728631	PHASE2	ACTIVE_NOT_RECRUITING	Oral Cavity Cancer; Premalignant Lesion	Shanghai Ninth People's Hospital Affiliated to Shanghai Jiao Tong University	False
+CHEMBL38	Retinoic acid	NCT02807558	PHASE2	COMPLETED	Acute Myeloid Leukemia; Myelodysplastic Syndrome	Syros Pharmaceuticals	True
+CHEMBL38	Retinoic acid	NCT01261923	PHASE1; PHASE2	COMPLETED	Hepatic Insufficiency	University Hospital, Gentofte, Copenhagen	False
+CHEMBL38	Retinoic acid	NCT05832320	NA	UNKNOWN	Acute Promyelocytic Leukemia; Induction Therapy; Oral	Peking University People's Hospital	False
+CHEMBL38	Retinoic acid	NCT01083498	PHASE2	COMPLETED	Pigmentation Disorder	Netherlands Institute for Pigment Disorders	False
+CHEMBL38	Retinoic acid	NCT04175587	PHASE3	UNKNOWN	Acute Promyelocytic Leukaemia	Peking University People's Hospital	False
+CHEMBL38	Retinoic acid	NCT00907335	PHASE2	COMPLETED	Acne Vulgaris	Bausch Health Americas, Inc.	True
+CHEMBL38	Retinoic acid	NCT06571721	NA	UNKNOWN	Collagen Degeneration; Wrinkle; Pigmentation; Elastic Skin; Sebum Deficiency	Integrative Skin Science and Research	False
+CHEMBL38	Retinoic acid	NCT01857934	PHASE2	COMPLETED	Neuroblastoma	St. Jude Children's Research Hospital	True
+CHEMBL38	Retinoic acid	NCT00969722	PHASE2	TERMINATED	Primary Refractory Neuroblastoma	United Therapeutics	False
+CHEMBL38	Retinoic acid	NCT04080869	PHASE2	COMPLETED	Facial Acne Vulgaris	Assiut University	False
+CHEMBL38	Retinoic acid	NCT00151242	PHASE2; PHASE3	COMPLETED	Acute Myeloid Leukemia	University of Ulm	False
+CHEMBL38	Retinoic acid	NCT06982274	PHASE2	RECRUITING	Acute Promyelocytic Leukemia (APL)	Instituto do Cancer do Estado de São Paulo	False
+CHEMBL38	Retinoic acid	NCT01680510	PHASE1; PHASE2	UNKNOWN	Retinitis Pigmentosa	Sheba Medical Center	False
+CHEMBL38	Retinoic acid	NCT00952523	PHASE4	COMPLETED	Acne Vulgaris	Bausch Health Americas, Inc.	True
+CHEMBL38	Retinoic acid	NCT03751917		UNKNOWN	Acute Promyelocytic Leukemia	Gruppo Italiano Malattie EMatologiche dell'Adulto	False
+CHEMBL38	Retinoic acid	NCT00907582	PHASE2	TERMINATED	Acute Promyelocytic Leukemia; Relapse	Shanghai Jiao Tong University School of Medicine	False
+CHEMBL38	Retinoic acid	NCT01711554	PHASE1	ACTIVE_NOT_RECRUITING	Recurrent Neuroblastoma; Refractory Neuroblastoma	National Cancer Institute (NCI)	False
+CHEMBL38	Retinoic acid	NCT02279095	PHASE2	COMPLETED	Fibrodysplasia Ossificans Progressiva	Clementia Pharmaceuticals Inc.	True
+CHEMBL38	Retinoic acid	NCT01047189	PHASE4	COMPLETED	Acne Vulgaris	Wake Forest University	True
+CHEMBL38	Retinoic acid	NCT00339196	PHASE2	COMPLETED	Acute Myelogenous Leukaemia (AML); Myelodysplastic Syndrome (MDS)	Assistance Publique - Hôpitaux de Paris	False
+CHEMBL38	Retinoic acid	NCT02712905	PHASE1; PHASE2	TERMINATED	Solid Tumors and Hematologic Malignancy	Incyte Corporation	True
+CHEMBL38	Retinoic acid	NCT03026907	PHASE3	UNKNOWN	Hand Eczema	University Medical Center Groningen	False
+CHEMBL38	Retinoic acid	NCT04396067	PHASE2	UNKNOWN	COVID-19	Kafrelsheikh University	False
+CHEMBL38	Retinoic acid	NCT00835198	PHASE4	COMPLETED	Acne Vulgaris	Allergan	True
+CHEMBL38	Retinoic acid	NCT07586826	PHASE2	RECRUITING	Persistent Isolated Chemotherapy-Induced Thrombocytopenia; Chemotherapy-Induced Thrombocytopenia; Gynecologic Cancers; Ovarian Cancer; Breast Cancer; Lung Cancer; Non-Small Cell Lung Cancer; Cervical Cancer; Fallopian Tube Cancer; Primary Peritoneal Cancer	Peking University People's Hospital	False
+CHEMBL38	Retinoic acid	NCT00601796	PHASE2	COMPLETED	Lung Cancer	H. Lee Moffitt Cancer Center and Research Institute	True
+CHEMBL38	Retinoic acid	NCT07187505	NA	ACTIVE_NOT_RECRUITING	Acute Promyelocytic Leukemia (APL)	Anhui Medical University	False
+CHEMBL38	Retinoic acid	NCT07084116	PHASE2; PHASE3	COMPLETED	Skin Tear; Solar Purpura; Dermatoporosis	James Thomas Pathoulas	False
+CHEMBL38	Retinoic acid	NCT00852709	PHASE1	TERMINATED	Myelodysplastic Syndrome; Acute Myeloid Leukemia; Myeloproliferative Disorders; Acute Lymphocytic Leukemia; Acute Promyelocytic Leukemia; Acute Leukemia; Chronic Myelogenous Leukemia; Myelofibrosis; Chronic Myelomonocytic Leukemia; Juvenile Myelomonocytic Leukemia	Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins	False
+CHEMBL38	Retinoic acid	NCT00615784	PHASE2	TERMINATED	Acute Myeloid Leukemia	Abramson Cancer Center at Penn Medicine	True
+CHEMBL38	Retinoic acid	NCT06020833	PHASE1; PHASE2	WITHDRAWN	Myelodysplastic Syndromes	Peking Union Medical College Hospital	False
+CHEMBL38	Retinoic acid	NCT00196768	PHASE4	UNKNOWN	Relapsed Acute Promyelocytic Leukemia; Refractory Acute Promyelocytic Leukemia	German AML Cooperative Group	False
+CHEMBL38	Retinoic acid	NCT02688140	PHASE3	COMPLETED	Acute Promyelocytic Leukemia	Technische Universität Dresden	False
+CHEMBL38	Retinoic acid	NCT02715960	PHASE2	UNKNOWN	Psoriasis Vulgaris	Central South University	False
+CHEMBL38	Retinoic acid	NCT04096742	PHASE4	UNKNOWN	Photodamaged Skin; Photoaging	Goldman, Butterwick, Fitzpatrick and Groff	False
+CHEMBL38	Retinoic acid	NCT01882127	PHASE3	WITHDRAWN	Purpura; Idiopathic Thrombocytopenic Purpura	Shandong University	False
+CHEMBL38	Retinoic acid	NCT04477382		COMPLETED	Dust Mite Allergy; Allergic Rhinitis	Ecarf Institute GmbH	False
+CHEMBL38	Retinoic acid	NCT07586813	PHASE2	RECRUITING	Persistent Isolated Chemotherapy-Induced Thrombocytopenia; Chemotherapy-Induced Thrombocytopenia; Gastrointestinal Neoplasms; Pancreatic Cancer; Colorectal Cancer	Peking University People's Hospital	False
+CHEMBL38	Retinoic acid	NCT02439099		UNKNOWN	Major Depression; Alzheimer's Disease; Alcoholism; Schizophrenia	Charite University, Berlin, Germany	False
+CHEMBL38	Retinoic acid	NCT00143975	PHASE2	COMPLETED	Leukemia, Myeloid, Acute	University of Ulm	False
+CHEMBL38	Retinoic acid	NCT00146120	PHASE3	COMPLETED	Acute Myeloid Leukemia	University of Ulm	False
+CHEMBL38	Retinoic acid	NCT02899169	PHASE3	UNKNOWN	Acute Promyelocytic Leukemia	First Affiliated Hospital Xi'an Jiaotong University	False
+CHEMBL38	Retinoic acid	NCT00005969	PHASE2	WITHDRAWN	Lymphoma	M.D. Anderson Cancer Center	False
+CHEMBL38	Retinoic acid	NCT04919369	PHASE1	COMPLETED	Metastatic Lung Non-Small Cell Carcinoma; Recurrent Lung Non-Small Cell Carcinoma; Stage IV Lung Cancer AJCC v8; Stage IVA Lung Cancer AJCC v8; Stage IVB Lung Cancer AJCC v8	Dwight Owen	False
+CHEMBL38	Retinoic acid	NCT00002439	NA	COMPLETED	Sarcoma, Kaposi; HIV Infections	Anderson Clinical Research	False
+CHEMBL38	Retinoic acid	NCT02020161	PHASE4	UNKNOWN	APL	PETHEMA Foundation	False
+CHEMBL38	Retinoic acid	NCT01276730	PHASE2	COMPLETED	Cervical Cancer	University of Louisville	False
+CHEMBL38	Retinoic acid	NCT00002479	PHASE2	COMPLETED	Lymphoma	Northwestern University	False
+CHEMBL38	Retinoic acid	NCT03327064	PHASE1; PHASE2	WITHDRAWN	Non-melanoma Skin Cancer	University of Alabama at Birmingham	False
+CHEMBL38	Retinoic acid	NCT00804050	PHASE3	TERMINATED	Myelodysplastic Syndromes	Fondazione Italiana Sindromi Mielodisplastiche-ETS	False
+CHEMBL38	Retinoic acid	NCT01369368	PHASE1; PHASE2	UNKNOWN	Acute Myeloid Leukemia	University of Bergen	False
+CHEMBL38	Retinoic acid	NCT06447480	PHASE3	RECRUITING	Acne Vulgaris	Centre Hospitalier Universitaire de Nice	False
+CHEMBL38	Retinoic acid	NCT02458417	PHASE4	COMPLETED	Segmental Vitiligo; Piebaldism	Netherlands Institute for Pigment Disorders	False
+CHEMBL38	Retinoic acid	NCT05973084		RECRUITING	SARS CoV 2 Infection; SARS CoV 2 Vaccination	Boston University	False
+CHEMBL38	Retinoic acid	NCT04154436	NA	COMPLETED	Skin Manifestations	Indonesia University	False
+CHEMBL38	Retinoic acid	NCT02799433	NA	COMPLETED	Childhood Obesity	San Francisco Department of Public Health	False
+CHEMBL38	Retinoic acid	NCT06841952	NA	NOT_YET_RECRUITING	AML, Adult	The First Affiliated Hospital of Soochow University	False
+CHEMBL38	Retinoic acid	NCT00002586	PHASE2	COMPLETED	Drug Toxicity; Lung Cancer	University of Colorado, Denver	False
+CHEMBL38	Retinoic acid	NCT00747851		RECRUITING	Necrotizing Enterocolitis (NEC)	University of Utah	False
+CHEMBL38	Retinoic acid	NCT00903422	PHASE1	COMPLETED	Myelodysplastic Syndrome	GlaxoSmithKline	False
+CHEMBL38	Retinoic acid	NCT01407679	PHASE2	TERMINATED	Lupus Erythematosus, Cutaneous	University Hospital Muenster	False
+CHEMBL38	Retinoic acid	NCT00621218	PHASE2	COMPLETED	Rosacea	Coria Laboratories, Ltd.	False
+CHEMBL38	Retinoic acid	NCT06008327	NA	COMPLETED	Acanthosis Nigricans	Jinnah Postgraduate Medical Centre	False
+CHEMBL38	Retinoic acid	NCT03004846	PHASE1; PHASE2	COMPLETED	Psoriasis	GlaxoSmithKline	True
+CHEMBL38	Retinoic acid	NCT00200161	PHASE2	COMPLETED	Glioblastoma; Gliomas	Memorial Sloan Kettering Cancer Center	True
+CHEMBL38	Retinoic acid	NCT02641782	PHASE2	TERMINATED	Neuroblastoma	University of Cologne	False
+CHEMBL38	Retinoic acid	NCT02410980	EARLY_PHASE1	COMPLETED	Collagen Fibril Alteration	University of California, Irvine	False
+CHEMBL38	Retinoic acid	NCT01280110	PHASE4	COMPLETED	Dry Eye Syndromes	University of Campinas, Brazil	True
+CHEMBL38	Retinoic acid	NCT00003405	PHASE2	WITHDRAWN	Leukemia	Rush University Medical Center	False
+CHEMBL38	Retinoic acid	NCT04305041	PHASE1; PHASE2	COMPLETED	Melanoma	Merck Sharp & Dohme LLC	True
+CHEMBL38	Retinoic acid	NCT05259722	PHASE3	COMPLETED	Chronic Hand Eczema	LEO Pharma	True
+CHEMBL38	Retinoic acid	NCT06158412	PHASE2	RECRUITING	Multiple Myeloma in Relapse; Multiple Myeloma, Refractory	The First Affiliated Hospital of Xiamen University	False
+CHEMBL38	Retinoic acid	NCT03287011	NA	UNKNOWN	Chronic Gingivitis, Plaque Induced	Segi University	False
+CHEMBL38	Retinoic acid	NCT04765930	NA	UNKNOWN	Hyperpigmentation; Melasma; PRP; Lasers	Cairo University	False
+CHEMBL38	Retinoic acid	NCT02177812	PHASE1	TERMINATED	Leukaemia, Myelocytic, Acute	GlaxoSmithKline	True
+CHEMBL38	Retinoic acid	NCT00382200	PHASE1; PHASE2	COMPLETED	Myelodysplastic Syndromes	Memorial Sloan Kettering Cancer Center	True
+CHEMBL38	Retinoic acid	NCT01183429	PHASE2	COMPLETED	Neuroblastoma	Memorial Sloan Kettering Cancer Center	True
+CHEMBL38	Retinoic acid	NCT02190747	PHASE2	COMPLETED	Fibrodysplasia Ossificans Progressiva	Clementia Pharmaceuticals Inc.	True
+CHEMBL38	Retinoic acid	NCT03076021	PHASE4	COMPLETED	CYP2D6 Polymorphism	University of Washington	True
+CHEMBL38	Retinoic acid	NCT02548052	PHASE1	COMPLETED	Psoriasis	GlaxoSmithKline	False
+CHEMBL38	Retinoic acid	NCT06274164		RECRUITING	RAI1 Gene 17P11.2 Deletion+Duplication	Baylor College of Medicine	False
+CHEMBL38	Retinoic acid	NCT05388487	PHASE1	UNKNOWN	Solid Tumor, Adult	HighField Biopharmaceuticals Corporation	False
+CHEMBL38	Retinoic acid	NCT04646980	NA	COMPLETED	Influenza-like Illness	Zagazig University	False
+CHEMBL38	Retinoic acid	NCT00135135	PHASE2	COMPLETED	Neuroblastoma	St. Jude Children's Research Hospital	False
+CHEMBL38	Retinoic acid	NCT04382950	PHASE1	UNKNOWN	COVID	Kafrelsheikh University	False
+CHEMBL38	Retinoic acid	NCT00440024	NA	COMPLETED	Sun-Damaged Skin; Retinoid Intolerance	University of Michigan	False
+CHEMBL38	Retinoic acid	NCT01969058	PHASE2	COMPLETED	HIV-1 Infection	Advancing Clinical Therapeutics Globally for HIV/AIDS and Other Infections	True
+CHEMBL38	Retinoic acid	NCT00002658	PHASE3	UNKNOWN	Leukemia; Neutropenia	Medical Research Council	False
+CHEMBL38	Retinoic acid	NCT04687176	PHASE2	RECRUITING	Acute Promyelocytic Leukemia	The University of Hong Kong	False
+CHEMBL38	Retinoic acid	NCT05455749	NA	COMPLETED	Allergy to Cats; Allergic Rhinoconjunctivitis	Allergy Therapeutics	False
+CHEMBL38	Retinoic acid	NCT00993538	NA	UNKNOWN	Acute Leukaemia	University Hospital, Strasbourg, France	False
+CHEMBL38	Retinoic acid	NCT01349556	NA	WITHDRAWN	Medication Reaction	Johns Hopkins University	False
+CHEMBL38	Retinoic acid	NCT01522456	PHASE4	COMPLETED	Acne Vulgaris	Galderma R&D	True
+CHEMBL38	Retinoic acid	NCT04149418	NA	COMPLETED	Obesity; Inflammation	University of Wisconsin, Madison	False
+CHEMBL38	Retinoic acid	NCT00533169	PHASE1	TERMINATED	Neuroblastoma	M.D. Anderson Cancer Center	False
+CHEMBL38	Retinoic acid	NCT00413166	PHASE2	COMPLETED	Acute Promyelocytic Leukemia	M.D. Anderson Cancer Center	True
+CHEMBL38	Retinoic acid	NCT05474859	PHASE1	NOT_YET_RECRUITING	Metastatic Solid Tumor; Advanced Solid Tumor	Xenthera, Inc.	False
+CHEMBL38	Retinoic acid	NCT06528769	PHASE2	RECRUITING	Leiomyosarcoma; Sarcoma	Gabriel Tinoco	False
+CHEMBL38	Retinoic acid	NCT06484920	PHASE2	RECRUITING	Relapsed Hodgkin Lymphoma; Refractory Hodgkin Lymphoma; Relapsed Non-Hodgkin Lymphoma; Refractory Non-Hodgkin Lymphoma; B-cell Lymphoma	Rita Assi	False
+CHEMBL38	Retinoic acid	NCT00124475	PHASE3	COMPLETED	Hand Dermatoses	Basilea Pharmaceutica	False
+CHEMBL38	Retinoic acid	NCT04206631	PHASE1	COMPLETED	Acne Vulgaris	Indonesia University	False
+CHEMBL38	Retinoic acid	NCT01111994	PHASE4	UNKNOWN	Acne	Callender Center for Clinical Research	False
+CHEMBL38	Retinoic acid	NCT01064557	NA	UNKNOWN	Leukemia	Gruppo Italiano Malattie EMatologiche dell'Adulto	False
+CHEMBL38	Retinoic acid	NCT03253848	NA	ACTIVE_NOT_RECRUITING	Acute Promyelocytic Leukemia With PML-RARA; t(15;17)	ECOG-ACRIN Cancer Research Group	True
+CHEMBL38	Retinoic acid	NCT00841776	PHASE4	COMPLETED	Acne	Stiefel, a GSK Company	True
+CHEMBL38	Retinoic acid	NCT04872868		COMPLETED	Dust Mite Allergy; Allergic Rhinitis	Ecarf Institute GmbH	False
+CHEMBL38	Retinoic acid	NCT03933774	NA	COMPLETED	Vitiligo	The Catholic University of Korea	True
+CHEMBL38	Retinoic acid	NCT00003598	NA	COMPLETED	Cervical Cancer; Precancerous/Nonmalignant Condition	University of Michigan Rogel Cancer Center	False
+CHEMBL38	Retinoic acid	NCT00240513	PHASE4	TERMINATED	Acne Vulgaris	Derm Research @ 888 Inc.	False
+CHEMBL38	Retinoic acid	NCT04835259	NA	UNKNOWN	Photoaging	Sohag University	False
+CHEMBL38	Retinoic acid	NCT01406080	PHASE3	COMPLETED	Photoaging; Photodamage	Galderma Brasil Ltda.	False
+CHEMBL38	Retinoic acid	NCT01020539	PHASE1	COMPLETED	Acute Myelogenous Leukemia; Myelodysplastic Syndrome; Juvenile Myelomonocytic Leukemia	Columbia University	False
+CHEMBL38	Retinoic acid	NCT06281782	NA	UNKNOWN	Acne Vulgaris	Assiut University	False
+CHEMBL38	Retinoic acid	NCT02850003	PHASE1	COMPLETED	Acne	Bausch Health Americas, Inc.	False
+CHEMBL38	Retinoic acid	NCT00004188	PHASE3	COMPLETED	Neuroblastoma	Children's Oncology Group	False
+CHEMBL38	Retinoic acid	NCT01275274	PHASE2	WITHDRAWN	Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis	University of North Carolina, Chapel Hill	False
+CHEMBL38	Retinoic acid	NCT01085279	PHASE2	COMPLETED	Pigmentation Disorder	Netherlands Institute for Pigment Disorders	False
+CHEMBL38	Retinoic acid	NCT01667263	PHASE2	COMPLETED	Autoimmune Thrombocytopenia	Peking University People's Hospital	False
+CHEMBL38	Retinoic acid	NCT00939133	PHASE4	COMPLETED	Acne	Dermatrials Research	False
+CHEMBL38	Retinoic acid	NCT03022162		COMPLETED	Breast Cancer Female; Neuropathic Pain	Tata Memorial Centre	False
+CHEMBL38	Retinoic acid	NCT04217148	PHASE2	COMPLETED	Immune Thrombocytopenia	Peking University People's Hospital	False
+CHEMBL38	Retinoic acid	NCT06213987	PHASE3	COMPLETED	Acanthosis Nigricans; Hyperpigmentation	Srinakharinwirot University	False
+CHEMBL38	Retinoic acid	NCT03259516	PHASE1; PHASE2	TERMINATED	Myelodysplastic Syndromes	St. Petersburg State Pavlov Medical University	False
+CHEMBL38	Retinoic acid	NCT05384821	PHASE1; PHASE2	RECRUITING	Wilms Tumor	Centre Oscar Lambret	False
+CHEMBL38	Retinoic acid	NCT07366229	PHASE2	RECRUITING	Acne	Shenzhen People's Hospital	False
+CHEMBL38	Retinoic acid	NCT06787222	PHASE2; PHASE3	ACTIVE_NOT_RECRUITING	Acne Vulgaris	Hasanuddin University	False
+CHEMBL38	Retinoic acid	NCT00520208	PHASE2	COMPLETED	Acute Promyelocytic Leukemia	CytRx	False
+CHEMBL38	Retinoic acid	NCT02772874		COMPLETED	Fecal Incontinence	University of Pennsylvania	False
+CHEMBL38	Retinoic acid	NCT00098891	PHASE1	COMPLETED	Adult Grade III Lymphomatoid Granulomatosis; Anaplastic Large Cell Lymphoma; Angioimmunoblastic T-cell Lymphoma; Extranodal Marginal Zone B-cell Lymphoma of Mucosa-associated Lymphoid Tissue; Intraocular Lymphoma; Nodal Marginal Zone B-cell Lymphoma; Primary Central Nervous System Non-Hodgkin Lymphoma; Recurrent Adult Burkitt Lymphoma; Recurrent Adult Diffuse Large Cell Lymphoma; Recurrent Adult Diffuse Mixed Cell Lymphoma; Recurrent Adult Diffuse Small Cleaved Cell Lymphoma; Recurrent Adult Grade III Lymphomatoid Granulomatosis; Recurrent Adult Hodgkin Lymphoma; Recurrent Adult Immunoblastic Large Cell Lymphoma; Recurrent Adult Lymphoblastic Lymphoma; Recurrent Adult T-cell Leukemia/Lymphoma; Recurrent Cutaneous T-cell Non-Hodgkin Lymphoma; Recurrent Grade 1 Follicular Lymphoma; Recurrent Grade 2 Follicular Lymphoma; Recurrent Grade 3 Follicular Lymphoma; Recurrent Mantle Cell Lymphoma; Recurrent Marginal Zone Lymphoma; Recurrent Mycosis Fungoides/Sezary Syndrome; Recurrent Small Lymphocytic Lymphoma; Small Intestine Lymphoma; Splenic Marginal Zone Lymphoma; Stage IV Adult Burkitt Lymphoma; Stage IV Adult Diffuse Large Cell Lymphoma; Stage IV Adult Diffuse Mixed Cell Lymphoma; Stage IV Adult Diffuse Small Cleaved Cell Lymphoma; Stage IV Adult Hodgkin Lymphoma; Stage IV Adult Immunoblastic Large Cell Lymphoma; Stage IV Adult Lymphoblastic Lymphoma; Stage IV Adult T-cell Leukemia/Lymphoma; Stage IV Cutaneous T-cell Non-Hodgkin Lymphoma; Stage IV Grade 1 Follicular Lymphoma; Stage IV Grade 2 Follicular Lymphoma; Stage IV Grade 3 Follicular Lymphoma; Stage IV Mantle Cell Lymphoma; Stage IV Marginal Zone Lymphoma; Stage IV Mycosis Fungoides/Sezary Syndrome; Stage IV Small Lymphocytic Lymphoma; Unspecified Adult Solid Tumor, Protocol Specific; Waldenström Macroglobulinemia	National Cancer Institute (NCI)	False
+CHEMBL38	Retinoic acid	NCT01448733	PHASE4	UNKNOWN	Acne Vulgaris	Zeichner, Joshua, M.D.	False
+CHEMBL38	Retinoic acid	NCT00062010	PHASE2	COMPLETED	Lung Cancer	Eastern Cooperative Oncology Group	True
+CHEMBL38	Retinoic acid	NCT03307148	PHASE1	COMPLETED	Pancreatic Adenocarcinoma	Barts & The London NHS Trust	False
+CHEMBL38	Retinoic acid	NCT06013540	PHASE2	UNKNOWN	Melasma	Jinnah Postgraduate Medical Centre	False
+CHEMBL38	Retinoic acid	NCT04995302	NA	UNKNOWN	Scars, Hypertrophic; Burn Scar	Dr.dr.Irma Bernadette, SpKK (K)	False
+CHEMBL38	Retinoic acid	NCT06031532		COMPLETED	Effect of Vitamin A and Calcium in Patients With Non-alcoholic Fatty Liver Patients	Sohag University	False
+CHEMBL38	Retinoic acid	NCT07597941	PHASE2; PHASE3	NOT_YET_RECRUITING	Acute Promyelocytic Leukemia (APL)	The Affiliated People's Hospital of Ningbo University	False
+CHEMBL38	Retinoic acid	NCT00309621	PHASE3	COMPLETED	Hand Dermatoses	Basilea Pharmaceutica	False
+CHEMBL38	Retinoic acid	NCT01701479	PHASE1; PHASE2	UNKNOWN	Neuroblastoma	St. Anna Kinderkrebsforschung	False
+CHEMBL38	Retinoic acid	NCT07196787	NA	RECRUITING	Isotretinoin; Isotretinoin Adverse Reaction	Uşak University	False
+CHEMBL38	Retinoic acid	NCT00026312	PHASE3	COMPLETED	Localized Resectable Neuroblastoma; Localized Unresectable Neuroblastoma; Recurrent Neuroblastoma; Regional Neuroblastoma; Stage 4 Neuroblastoma; Stage 4S Neuroblastoma	National Cancer Institute (NCI)	True
+CHEMBL38	Retinoic acid	NCT02845232		COMPLETED	Acute Myeloid Leukemia	Hospices Civils de Lyon	False
+CHEMBL38	Retinoic acid	NCT04940767	PHASE4	COMPLETED	Acne Vulgaris	Edward Lain, MD	False
+CHEMBL38	Retinoic acid	NCT04324411	PHASE4	WITHDRAWN	Autoimmune Anemia	Peking Union Medical College Hospital	False
+CHEMBL38	Retinoic acid	NCT06879795		COMPLETED	Acne Vulgaris; Gingivitis and Periodontal Diseases; Saliva Collection; Inflammation Biomarkers; Vitamin A	Medipol University	False
+CHEMBL38	Retinoic acid	NCT06706401	PHASE3	RECRUITING	Oropharynx Cancer; Larynx Cancer; Hypopharynx Cancer; Primary Head and Neck Tumor	Centre Leon Berard	False
+CHEMBL38	Retinoic acid	NCT01125930	PHASE3	TERMINATED	Rosacea	Lisa E. Maier	True
+CHEMBL38	Retinoic acid	NCT04996030	PHASE1	SUSPENDED	Acute Promyelocytic Leukemia	Syros Pharmaceuticals	False
+CHEMBL38	Retinoic acid	NCT05626920	PHASE1; PHASE2	RECRUITING	Inherited Retinal Dystrophy Primarily Involving Sensory Retina	University of Washington	False
+CHEMBL38	Retinoic acid	NCT00006220	PHASE1; PHASE2	TERMINATED	Leukemia; Lymphoma; Multiple Myeloma and Plasma Cell Neoplasm; Myelodysplastic Syndromes	Washington University School of Medicine	False
+CHEMBL38	302-79-4	NCT05382299	PHASE3	ACTIVE_NOT_RECRUITING	Triple Negative Breast Cancer; PD-L1 Negative	Gilead Sciences	False
+CHEMBL38	302-79-4	NCT01521923	PHASE3	COMPLETED	Rheumatoid Arthritis	UCB Pharma	True
+CHEMBL38	302-79-4	NCT00886288		COMPLETED	Hypertension	Boehringer Ingelheim	True
+CHEMBL38	302-79-4	NCT03220347	PHASE1	TERMINATED	Lymphoma, Non-Hodgkin; Neoplasms	Celgene	False
+CHEMBL38	302-79-4	NCT01721837		COMPLETED	Atrial Fibrillation	Boehringer Ingelheim	True
+CHEMBL38	302-79-4	NCT00806195	PHASE3	COMPLETED	Meningitis; Meningococcal Infection	Novartis	True
+CHEMBL38	302-79-4	NCT00264225	PHASE3	COMPLETED	Knee Osteoarthritis	Solvay Pharmaceuticals	False
+CHEMBL38	302-79-4	NCT01036763		COMPLETED	Pulmonary Disease, Chronic Obstructive	Boehringer Ingelheim	True
+CHEMBL38	302-79-4	NCT00909038		COMPLETED	Hypertension	Boehringer Ingelheim	True
+CHEMBL38	302-79-4	NCT01050062		COMPLETED	Hypertension	Boehringer Ingelheim	True
+CHEMBL38	302-79-4	NCT01964989	PHASE3	COMPLETED	Influenza Virus	Seqirus	True
+CHEMBL38	302-79-4	NCT01006135		COMPLETED	Pulmonary Disease, Chronic Obstructive	Boehringer Ingelheim	True
+CHEMBL38	302-79-4	NCT05248646	PHASE3	ACTIVE_NOT_RECRUITING	Immunoglobulin A Nephropathy	Otsuka Pharmaceutical Development & Commercialization, Inc.	False
+CHEMBL38	302-79-4	NCT02131259		COMPLETED	Carcinoma, Non-Small-Cell Lung	Boehringer Ingelheim	True
+CHEMBL38	302-79-4	NCT01519791	PHASE3	COMPLETED	Rheumatoid Arthritis	UCB Pharma SA	True
+CHEMBL38	302-79-4	NCT01491178		COMPLETED	Atrial Fibrillation	Boehringer Ingelheim	True
+CHEMBL38	302-79-4	NCT02173769		COMPLETED	Pulmonary Disease, Chronic Obstructive	Boehringer Ingelheim	True
+CHEMBL38	302-79-4	NCT04518410	PHASE2; PHASE3	COMPLETED	Coronavirus; Covid19	National Institute of Allergy and Infectious Diseases (NIAID)	True
+CHEMBL38	all-trans-Retinoic acid	NCT03999684	PHASE2	COMPLETED	Adenoid Cystic Carcinoma	Dana-Farber Cancer Institute	True
+CHEMBL38	all-trans-Retinoic acid	NCT06439888	PHASE1; PHASE2	RECRUITING	Oligometastatic Disease; Solid Tumor, Adult	Gustave Roussy, Cancer Campus, Grand Paris	False
+CHEMBL38	all-trans-Retinoic acid	NCT06242288	PHASE3	COMPLETED	Acne Vulgaris	Mostafa Bahaa	False
+CHEMBL38	all-trans-Retinoic acid	NCT01183884	PHASE2	TERMINATED	Neuroblastoma	Memorial Sloan Kettering Cancer Center	True
+CHEMBL38	all-trans-Retinoic acid	NCT06646666	PHASE2	NOT_YET_RECRUITING	B-cell Non Hodgkin Lymphoma	Ruijin Hospital	False
+CHEMBL38	all-trans-Retinoic acid	NCT05553782	EARLY_PHASE1	RECRUITING	Salivary Gland Cancer; Adenoid Cystic Carcinoma of the Salivary Gland; Squamous Cell Carcinoma of Head and Neck; Head and Neck Cancer	Brigham and Women's Hospital	False
+CHEMBL38	all-trans-Retinoic acid	NCT02497833	EARLY_PHASE1	COMPLETED	Hypercholesterolemia	Sun Yat-sen University	False
+CHEMBL38	all-trans-Retinoic acid	NCT05016349	PHASE3	UNKNOWN	Breast Cancer Female	Mahmoud Ramadan mohamed Elkazzaz	False
+CHEMBL38	all-trans-Retinoic acid	NCT07626398	PHASE2; PHASE3	NOT_YET_RECRUITING	Hemophagocytic Lymphohistiocytosis (HLH)	Beijing Anzhen Hospital	False
+CHEMBL38	all-trans-Retinoic acid	NCT01295762	NA	UNKNOWN	Neuroblastoma	Centre Leon Berard	False
+CHEMBL38	all-trans-Retinoic acid	NCT00392327	PHASE3	COMPLETED	Anaplastic Medulloblastoma; Medulloblastoma	Children's Oncology Group	True
+CHEMBL38	all-trans-Retinoic acid	NCT00528450	PHASE2	TERMINATED	Leukemia	Memorial Sloan Kettering Cancer Center	True
+CHEMBL38	all-trans-Retinoic acid	NCT07510165	NA	COMPLETED	Skin Aging; Photoaging	Medical University of Silesia	False
+CHEMBL38	all-trans-Retinoic acid	NCT03031249	PHASE1; PHASE2	ENROLLING_BY_INVITATION	AML	Institute of Hematology & Blood Diseases Hospital, China	False
+CHEMBL38	all-trans-Retinoic acid	NCT07355855	PHASE2	NOT_YET_RECRUITING	Rhabdomyosarcoma	Fudan University	False
+CHEMBL38	all-trans-Retinoic acid	NCT02403778	PHASE2	COMPLETED	Melanoma	University of Colorado, Denver	True
+CHEMBL38	all-trans-Retinoic acid	NCT06703047	PHASE2	NOT_YET_RECRUITING	Esophageal Squamous Cell Carcinoma	Fudan University	False
+CHEMBL38	all-trans-Retinoic acid	NCT01256697	NA	COMPLETED	Retinitis Pigmentosa	Sheba Medical Center	False
+CHEMBL38	all-trans-Retinoic acid	NCT02339740	PHASE3	ACTIVE_NOT_RECRUITING	Acute Promyelocytic Leukemia With t(15;17)(q24.1;q21.2); PML-RARA	Children's Oncology Group	True
+CHEMBL38	all-trans-Retinoic acid	NCT04353180	PHASE3	UNKNOWN	COVID19	Kafrelsheikh University	False
+CHEMBL38	all-trans-Retinoic acid	NCT00003656	PHASE2	COMPLETED	Kidney Cancer	Weill Medical College of Cornell University	True
+CHEMBL38	all-trans-Retinoic acid	NCT05482451	EARLY_PHASE1	UNKNOWN	Effect of Drug	China Medical University Hospital	False
+CHEMBL38	all-trans-Retinoic acid	NCT00617409	PHASE2	COMPLETED	Small Cell Lung Cancer	H. Lee Moffitt Cancer Center and Research Institute	True
+CHEMBL38	all-trans-Retinoic acid	NCT05297123	PHASE1	UNKNOWN	Acute Myeloid Leukemia	First Affiliated Hospital Xi'an Jiaotong University	False
+CHEMBL38	all-trans-Retinoic acid	NCT01987297	PHASE4	UNKNOWN	Acute Promyelocytic Leukemia	Shanghai Jiao Tong University School of Medicine	False
+CHEMBL38	all-trans-Retinoic acid	NCT01404949	PHASE2	COMPLETED	Acute Promyelocytic Leukemia	Memorial Sloan Kettering Cancer Center	True
+CHEMBL38	all-trans-Retinoic acid	NCT04446806	PHASE4	UNKNOWN	Safety and Efficacy	The First Affiliated Hospital of Soochow University	False
+CHEMBL38	all-trans-Retinoic acid	NCT00892190	PHASE1	COMPLETED	Acute Myelogenous Leukemia; Myelodysplastic Syndrome	University of Pittsburgh	False
+CHEMBL38	all-trans-Retinoic acid	NCT01161550	PHASE1	COMPLETED	Leukemia, Myeloid, Acute	Washington University School of Medicine	False
+CHEMBL38	all-trans-Retinoic acid	NCT00863278	PHASE4	TERMINATED	Melanosis	Centre Hospitalier Universitaire de Nice	False
+CHEMBL38	all-trans-Retinoic acid	NCT00028106	PHASE2	COMPLETED	Pheochromocytoma	Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)	False
+CHEMBL38	all-trans-Retinoic acid	NCT07503730	PHASE3	RECRUITING	APL	First Affiliated Hospital Xi'an Jiaotong University	False
+CHEMBL38	all-trans-Retinoic acid	NCT02751255	PHASE1; PHASE2	COMPLETED	Multiple Myeloma	Amsterdam UMC, location VUmc	False
+CHEMBL38	all-trans-Retinoic acid	NCT02261779	PHASE1; PHASE2	UNKNOWN	AML	Martin-Luther-Universität Halle-Wittenberg	False
+CHEMBL38	all-trans-Retinoic acid	NCT04389580	PHASE2	UNKNOWN	COVID-19	Kafrelsheikh University	False
+CHEMBL38	all-trans-Retinoic acid	NCT05508191	NA	COMPLETED	Skin Aging; Transepidermal Water Loss	Shannaz Nadia Yusharyahya	False
+CHEMBL38	all-trans-Retinoic acid	NCT00866073	PHASE2	COMPLETED	Acute Myeloid Leukemia	University Hospital Freiburg	False
+CHEMBL38	all-trans-Retinoic acid	NCT06536413	PHASE1; PHASE2	RECRUITING	Multiple Myeloma	The Methodist Hospital Research Institute	False
+CHEMBL38	all-trans-Retinoic acid	NCT00893399	PHASE3	COMPLETED	Acute Myeloid Leukemia	University of Ulm	False
+CHEMBL38	all-trans-Retinoic acid	NCT03304288	PHASE2	UNKNOWN	Immune Thrombocytopenia	Peking University People's Hospital	False
+CHEMBL38	all-trans-Retinoic acid	NCT00326170	PHASE2	COMPLETED	Myelodysplastic Syndrome; Acute Myelogenous Leukemia	M.D. Anderson Cancer Center	True
+CHEMBL38	all-trans-Retinoic acid	NCT04577378	PHASE2	UNKNOWN	Covid19	Kafrelsheikh University	False
+CHEMBL38	all-trans-Retinoic acid	NCT03325738		COMPLETED	Squamous Cell Cutaneous Carcinoma of the Skin	Centre Antoine Lacassagne	False
+CHEMBL38	all-trans-Retinoic acid	NCT00100906	PHASE2	COMPLETED	Kidney Cancer	H. Lee Moffitt Cancer Center and Research Institute	False
+CHEMBL38	all-trans-Retinoic acid	NCT02401295	PHASE1	COMPLETED	Relapsed Multiple Myeloma	University of Iowa	False
+CHEMBL38	all-trans-Retinoic acid	NCT05077813	PHASE2	UNKNOWN	Tuberculosis	Kafrelsheikh University	False
+CHEMBL38	all-trans-Retinoic acid	NCT04282668	PHASE1	TERMINATED	Acute Myeloid Leukemia	Taiho Oncology, Inc.	False
+CHEMBL38	all-trans-Retinoic acid	NCT00112502	PHASE2	COMPLETED	Brain and Central Nervous System Tumors; Glioblastoma Multiforme	M.D. Anderson Cancer Center	True
+CHEMBL38	all-trans-Retinoic acid	NCT07015931	PHASE1; PHASE2	COMPLETED	Acne Vulgaris	Indonesia University	False
+CHEMBL38	all-trans-Retinoic acid	NCT03624270	PHASE2	UNKNOWN	Acute Promyelocytic Leukemia	The University of Hong Kong	False
+CHEMBL38	all-trans-Retinoic acid	NCT07597395	PHASE3	NOT_YET_RECRUITING	Immune Thrombocytopenia	Peking University People's Hospital	False
+CHEMBL38	all-trans-Retinoic acid	NCT05999812	PHASE2	ACTIVE_NOT_RECRUITING	Colorectal Cancer	University of Texas Southwestern Medical Center	False
+CHEMBL38	all-trans-Retinoic acid	NCT00985530	PHASE1	TERMINATED	Acute Promyelocytic Leukemia	Northwestern University	False
+CHEMBL38	all-trans-Retinoic acid	NCT07079696	PHASE2	NOT_YET_RECRUITING	Dup15q Syndrome; Autism Spectrum Disorder; Therapy; All-trans Retinoic Acid	Second Affiliated Hospital, Zhejiang University, School of Medicine	False
+CHEMBL38	all-trans-Retinoic acid	NCT00217412	PHASE1	COMPLETED	Childhood Acute Promyelocytic Leukemia (M3); Childhood Atypical Teratoid/Rhabdoid Tumor; Childhood Burkitt Lymphoma; Childhood Chronic Myelogenous Leukemia; Childhood Diffuse Large Cell Lymphoma; Childhood Immunoblastic Large Cell Lymphoma; Juvenile Myelomonocytic Leukemia; Recurrent Childhood Acute Lymphoblastic Leukemia; Recurrent Childhood Acute Myeloid Leukemia; Recurrent Childhood Grade III Lymphomatoid Granulomatosis; Recurrent Childhood Large Cell Lymphoma; Recurrent Childhood Lymphoblastic Lymphoma; Recurrent Childhood Medulloblastoma; Recurrent Childhood Small Noncleaved Cell Lymphoma; Recurrent Childhood Supratentorial Primitive Neuroectodermal Tumor; Recurrent Neuroblastoma; Recurrent/Refractory Childhood Hodgkin Lymphoma; Relapsing Chronic Myelogenous Leukemia; Unspecified Childhood Solid Tumor, Protocol Specific	National Cancer Institute (NCI)	False
+CHEMBL38	all-trans-Retinoic acid	NCT01048645	PHASE2	COMPLETED	Non-Small-Cell Lung Carcinoma	National Institute of Cancerología	False
+CHEMBL38	all-trans-Retinoic acid	NCT00499616	PHASE3	COMPLETED	Neuroblastoma	Children's Oncology Group	True
+CHEMBL38	all-trans-Retinoic acid	NCT00465933	PHASE4	COMPLETED	Acute Promyelocytic Leukemia	PETHEMA Foundation	False
+CHEMBL38	all-trans-Retinoic acid	NCT00001438	PHASE2	COMPLETED	HIV Infections; Immunologic Deficiency Syndromes; Lymphoproliferative Disorders	National Cancer Institute (NCI)	False
+CHEMBL38	all-trans-Retinoic acid	NCT01041833	PHASE3	UNKNOWN	Non Small Cell Lung Cancer	National Institute of Cancerología	False
+CHEMBL38	all-trans-Retinoic acid	NCT00078988	PHASE3	COMPLETED	Brain Tumor; Central Nervous System Tumor	Children's Oncology Group	False
+CHEMBL38	all-trans-Retinoic acid	NCT07676994	PHASE4	COMPLETED	Melasma	Ghurki Trust and Teaching Hospital	False
+CHEMBL38	all-trans-Retinoic acid	NCT05438875	PHASE3	COMPLETED	Purpura, Thrombocytopenic, Idiopathic	Peking University People's Hospital	False
+CHEMBL38	all-trans-Retinoic acid	NCT01067274	PHASE3	WITHDRAWN	Acute Myeloid Leukemia	Acute Leukemia French Association	False
+CHEMBL38	all-trans-Retinoic acid	NCT04433169	PHASE2	UNKNOWN	Adenoid Cystic Carcinoma of the Head and Neck	Shanghai Ninth People's Hospital Affiliated to Shanghai Jiao Tong University	False
+CHEMBL38	all-trans-Retinoic acid	NCT01456468	PHASE1	COMPLETED	Cholangitis, Sclerosing	Yale University	False
+CHEMBL38	all-trans-Retinoic acid	NCT05175508	PHASE2; PHASE3	UNKNOWN	AML; MDS; Old Age; Debility; Hematologic Cancer	The First Affiliated Hospital of Soochow University	False
+CHEMBL38	all-trans-Retinoic acid	NCT03572387	PHASE2	COMPLETED	Prostatic Neoplasms; Prostate Neoplasms; Prostate Cancer	Icahn School of Medicine at Mount Sinai	True
+CHEMBL38	all-trans-Retinoic acid	NCT05588999	PHASE1	COMPLETED	Plantar Wart	Combined Military Hospital Abbottabad	False
+CHEMBL38	all-trans-Retinoic acid	NCT00808899	PHASE2	TERMINATED	Neuroblastoma	St. Jude Children's Research Hospital	True
+CHEMBL38	all-trans-Retinoic acid	NCT01668615		COMPLETED	Immune Thrombocytopenic Purpura	First Affiliated Hospital of Suzhou Medical College	False
+CHEMBL38	all-trans-Retinoic acid	NCT04905407	PHASE2	TERMINATED	Acute Myeloid Leukemia	Syros Pharmaceuticals	True
+CHEMBL38	all-trans-Retinoic acid	NCT03465280		UNKNOWN	Recurrent Respiratory Papillomatosis; Human Papilloma Virus	Newcastle-upon-Tyne Hospitals NHS Trust	False
+CHEMBL38	all-trans-Retinoic acid	NCT00567567	PHASE3	COMPLETED	Localized Resectable Neuroblastoma; Localized Unresectable Neuroblastoma; Recurrent Neuroblastoma; Regional Neuroblastoma; Stage 4 Neuroblastoma; Stage 4S Neuroblastoma	Children's Oncology Group	True
+CHEMBL38	all-trans-Retinoic acid	NCT07296445	PHASE3	NOT_YET_RECRUITING	Acute Promyelocytic Leukemia (APL); Acute Promyelocytic Leukaemia; Acute Promyelocytic Leukemia With PML-RARA; Acute Promyelocytic Leukemia With t(15;17)(q24.1;q21.2); PML-RARA; APL; Acute Promyelocytic Leukemia; Leukaemia; Leukemia Acute Promyelocytic Leukemia (APL); Leukemia, Acute	SDK Therapeutics, Inc.	False
+CHEMBL38	all-trans-Retinoic acid	NCT01208454	PHASE1	COMPLETED	Localized Unresectable Neuroblastoma; Recurrent Neuroblastoma; Regional Neuroblastoma; Stage 4 Neuroblastoma; Stage 4S Neuroblastoma	National Cancer Institute (NCI)	False
+CHEMBL38	all-trans-Retinoic acid	NCT03057626		ACTIVE_NOT_RECRUITING	Recurrent Neuroblastoma; Stage 2A Neuroblastoma; Stage 2B Neuroblastoma; Stage 3 Neuroblastoma; Stage 4 Neuroblastoma; Stage 4S Neuroblastoma	Children's Oncology Group	False
+CHEMBL38	all-trans-Retinoic acid	NCT01728155	PHASE3	COMPLETED	LOW AND INTERMEDIATE PAEDIATRIC NEUROBLASTOMA AND NEONATAL SUPRARENAL MASSES	Instituto de Investigacion Sanitaria La Fe	False
+CHEMBL38	all-trans-Retinoic acid	NCT02842827	PHASE1; PHASE2	COMPLETED	Acute Myeloid Leukemia; Myelodysplastic Syndrome	Imago BioSciences, Inc., a subsidiary of Merck & Co., Inc., (Rahway, New Jersey USA)	True
+CHEMBL38	all-trans-Retinoic acid	NCT03200847	PHASE1; PHASE2	COMPLETED	Stage IV Melanoma; Stage III Melanoma; Advanced Melanoma	University of Colorado, Denver	True
+CHEMBL38	all-trans-Retinoic acid	NCT01041638	PHASE3	COMPLETED	High Risk Neuroblastoma	National Cancer Institute (NCI)	True
+CHEMBL38	all-trans-Retinoic acid	NCT00437450	PHASE2	UNKNOWN	Anemia in Myelodysplastic Syndromes	Groupe Francophone des Myelodysplasies	False
+CHEMBL38	all-trans-Retinoic acid	NCT03442985	PHASE2	TERMINATED	Exostoses, Multiple Hereditary	Clementia Pharmaceuticals Inc.	True
+CHEMBL38	all-trans-Retinoic acid	NCT00482833	PHASE3	COMPLETED	Leukemia	Gruppo Italiano Malattie EMatologiche dell'Adulto	False
+CHEMBL38	all-trans-Retinoic acid	NCT01232855		COMPLETED	Leukemia	Children's Oncology Group	False
+CHEMBL38	all-trans-Retinoic acid	NCT02169609	PHASE2	COMPLETED	Neuroblastoma; Neoplasm, Residual; Effects of Immunotherapy	Fundació Sant Joan de Déu	False
+CHEMBL38	all-trans-Retinoic acid	NCT00003619	PHASE1; PHASE2	COMPLETED	Chronic Myeloproliferative Disorders; Leukemia; Myelodysplastic Syndromes; Thrombocytopenia	Drexel University College of Medicine	False
+CHEMBL38	all-trans-Retinoic acid	NCT02200978	PHASE4	COMPLETED	Childhood Acute Promyelocytic Leukemia	South China Children's Leukemia Group	False
+CHEMBL38	all-trans-Retinoic acid	NCT00504764	PHASE4	COMPLETED	Acute Promyelocytic Leukemia	PETHEMA Foundation	False
+CHEMBL38	all-trans-Retinoic acid	NCT04578236	PHASE2	UNKNOWN	Covid19	Kafrelsheikh University	False
+CHEMBL38	all-trans-Retinoic acid	NCT03574701	NA	UNKNOWN	Olfactory Disorder	St. Paul's Hospital, Canada	False
+CHEMBL38	all-trans-Retinoic acid	NCT01064570	PHASE2	UNKNOWN	Acute Promyelocytic Leukemia	Gruppo Italiano Malattie EMatologiche dell'Adulto	False
+CHEMBL38	all-trans-Retinoic acid	NCT00675870	PHASE2	UNKNOWN	Acute Promyelocytic Leukemia	NuRx Pharmaceuticals, Inc.	False
+CHEMBL38	all-trans-Retinoic acid	NCT02758990	NA	TERMINATED	Obesity; Rhinitis; Rhinitis, Allergic; Respiratory Sounds; Dyspnea; Headache; Migraine Disorders; Arthritis; Arthralgia; Anxiety; Sleep Initiation and Maintenance Disorders; Sleep Deprivation	Verifomics LLC	False
+CHEMBL38	all-trans-Retinoic acid	NCT03878524	PHASE1	TERMINATED	Accelerated Phase Chronic Myelogenous Leukemia, BCR-ABL1 Positive; Anatomic Stage IV Breast Cancer AJCC v8; Anemia; Ann Arbor Stage III Hodgkin Lymphoma; Ann Arbor Stage III Non-Hodgkin Lymphoma; Ann Arbor Stage IV Hodgkin Lymphoma; Ann Arbor Stage IV Non-Hodgkin Lymphoma; Atypical Chronic Myeloid Leukemia, BCR-ABL1 Negative; Blast Phase Chronic Myelogenous Leukemia, BCR-ABL1 Positive; Castration-Resistant Prostate Carcinoma; Chronic Phase Chronic Myelogenous Leukemia, BCR-ABL1 Positive; Hematopoietic and Lymphoid System Neoplasm; Locally Advanced Pancreatic Adenocarcinoma; Metastatic Breast Carcinoma; Metastatic Malignant Solid Neoplasm; Metastatic Pancreatic Adenocarcinoma; Myelodysplastic/Myeloproliferative Neoplasm With Ring Sideroblasts and Thrombocytosis; Myelodysplastic/Myeloproliferative Neoplasm, Unclassifiable; Primary Myelofibrosis; Recurrent Acute Lymphoblastic Leukemia; Recurrent Acute Myeloid Leukemia; Recurrent Chronic Lymphocytic Leukemia; Recurrent Chronic Myelogenous Leukemia, BCR-ABL1 Positive; Recurrent Hematologic Malignancy; Recurrent Hodgkin Lymphoma; Recurrent Myelodysplastic Syndrome; Recurrent Myelodysplastic/Myeloproliferative Neoplasm; Recurrent Myeloproliferative Neoplasm; Recurrent Non-Hodgkin Lymphoma; Recurrent Plasma Cell Myeloma; Recurrent Small Lymphocytic Lymphoma; Refractory Acute Lymphoblastic Leukemia; Refractory Acute Myeloid Leukemia; Refractory Chronic Lymphocytic Leukemia; Refractory Chronic Myelogenous Leukemia, BCR-ABL1 Positive; Refractory Chronic Myelomonocytic Leukemia; Refractory Hematologic Malignancy; Refractory Hodgkin Lymphoma; Refractory Malignant Solid Neoplasm; Refractory Myelodysplastic Syndrome; Refractory Myelodysplastic/Myeloproliferative Neoplasm; Refractory Non-Hodgkin Lymphoma; Refractory Plasma Cell Myeloma; Refractory Primary Myelofibrosis; Refractory Small Lymphocytic Lymphoma; Stage II Pancreatic Cancer AJCC v8; Stage III Pancreatic Cancer AJCC v8; Stage IV Pancreatic Cancer AJCC v8; Stage IV Prostate Cancer AJCC v8; Unresectable Pancreatic Adenocarcinoma	OHSU Knight Cancer Institute	False
+CHEMBL38	all-trans-Retinoic acid	NCT02273102	PHASE1	COMPLETED	Acute Myelogenous Leukemia; Myelodysplastic Syndromes; Leukemia	University of Miami	False
+CHEMBL38	all-trans-Retinoic acid	NCT00156169	PHASE3	COMPLETED	Low HDL Cholesterol	Sheba Medical Center	False
+CHEMBL38	all-trans-Retinoic acid	NCT00138151	PHASE2	TERMINATED	Cervical Cancer	University of Medicine and Dentistry of New Jersey	True
+CHEMBL38	all-trans-Retinoic acid	NCT04700176	PHASE2	TERMINATED	Multiple Myeloma	Hackensack Meridian Health	True
+CHEMBL38	all-trans-Retinoic acid	NCT00136461	PHASE2	COMPLETED	Acute Myelogenous Leukemia; Myelodysplastic Syndrome	Dana-Farber Cancer Institute	False
+CHEMBL38	all-trans-Retinoic acid	NCT04797780	PHASE3	TERMINATED	Myelodysplastic Syndromes	Syros Pharmaceuticals	True
+CHEMBL38	all-trans-Retinoic acid	NCT04793919	PHASE2	RECRUITING	Acute Promyelocytic Leukemia	Associazione Italiana Ematologia Oncologia Pediatrica	False
+CHEMBL38	all-trans-Retinoic acid	NCT04305054	PHASE1; PHASE2	COMPLETED	Melanoma	Merck Sharp & Dohme LLC	False
+CHEMBL38	all-trans-Retinoic acid	NCT04568096	PHASE2	UNKNOWN	the Lung Complication of COVID-19	Kafrelsheikh University	False
+CHEMBL38	all-trans-Retinoic acid	NCT05497310	PHASE1; PHASE2	UNKNOWN	Promyelocytic Leukemia	Hospital Universitario Dr. Jose E. Gonzalez	False
+CHEMBL38	all-trans-Retinoic acid	NCT03359174	PHASE2	TERMINATED	Cholangitis, Sclerosing	Yale University	True
+CHEMBL38	all-trans-Retinoic acid	NCT07278908	PHASE2; PHASE3	NOT_YET_RECRUITING	ITP - Immune Thrombocytopenia	Institute of Hematology & Blood Diseases Hospital, China	False
+CHEMBL38	all-trans-Retinoic acid	NCT06172296	PHASE3	RECRUITING	Ganglioneuroblastoma, Nodular; Neuroblastoma	National Cancer Institute (NCI)	False
+CHEMBL38	Vitamin A acid	NCT04475276	PHASE4	COMPLETED	Non-Alcoholic Fatty Liver Disease	All India Institute of Medical Sciences, Bhubaneswar	False
+CHEMBL38	Vitamin A acid	NCT07293910	PHASE2	RECRUITING	HELICOBACTER PYLORI INFECTIONS; Helicobacter Infection; Helicobacter Pylori Gastrointestinal Tract Infection; Helicobacter Pylori Infected Patients	Tanta University	False
+CHEMBL38	Vitamin A acid	NCT02053324	PHASE1	TERMINATED	Liver Metastases	Alfasigma S.p.A.	False
+CHEMBL38	Vitamin A acid	NCT01921374	NA	COMPLETED	Other Diseases or Conditions	Monica Levy Andersen	False
+CHEMBL38	Vitamin A acid	NCT06047379	PHASE1; PHASE2	RECRUITING	Diffuse Astrocytoma, IDH-Mutant; Glioblastoma, IDH-wildtype; Brain Metastases, Adult; Cervical Cancer; Colorectal Cancer; Esophageal Cancer; Esophageal Squamous Cell Carcinoma; Gastric Cancer; Gastroesophageal Junction Adenocarcinoma; Head and Neck Squamous Cell Carcinoma; Melanoma; Merkel Cell Carcinoma; Microsatellite Instability-High Solid Malignant Tumor; Mismatch Repair Deficient Solid Malignant Tumor; Microsatellite Instability-High Colorectal Cancer; Mismatch Repair Deficient Colorectal Cancer; Non-small Cell Lung Cancer; Renal Cell Carcinoma; Small Cell Lung Cancer; Squamous Cell Carcinoma; Urothelial Carcinoma	Neonc Technologies, Inc.	False
+CHEMBL38	Vitamin A acid	NCT03181178	NA	COMPLETED	Growth Disorders; Infant Malnutrition; Micronutrient Deficiency; Protein Malnutrition; Morbidity;Infant	Nevin Scrimshaw International Nutrition Foundation	False
+CHEMBL38	Vitamin A acid	NCT00928915	PHASE4	COMPLETED	Intracranial Hemorrhages	Heidelberg University	False
+CHEMBL38	Vitamin A acid	NCT03287882	PHASE3	UNKNOWN	Adolescents; Anemia; Pregnancy; Empowerment	Aga Khan University	False
+CHEMBL38	Vitamin A acid	NCT04135378	PHASE4	COMPLETED	Stress, Psychological	Kufa University	False
+CHEMBL38	Vitamin A acid	NCT04880824		COMPLETED	Frailty Syndrome	Charite University, Berlin, Germany	False
+CHEMBL38	Vitamin A acid	NCT01140308	NA	UNKNOWN	Statin Myopathy	Hartford Hospital	False
+CHEMBL38	Vitamin A acid	NCT04907110	NA	COMPLETED	Overweight and Obesity; Aging; Type 2 Diabetes	Maastricht University Medical Center	False
+CHEMBL38	Vitamin A acid	NCT02552433		UNKNOWN	Bariatric Surgery; Body Contouring Surgery	St. Antonius Hospital	False
+CHEMBL38	Vitamin A acid	NCT06815978		RECRUITING	Sarcopenic Obesity	Elisa Giannetta	False
+CHEMBL38	Vitamin A acid	NCT05990140	NA	UNKNOWN	Postoperative Complications	Ataturk University	False
+CHEMBL38	Vitamin A acid	NCT07655791	PHASE4	NOT_YET_RECRUITING	Sepsis - to Reduce Mortality in the Intensive Care Unit	Ain Shams University	False
+CHEMBL38	Vitamin A acid	NCT00726713	PHASE4	COMPLETED	Type 2 Diabetic Peripheral Neuropathy (DPN)	Pamlab, Inc.	True
+CHEMBL38	Vitamin A acid	NCT06012760	NA	RECRUITING	Anemia; Iron Deficiency Anemia; Perioperative; Transfusion; Cardiac Surgery	Second Affiliated Hospital, Zhejiang University, School of Medicine	False
+CHEMBL38	Vitamin A acid	NCT02205931	PHASE4	UNKNOWN	Epilepsy	University College, London	False
+CHEMBL38	Vitamin A acid	NCT03044639	PHASE4	COMPLETED	Liver Failure	Stanley Dudrick's Memorial Hospital	False
+CHEMBL38	Vitamin A acid	NCT01619228		COMPLETED	Premature Birth of Newborn	Children's Hospital Medical Center, Cincinnati	False
+CHEMBL38	Vitamin A acid	NCT03782272	NA	TERMINATED	Stunting; Environmental Enteric Dysfunction	PATH	True
+CHEMBL38	Vitamin A acid	NCT02422901		UNKNOWN	Vitamin C Deficiency; Acute Disease; Chronic Disease	Pascoe Pharmazeutische Praeparate GmbH	False
+CHEMBL38	Vitamin A acid	NCT05600881		NOT_YET_RECRUITING	Attention Deficit Hyperactivity Disorder	University of Dublin, Trinity College	False
+CHEMBL38	Vitamin A acid	NCT00935012	PHASE3	COMPLETED	ATTR-CM; TTR-CM	Pfizer	True
+CHEMBL38	Vitamin A acid	NCT03522922	PHASE1; PHASE2	COMPLETED	Acne Vulgaris; Acne Scars	Sohag University	False
+CHEMBL38	Vitamin A acid	NCT05820607		UNKNOWN	Autoimmune Gastritis	Shanghai Jiao Tong University School of Medicine	False
+CHEMBL38	Vitamin A acid	NCT02106975	PHASE2	COMPLETED	Acute Lung Injury; Sepsis	Virginia Commonwealth University	True
+CHEMBL38	Vitamin A acid	NCT02059577	PHASE2	COMPLETED	Autism	Arizona State University	False
+CHEMBL38	Vitamin A acid	NCT02481375	NA	COMPLETED	Anemia; Iron Deficiency; Hemoglobin Disorder; Infection; Inflammation	University of British Columbia	True
+CHEMBL38	Vitamin A acid	NCT00050011	PHASE3	COMPLETED	Breast Neoplasms; Osteoporosis	Novartis Pharmaceuticals	True
+CHEMBL38	Vitamin A acid	NCT02537392	NA	COMPLETED	Congenital Heart Disease	Xi'an Jiaotong University	False
+CHEMBL38	Vitamin A acid	NCT05984771	NA	COMPLETED	Diabetic Neuropathies; Diabetes Mellitus; Dietary Supplement	Aristotle University Of Thessaloniki	False
+CHEMBL38	Vitamin A acid	NCT01128244	PHASE2; PHASE3	COMPLETED	Vitamin B6 Deficiency	University of Florida	True
+CHEMBL38	Vitamin A acid	NCT05062044		COMPLETED	Prevention of Vitamin Deficiency During and/or Before Pregnancy	Bayer	False
+CHEMBL38	Vitamin A acid	NCT01401387	PHASE4	WITHDRAWN	Adenocarcinoma of the Pancreas; Normal Pancreatic Exocrine Function	Foundation for Liver Research	False
+CHEMBL38	Vitamin A acid	NCT02231333	NA	COMPLETED	Non-alcoholic Steatohepatitis	Institute of Liver and Biliary Sciences, India	False
+CHEMBL38	Vitamin A acid	NCT07236736	NA	NOT_YET_RECRUITING	Healthy Skin; Skin Hydration	Biocoz Global Pte. Ltd.	False
+CHEMBL38	Vitamin A acid	NCT05271344	NA	UNKNOWN	Pancreatic Cancer; Complication,Postoperative; Surgery	Centre Hospitalier Universitaire de Liege	False
+CHEMBL38	Vitamin A acid	NCT05067998		RECRUITING	Anxiety Disorders and Symptoms; Fibromyalgia; Arthritis; Chronic Pain; Hypertension,Essential	Faith A. Richardson	False
+CHEMBL38	Vitamin A acid	NCT02575092	PHASE2; PHASE3	COMPLETED	Homocysteine; Coronary Disease; Angioplasty,Balloon,Coronary; Contrast Media; Nephropathy; Hypertension	Fuling Central Hospital of Chongqing City	False
+CHEMBL38	Vitamin A acid	NCT04670393	NA	COMPLETED	Infertility, Female; Polycystic Ovary Syndrome	Fertypharm	False
+CHEMBL38	Vitamin A acid	NCT03938584	NA	COMPLETED	Vitamin C Deficiency; Smoking; Surgery; Surgery--Complications; Wound; Wound Complication; Wound Infection; Wound Dehiscence; Wound of Skin; Mandible Fracture; Mandible Open Fracture; Mandible Closed Fracture; Mandibular Fractures; Ascorbic Acid Deficiency; Oxidative Stress; Inflammation	Hennepin Healthcare Research Institute	False
+CHEMBL38	Vitamin A acid	NCT03218709	PHASE4	UNKNOWN	Hyperuricemia	Sun Yat-sen University	False
+CHEMBL38	Vitamin A acid	NCT01473914	PHASE3	COMPLETED	End Stage Renal Disease	Marcello Tonelli	False
+CHEMBL38	Vitamin A acid	NCT02771249	PHASE1	COMPLETED	HIV Infected Population With Latent Tuberculosis	National Institutes of Health Clinical Center (CC)	False
+CHEMBL38	Vitamin A acid	NCT03610932	NA	WITHDRAWN	Exercise-induced Bronchospasm	University of Kansas Medical Center	False
+CHEMBL38	Vitamin A acid	NCT01204307	PHASE2	COMPLETED	Advanced Non-Squamous Non-Small Cell Lung Cancer	Chang Gung Memorial Hospital	False
+CHEMBL38	Vitamin A acid	NCT04880499	NA	COMPLETED	Orthopedic Disorder; Hip Arthropathy; Knee Arthropathy; Anemia; Iron Poor Blood	I.R.C.C.S Ospedale Galeazzi-Sant'Ambrogio	False
+CHEMBL38	Vitamin A acid	NCT00757393	PHASE3	COMPLETED	Osteoporosis	The Hospital for Sick Children	False
+CHEMBL38	Vitamin A acid	NCT00886704	NA	COMPLETED	Atherosclerosis	Ludwig-Maximilians - University of Munich	True
+CHEMBL38	Vitamin A acid	NCT00054938	PHASE2	COMPLETED	Systemic Lupus Erythematosus; Lupus	Brigham and Women's Hospital	False
+CHEMBL38	Vitamin A acid	NCT06516081	NA	COMPLETED	Anemia	The Hospital for Sick Children	False
+CHEMBL38	Vitamin A acid	NCT06581900		RECRUITING	Sickle Cells Patients	CHU de Reims	False
+CHEMBL38	Vitamin A acid	NCT02236936	PHASE3	TERMINATED	Squamous Cell Carcinoma of the Hypopharynx Stage III; Squamous Cell Carcinoma of the Hypopharynx Stage IV; Laryngeal Squamous Cell Carcinoma Stage III; Laryngeal Squamous Cell Carcinoma Stage IV; Oropharyngeal Squamous Cell Carcinoma Stage III; Oropharyngeal Squamous Cell Carcinoma Stage IV; Squamous Cell Carcinoma of the Oral Cavity Stage III; Squamous Cell Carcinoma of the Oral Cavity Stage IV; Locally Advanced Malignant Neoplasm	Arbeitsgemeinschaft medikamentoese Tumortherapie	False
+CHEMBL38	Vitamin A acid	NCT04538664	PHASE3	ACTIVE_NOT_RECRUITING	Carcinoma, Non-Small-Cell Lung	Janssen Research & Development, LLC	True
+CHEMBL38	Vitamin A acid	NCT04330807	NA	TERMINATED	Chronic Kidney Disease Stage 3B; Chronic Kidney Disease stage4; Chronic Kidney Disease Stage 5; Fatigue	Centre Hospitalier le Mans	False
+CHEMBL38	Vitamin A acid	NCT02804828	NA	COMPLETED	Gulf War Syndrome; Persian Gulf Syndrome; Mitochondrial Disorders	University of California, San Diego	False
+CHEMBL38	Vitamin A acid	NCT06133530	NA	ENROLLING_BY_INVITATION	Healthy Adults; High Altitude; Isolation, Social	IU University of Applied Sciences	False
+CHEMBL38	Vitamin A acid	NCT00799630	NA	COMPLETED	Nutrition Processes	Lescuyer Laboratory	False
+CHEMBL38	Vitamin A acid	NCT02106806	NA	COMPLETED	Chemotherapy; Colorectal Cancer	University of Sao Paulo	False
+CHEMBL38	Vitamin A acid	NCT03542461	PHASE3	UNKNOWN	Squamous Non-small Cell Lung Cancer	Gruppo Oncologico Italiano di Ricerca Clinica	False
+CHEMBL38	Vitamin A acid	NCT01820767	PHASE3	COMPLETED	Chronic Kidney Disease	Ricardo Mouzo Mirco	False
+CHEMBL38	Vitamin A acid	NCT01380366	PHASE4	COMPLETED	Short Bowel Syndrome	Northwestern University	True
+CHEMBL38	Vitamin A acid	NCT04708353	NA	UNKNOWN	Gynecologic Disease	Zagazig University	False
+CHEMBL38	Vitamin A acid	NCT04315077	NA	COMPLETED	Oxidative Stress; Muscle Strength; Resistance Training; Muscle Damage; Immune Suppression	Applied Science & Performance Institute	False
+CHEMBL38	Vitamin A acid	NCT01382212	PHASE3	COMPLETED	End-Stage Renal Disease; Secondary Hyperparathyroidism	AbbVie (prior sponsor, Abbott)	True
+CHEMBL38	Vitamin A acid	NCT00000429	PHASE2	COMPLETED	Juvenile Rheumatoid Arthritis	Children's Hospital Medical Center, Cincinnati	False
+CHEMBL38	Vitamin A acid	NCT03297970		COMPLETED	Nutrition; Child Health; Child Growth; Neurocognitive Development; Sexual Maturation; Infectious Morbidity; Behavior Problem	University of Michigan	False
+CHEMBL38	Vitamin A acid	NCT03118570	PHASE2	COMPLETED	Osteogenesis Imperfecta, Type I; Osteogenesis Imperfecta Type III; Osteogenesis Imperfecta Type IV	Ultragenyx Pharmaceutical Inc	True
+CHEMBL38	Vitamin A acid	NCT06516094	PHASE3	COMPLETED	Chronic Low-back Pain	Laboratorios Silanes S.A. de C.V.	False
+CHEMBL38	Vitamin A acid	NCT04564222	NA	UNKNOWN	Birth Length; Linear Growth; Micronutrients; Dietary Intakes	SEAMEO Regional Centre for Food and Nutrition	False
+CHEMBL38	Vitamin A acid	NCT01593995	PHASE2	COMPLETED	Non-small Cell Lung Cancer; Pancreatic Cancer	Dong-A University Hospital	False
+CHEMBL38	Vitamin A acid	NCT07345429		ACTIVE_NOT_RECRUITING	Obesity & Overweight; Bariatric Surgery; Revisional Bariatric Surgery	Medipol University	False
+CHEMBL38	Vitamin A acid	NCT06287502	NA	COMPLETED	Sarcopenia; Osteoporosis	Kowloon Hospital, Hong Kong	False
+CHEMBL38	Vitamin A acid	NCT07548970		COMPLETED	MASLD (Metabolic Dysfunction-Associated Steatotic Liver Disease); Mediterranean Diet; Lifestyle (Sedentary Behavior and Physical Activity); Vitamin D Deficiency; Hyperuricemia and MAFLD; Ferritin	Maastricht University Medical Center	False
+CHEMBL38	Vitamin A acid	NCT04113837	NA	COMPLETED	Cardiovascular Risk Factor	University of Jena	False
+CHEMBL38	Vitamin A acid	NCT00436475	PHASE1; PHASE2	COMPLETED	Glucose Intolerance; Type 2 Diabetes Mellitus; Metabolic Syndrome	Tufts Medical Center	True
+CHEMBL38	Vitamin A acid	NCT06911905	PHASE2	COMPLETED	Autism Spectrum Disorder	Fei Li	False
+CHEMBL38	Vitamin A acid	NCT07368686	PHASE4	RECRUITING	Aesthetic	Erevna Innovations Inc.	False
+CHEMBL38	Vitamin A acid	NCT02608151	NA	UNKNOWN	Very Preterm Infant	Assistance Publique Hopitaux De Marseille	False
+CHEMBL38	Vitamin A acid	NCT00168077	PHASE3	COMPLETED	Acquired Coagulation Factor Deficiency	CSL Behring	False
+CHEMBL38	Vitamin A acid	NCT03526666		COMPLETED	Myelodysplastic Syndromes; Acute Myeloid Leukemia; Chronic Myelomonocytic Leukemia; MDS; AML; CMML	Van Andel Research Institute	False
+CHEMBL38	Vitamin A acid	NCT07685431	NA	RECRUITING	Female Infertility Due to Diminished Ovarian Reserve	Kaohsiung Veterans General Hospital.	False
+CHEMBL38	Vitamin A acid	NCT03136029	EARLY_PHASE1	COMPLETED	Heart Failure With Reduced Ejection Fraction	VA Office of Research and Development	False
+CHEMBL38	Vitamin A acid	NCT06200272	NA	COMPLETED	Healthy Participants	Toros University	False
+CHEMBL38	Vitamin A acid	NCT02225886	PHASE4	UNKNOWN	Anaemia Response to the Treatment; Peripheral Iron Indices; Oxalemia	Anemia Working Group Romania	False
+CHEMBL38	Vitamin A acid	NCT01587963	PHASE2	TERMINATED	Shock	Rutgers, The State University of New Jersey	True
+CHEMBL38	Vitamin A acid	NCT00608400	PHASE1	COMPLETED	Healthy	McGill University	False
+CHEMBL38	Vitamin A acid	NCT03493100	NA	COMPLETED	Geriatric Patients	University of Hohenheim	False
+CHEMBL38	Vitamin A acid	NCT07379216	NA	RECRUITING	Skin Condition; Anti-Oxidative Stress	TCI Co., Ltd.	False
+CHEMBL38	Vitamin A acid	NCT02336087	PHASE1	ACTIVE_NOT_RECRUITING	Pancreatic Adenocarcinoma; Unresectable Pancreatic Carcinoma; Stage III Pancreatic Cancer AJCC v6 and v7; Stage IV Pancreatic Cancer AJCC v6 and v7	City of Hope Medical Center	False
+CHEMBL38	Vitamin A acid	NCT06382909	NA	COMPLETED	Autism Spectrum Disorder	Deivis de Oliveira guimaraes	False
+CHEMBL38	Vitamin A acid	NCT01538316	NA	UNKNOWN	Primary Prevention of Prostate Cancer	University of Hohenheim	False
+CHEMBL38	Vitamin A acid	NCT06384833	PHASE4	UNKNOWN	Rotator Cuff Tears	Mahidol University	False
+CHEMBL38	Vitamin A acid	NCT01326442	PHASE3	COMPLETED	Type 2 Diabetes Mellitus; Hypertension; Hyperlipidemia; Obesity	University of Guelph	False
+CHEMBL38	Vitamin A acid	NCT01754987	PHASE1; PHASE2	COMPLETED	Metastatic Hepatocellular Carcinoma; Advanced Liver Cancer	Thomas Jefferson University	True
+CHEMBL38	Vitamin A acid	NCT03349333	PHASE3	COMPLETED	Refractory Peripheral T-Cell Lymphoma; Relapsed T-Cell Lymphoma	Mundipharma (China) Pharmaceutical Co. Ltd	True
+CHEMBL38	Vitamin A acid	NCT02812615	NA	UNKNOWN	Malnutrition; Infection	International Centre for Diarrhoeal Disease Research, Bangladesh	False
+CHEMBL38	Vitamin A acid	NCT01634009	PHASE2; PHASE3	COMPLETED	Severe Acute Malnutrition; Severe Wasting; Community Based Nutritional Management	International Centre for Diarrhoeal Disease Research, Bangladesh	False
+CHEMBL38	Vitamin A acid	NCT03921099	PHASE4	UNKNOWN	Acute Kidney Injury	Ain Shams University	False
+CHEMBL38	Vitamin A acid	NCT00953355	PHASE4	COMPLETED	Polycystic Ovary Syndrome; Anovulation	University Magna Graecia	False
+CHEMBL38	Vitamin A acid	NCT03792984	PHASE3	COMPLETED	Polycystic Ovary Syndrome; Vitamin D Deficiency/Insufficiency	Damascus University	False
+CHEMBL38	Vitamin A acid	NCT07696403	NA	NOT_YET_RECRUITING	Nutrition, Healthy; Dyslipidemia; Overweight and Obesity	University of Georgia	False
+CHEMBL38	Vitamin A acid	NCT06328426	NA	NOT_YET_RECRUITING	Osteoarthritis	Assiut University	False
+CHEMBL38	Vitamin A acid	NCT01250743	NA	TERMINATED	Hepatitis C	Health Innovations, Frontier Research Institute	False
+CHEMBL38	Vitamin A acid	NCT00461448	PHASE1	COMPLETED	Rheumatoid Arthritis	Shahid Beheshti University of Medical Sciences	False
+CHEMBL38	Vitamin A acid	NCT07205237	NA	COMPLETED	Cardiovascular (CV) Risk	Maria Clara Rocha	False
+CHEMBL38	Vitamin A acid	NCT00729183	PHASE3	COMPLETED	Osteoporosis	Merck Sharp & Dohme LLC	True
+CHEMBL38	Vitamin A acid	NCT03913156	NA	COMPLETED	PKU	Nutricia Research	False
+CHEMBL38	Vitamin A acid	NCT00471237	PHASE2	TERMINATED	Osteoporosis	GlaxoSmithKline	True
+CHEMBL38	Vitamin A acid	NCT05489094	PHASE4	UNKNOWN	Iron-deficiency	Danone Specialized Nutrition Indonesia	False
+CHEMBL38	Vitamin A acid	NCT06312605	PHASE4	UNKNOWN	Gingival Pigmentation	Ain Shams University	False
+CHEMBL38	Vitamin A acid	NCT02369822	PHASE2	UNKNOWN	Idiopathic Epilepsy	Ain Shams University	False
+CHEMBL38	Vitamin A acid	NCT06264570	NA	RECRUITING	Hyperhomocysteinemia	S.LAB (SOLOWAYS)	False
+CHEMBL38	Vitamin A acid	NCT01488656	NA	COMPLETED	Inflammation	Utah State University	False
+CHEMBL38	Vitamin A acid	NCT01999088	PHASE4	COMPLETED	Low Risk for Cardiovascular Disease	Instituto de Investigación Hospital Universitario La Paz	False
+CHEMBL38	Vitamin A acid	NCT06351033		UNKNOWN	Maculopathy	Alba Di Pardo	False
+CHEMBL38	Vitamin A acid	NCT01080352	PHASE2	COMPLETED	Prostatic Neoplasms	Copenhagen University Hospital at Herlev	False
+CHEMBL38	Vitamin A acid	NCT03644355	NA	COMPLETED	Obesity, Childhood; Asthma in Children; Inflammatory Response; Metabolic Syndrome; Nutrition Poor; Physical Activity; Behavior, Eating; Molecular Biology, Restriction Fragment Length Polymorphisms; Maternal Exposure; Genetic Change	Louisiana State University Health Sciences Center in New Orleans	False
+CHEMBL38	Vitamin A acid	NCT04235426	PHASE1	UNKNOWN	Carpal Tunnel	Dalia Salah Saif	False
+CHEMBL38	Vitamin A acid	NCT02067026	NA	COMPLETED	Overweight; Healthy Subjects	Fondazione Edmund Mach	False
+CHEMBL38	Vitamin A acid	NCT04731948	NA	COMPLETED	Healthy	University of Ulster	False
+CHEMBL38	Vitamin A acid	NCT00000116	PHASE3	COMPLETED	Retinitis Pigmentosa	Carol Weigel DiFranco	False
+CHEMBL38	Vitamin A acid	NCT00423384	PHASE2; PHASE3	UNKNOWN	Renal Transplant	Smerud Medical Research International AS	False
+CHEMBL38	Vitamin A acid	NCT06046755	NA	UNKNOWN	Breast Cancer; Obesity; Weight Change, Body; Epigenetic Disorder	Hospital Clinico Universitario de Santiago	False
+CHEMBL38	Vitamin A acid	NCT02876315	NA	COMPLETED	Vitamin D Deficiency	Oregon State University	False
+CHEMBL38	Vitamin A acid	NCT07410455	PHASE2	NOT_YET_RECRUITING	Lowe Syndrome	Can-Fite BioPharma	False
+CHEMBL38	Vitamin A acid	NCT00303485	PHASE4	COMPLETED	Post Menopausal Osteoporosis	Hoffmann-La Roche	True
+CHEMBL38	Vitamin A acid	NCT07191704		COMPLETED	PFIC - Progressive Familial Intrahepatic Cholestasis	Ipsen	False
+CHEMBL38	Vitamin A acid	NCT01739855	PHASE2	COMPLETED	Evaluation of Expected Bone Loss After Bariatric Surgery; Possible Prevention of Bone Loss After Surgery by Calcium and Vitamin D Supplementation	Medical University of Vienna	False
+CHEMBL38	Vitamin A acid	NCT05453708		COMPLETED	Autism; Autism Spectrum Disorder; Autistic Disorder; Pregnancy Related; Diet, Healthy; Diet; Deficiency; Folate Deficiency; Folic Acid Deficiency; Folic Acid Overdose	Walden University	False
+CHEMBL38	Vitamin A acid	NCT05275608	NA	RECRUITING	Diabetes Mellitus, Type 2; Non-alcoholic Fatty Liver Disease; Obesity; Metabolic Syndrome	Azienda Ospedaliero Universitaria Maggiore della Carita	False
+CHEMBL38	Vitamin A acid	NCT04076176	NA	COMPLETED	Phenylketonurias	Vitaflo International, Ltd	False
+CHEMBL38	Vitamin A acid	NCT03659058	NA	COMPLETED	Fibrosis, Liver	Zagazig University	False
+CHEMBL38	Vitamin A acid	NCT02080858	PHASE1	COMPLETED	Atrial Fibrillation; Acute Coronary Syndrome	Medical University of Vienna	False
+CHEMBL38	Vitamin A acid	NCT01772758	PHASE2	COMPLETED	Cystic Fibrosis	Augusta University	True
+CHEMBL38	Vitamin A acid	NCT05315843		COMPLETED	Vitamin B 12 Deficiency	University Children's Hospital, Zurich	False
+CHEMBL38	Vitamin A acid	NCT06746389	PHASE2	COMPLETED	Vitamin D Effects on MPS; Placebo Effects on MPS	University of Exeter	False
+CHEMBL38	Vitamin A acid	NCT03837925	PHASE3	COMPLETED	Cardiovascular Diseases	French Cardiology Society	False
+CHEMBL38	Vitamin A acid	NCT03313076	PHASE2	TERMINATED	Chronic Pain Following Thermal Burn Injury	University of North Carolina, Chapel Hill	True
+CHEMBL38	Vitamin A acid	NCT04076592		COMPLETED	Breastfeeding; Dietary Intake; Health; Body Composition; Intestinal Microbiota	University of Ljubljana	False
+CHEMBL38	Vitamin A acid	NCT02087033	NA	TERMINATED	Arrhythmia	IRCCS Policlinico S. Donato	False
+CHEMBL38	Vitamin A acid	NCT04177667	NA	COMPLETED	Male Infertility	University of Roma La Sapienza	False
+CHEMBL38	Vitamin A acid	NCT01917032	PHASE3	UNKNOWN	Malnutrition	CES University	False
+CHEMBL38	Vitamin A acid	NCT05415254	NA	UNKNOWN	COVID-19; Vitamin D Deficiency	RenJi Hospital	False
+CHEMBL38	Vitamin A acid	NCT06154707	PHASE3	UNKNOWN	Sarcopenia; Osteoporosis; Denosumab	Union Hospital, Tongji Medical College, Huazhong University of Science and Technology	False
+CHEMBL38	Vitamin A acid	NCT00868907	PHASE1	COMPLETED	Healthy	Warner Chilcott	False
+CHEMBL38	Vitamin A acid	NCT05285293	NA	UNKNOWN	Intrabony Periodontal Defect	Cairo University	False
+CHEMBL38	Vitamin A acid	NCT05559619	NA	COMPLETED	Osteoporosis, Postmenopausal	Cairo University	False
+CHEMBL38	Vitamin A acid	NCT00668200	PHASE4	COMPLETED	Paget's Disease of the Bone; Hypocalcemia	Novartis Pharmaceuticals	True
+CHEMBL38	Vitamin A acid	NCT07506187	NA	COMPLETED	Colorectal Cancer; Malnutrition or Risk of Malnutrition; Colorectal Surgery	University of Cadiz	False
+CHEMBL38	Vitamin A acid	NCT05804071	PHASE4	UNKNOWN	Iron Deficiency Anemia of Pregnancy; Iron Storage Disease	Qianfoshan Hospital	False
+CHEMBL38	Vitamin A acid	NCT04694898	NA	COMPLETED	Stunting; Dietary Deficiency; Anemia	University Ghent	False
+CHEMBL38	Vitamin A acid	NCT01290250	NA	COMPLETED	Overweight; Obesity	The Coca-Cola Company	False
+CHEMBL38	Vitamin A acid	NCT03935048	NA	ACTIVE_NOT_RECRUITING	Metabolic Syndrome	University of Arkansas, Fayetteville	False
+CHEMBL38	Vitamin A acid	NCT06247813	PHASE2	RECRUITING	Chronic Pain	Ethos Research & Development	False
+CHEMBL38	Vitamin A acid	NCT01730313	PHASE2	WITHDRAWN	Nodding Syndrome	Centers for Disease Control and Prevention	False
+CHEMBL38	Vitamin A acid	NCT06760455	PHASE1	RECRUITING	Healthy Participants	Chengdu Brilliant Pharmaceutical Co., Ltd.	False
+CHEMBL38	Vitamin A acid	NCT06842368	NA	RECRUITING	Immediate Implant Placement	Cairo University	False
+CHEMBL38	Vitamin A acid	NCT00671697	PHASE1	COMPLETED	Myelodysplastic Syndromes and Leukemia, Myeloid, Acute	Washington University School of Medicine	False
+CHEMBL38	Vitamin A acid	NCT06307808		UNKNOWN	HBV; Kidney Transplantation; Liver Transplantation	University Hospital, Grenoble	False
+CHEMBL38	Vitamin A acid	NCT06405204	PHASE3	UNKNOWN	IVF	Beni-Suef University	False
+CHEMBL38	Vitamin A acid	NCT06544915	NA	UNKNOWN	Blood Pressure, Body Composition, Immune Function	Skidmore College	False
+CHEMBL38	Vitamin A acid	NCT06813274	PHASE2	NOT_YET_RECRUITING	Diabetes Mellitus; Diabetic Retinopathy; Cognitive Impairment; Neurovascular Coupling	Hejiang Ye	False
+CHEMBL38	Vitamin A acid	NCT06047158		UNKNOWN	Fish Oils; Perfusion; Complications; Stomach Neoplasms; Nutrition Aspect of Cancer; Chemotherapy Effect; Immunisation Reaction	The Affiliated Hospital of Qingdao University	False
+CHEMBL38	Vitamin A acid	NCT02387164	PHASE2	TERMINATED	Diabetes Mellitus, Type 1; Prediabetic State	Lund University	True
+CHEMBL38	Vitamin A acid	NCT04810728	PHASE3	COMPLETED	Covid19	Baiturrahmah University	False
+CHEMBL38	Vitamin A acid	NCT07272265	NA	COMPLETED	Hepatocellular Carcinoma (HCC)	Sun Yat-sen University	False
+CHEMBL38	Vitamin A acid	NCT07320183	NA	NOT_YET_RECRUITING	HPV - Anogenital Human Papilloma Virus Infection; Infertilities	Fondazione Policlinico Universitario Agostino Gemelli IRCCS	False
+CHEMBL38	Vitamin A acid	NCT03421483	NA	UNKNOWN	Folate	The Hospital for Sick Children	False
+CHEMBL38	Vitamin A acid	NCT01052051	PHASE2; PHASE3	COMPLETED	Cancer	Creighton University	False
+CHEMBL38	Vitamin A acid	NCT07393737	NA	ENROLLING_BY_INVITATION	Fear Anxiety	Tarsus University	False
+CHEMBL38	Vitamin A acid	NCT06094023		UNKNOWN	Dietary Assessment	University Ghent	False
+CHEMBL38	Vitamin A acid	NCT00284427	PHASE2	COMPLETED	Ovarian Cancer; Cervical Cancer; Uterine Cancer	Jeanne Drisko, MD, CNS, FACN	False
+CHEMBL38	Vitamin A acid	NCT01201005	NA	COMPLETED	Biochemical Cobalamin Status; Motor Neurodevelopment	Haukeland University Hospital	False
+CHEMBL38	trans-Retinoic acid	NCT06134570		UNKNOWN	Breast Cancer	Sohag University	False
+CHEMBL38	trans-Retinoic acid	NCT03061656	PHASE2	UNKNOWN	High Risk Neuroblastoma	Samsung Medical Center	False
+CHEMBL38	trans-Retinoic acid	NCT00413205	PHASE2	COMPLETED	Emphysema	Hoffmann-La Roche	False
+CHEMBL38	trans-Retinoic acid	NCT01184274	PHASE1	COMPLETED	Leukemia; Solid Tumours	NCIC Clinical Trials Group	False
+CHEMBL38	trans-Retinoic acid	NCT01404702	PHASE1	TERMINATED	Neuroblastoma	University of Alabama at Birmingham	False
+CHEMBL38	trans-Retinoic acid	NCT06698263	PHASE4	NOT_YET_RECRUITING	Men with Infertility	University Hospital, Strasbourg, France	False
+CHEMBL38	trans-Retinoic acid	NCT00025038	PHASE2	COMPLETED	Juvenile Myelomonocytic Leukemia	National Cancer Institute (NCI)	False
+CHEMBL38	trans-Retinoic acid	NCT04417348	NA	COMPLETED	Melasma	Universidad Autonoma de San Luis Potosí	False
+CHEMBL38	trans-Retinoic acid	NCT01647763	NA	UNKNOWN	Hemorrhoids	Cantonal Hospital of St. Gallen	False
+CHEMBL38	trans-Retinoic acid	NCT03491267	EARLY_PHASE1	COMPLETED	Central Centrifugal Cicatricial Alopecia (CCCA)	Johns Hopkins University	True
+CHEMBL38	trans-Retinoic acid	NCT03753867	PHASE1	WITHDRAWN	HIV Infections	Ottawa Hospital Research Institute	False
+CHEMBL38	trans-Retinoic acid	NCT01404130	PHASE4	COMPLETED	Acne Vulgaris	University of Aberdeen	False
+CHEMBL38	trans-Retinoic acid	NCT05316675	PHASE4	UNKNOWN	Acne Vulgaris	Assiut University	False
+CHEMBL38	trans-Retinoic acid	NCT00867178	PHASE1	COMPLETED	Medulloblastoma; Pineoblastoma; Supratentorial Embryonal Tumor, Not Otherwise Specified	National Cancer Institute (NCI)	False
+CHEMBL38	trans-Retinoic acid	NCT06188429		UNKNOWN	ASD	Hua Wei	False
+CHEMBL38	trans-Retinoic acid	NCT00167219	PHASE1; PHASE2	COMPLETED	Juvenile Myelomonocytic Leukemia	Masonic Cancer Center, University of Minnesota	True
+CHEMBL38	trans-Retinoic acid	NCT04660916		COMPLETED	Isotretinoin; Nail Abnormality	Sinan Özçelik	False
+CHEMBL38	ATRA	NCT00378365	PHASE3	UNKNOWN	Leukemia, Promyelocytic, Acute	Assistance Publique - Hôpitaux de Paris	False
+CHEMBL38	ATRA	NCT00439673	PHASE2	COMPLETED	Myelodysplastic Syndromes	Gruppo Italiano Malattie EMatologiche dell'Adulto	True
+CHEMBL38	ATRA	NCT03525964	NA	COMPLETED	Achilles Tendon Rupture	Central Jutland Regional Hospital	False
+CHEMBL38	ATRA	NCT04263493	NA	COMPLETED	Achilles Tendon Rupture	Bispebjerg Hospital	False
+CHEMBL38	ATRA	NCT04562818		COMPLETED	Promyelocytic Leukemia, Acute	Instituto Nacional de Cancerologia de Mexico	False
+CHEMBL38	ATRA	NCT00589082	PHASE3	COMPLETED	AML; Elderly	Gruppo Italiano Malattie EMatologiche dell'Adulto	False
+CHEMBL38	ATRA	NCT02938858		ACTIVE_NOT_RECRUITING	Acute Promyelocytic Leukemia	Groupe Francophone des Myelodysplasies	False
+CHEMBL38	ATRA	NCT05654194	PHASE3	COMPLETED	Acute Myeloid Leukemia	The First Affiliated Hospital of Soochow University	False
+CHEMBL38	ATRA	NCT07391553		NOT_YET_RECRUITING	Achilles Tendon Rupture	Liverpool University Hospitals NHS Foundation Trust	False
+CHEMBL38	ATRA	NCT02760875		COMPLETED	Achilles Tendon Rupture	Copenhagen University Hospital, Hvidovre	False
+CHEMBL38	ATRA	NCT03096496		UNKNOWN	Acute Promyelocytic Leukemia	Gruppo Italiano Malattie EMatologiche dell'Adulto	False
+CHEMBL38	ATRA	NCT01058798		COMPLETED	Neuroblastoma	National Taiwan University Hospital	False
+CHEMBL38	ATRA	NCT03525314		COMPLETED	Achilles Tendon Rupture	Hvidovre University Hospital	False
+CHEMBL38	Renova	NCT07361302	PHASE3	RECRUITING	Acute Ischemic Stroke	Boehringer Ingelheim	False
+CHEMBL38	Renova	NCT01814852	NA	COMPLETED	Vasculogenic Erectile Dysfunction	Initia	False
+CHEMBL38	Renova	NCT00677235	NA	COMPLETED	Stenosis of Vascular Prosthetic Devices, Implants and Grafts	C. R. Bard	True
+CHEMBL38	Renova	NCT02746094	NA	WITHDRAWN	Erectile Dysfunction	Centre Hospitalier Universitaire de Nīmes	False
+CHEMBL38	Renova	NCT02304679	NA	COMPLETED	Erectile Dysfunction	Centre Hospitalier Universitaire de Nīmes	False
+CHEMBL38	Renova	NCT01811797	NA	TERMINATED	Vasculogenic Erectile Dysfunction	Initia	False
+CHEMBL38	Renova	NCT00170716	PHASE3	UNKNOWN	Stroke; Hemiparesis	Northstar Neuroscience	False
+CHEMBL38	Renova	NCT04711369	NA	ACTIVE_NOT_RECRUITING	Vulvodynia	Medical University of Graz	False
+CHEMBL38	Renova	NCT04273945	PHASE3	ACTIVE_NOT_RECRUITING	Pulmonary Arterial Hypertension	Actelion	False
+CHEMBL38	Renova	NCT02005731		COMPLETED	Vasculogenic Erectile Dysfunction	Initia	False
+CHEMBL38	Renova	NCT03596671	NA	COMPLETED	Treatment of Patients Suffering From Overactive Bladder (OAB)	BlueWind Medical	True
+CHEMBL38	Renova	NCT01373567	PHASE4	COMPLETED	Plaque Psoriasis	Piramal Enterprises Limited	False
+CHEMBL38	Renova	NCT05599919	PHASE3	COMPLETED	SARS-CoV-2 Infection	Sanotize Research and Development corp.	False
+CHEMBL38	Renova	NCT05506319	PHASE4	COMPLETED	Septic Shock	Hospital Nossa Senhora da Conceicao	False
+CHEMBL38	Renova	NCT07257848		RECRUITING	Psychological Distress	Universidad de las Americas - Quito	False
+CHEMBL38	Renova	NCT01283464	PHASE2	COMPLETED	Photodamaged Skin; Wrinkles	Johns Hopkins University	True
+CHEMBL38	Renova	NCT02152683	NA	TERMINATED	Vasculogenic Erectile Dysfunction	Initia	False
+CHEMBL38	Renova	NCT03019094	NA	WITHDRAWN	Overactive Bladder	BlueWind Medical	False
+CHEMBL38	Renova	NCT00380042	PHASE1	TERMINATED	Depression; Depressive Disorder	Northstar Neuroscience	False
+CHEMBL38	Renova	NCT04697563	NA	COMPLETED	Lichen Sclerosus Et Atrophicus; Lichen Planus	Medical University of Graz	False
+CHEMBL38	Renova	NCT03360448	PHASE3	WITHDRAWN	Heart Failure	Renova Therapeutics	False
+CHEMBL38	Renova	NCT00866918	PHASE3	COMPLETED	Childhood Acute Promyelocytic Leukemia With PML-RARA; Myeloid Neoplasm	Children's Oncology Group	True
+CHEMBL38	Renova	NCT01409161	PHASE2	RECRUITING	Acute Promyelocytic Leukemia With PML-RARA	M.D. Anderson Cancer Center	False
+CHEMBL38	Renova	NCT03067987	NA	COMPLETED	Vasculogenic Erectile Dysfunction	University of Miami	True
+CHEMBL38	Renova	NCT07243704	PHASE3	NOT_YET_RECRUITING	Intracerebral Haemorrhage	Christian Medical College and Hospital, Ludhiana, India	False
+CHEMBL38	Renova	NCT00787059	PHASE1; PHASE2	COMPLETED	Congestive Heart Failure	Hammond, H. Kirk, M.D.	False
+CHEMBL38	all-trans-Vitamin A acid	NCT05791370	NA	COMPLETED	Diet; Healthy	Malaysia Palm Oil Board	False
+CHEMBL38	all-trans-Vitamin A acid	NCT05803811	NA	COMPLETED	Quality of Life	dsm-firmenich Switzerland AG	False
+CHEMBL38	all-trans-Vitamin A acid	NCT04511052	PHASE1; PHASE2	COMPLETED	Carotenoid Status; Gut Microbiome; Skin Health	McGill University	False
+CHEMBL38	all-trans-Vitamin A acid	NCT04586348	PHASE4	UNKNOWN	Pregnancy Related; Neurodevelopmental Disorders; Nutrition Disorder, Fetal	South Australian Health and Medical Research Institute	False
+CHEMBL38	all-trans-Vitamin A acid	NCT03285217	NA	COMPLETED	Sarcopenia; Cirrhosis; Malnutrition	Instituto Aragones de Ciencias de la Salud	False
+CHEMBL38	all-trans-Vitamin A acid	NCT00002701	PHASE3	UNKNOWN	Leukemia	European Organisation for Research and Treatment of Cancer - EORTC	False
+CHEMBL38	all-trans-Vitamin A acid	NCT05841303	PHASE4	UNKNOWN	Thin Gingival Biotype	Cairo University	False
+CHEMBL38	all-trans-Vitamin A acid	NCT00195156	PHASE1	TERMINATED	Solid Tumor Malignancies	Weill Medical College of Cornell University	False
+CHEMBL38	all-trans-Vitamin A acid	NCT06371274	NA	RECRUITING	Triple-negative Breast Cancer	First Affiliated Hospital of Zhejiang University	False
+CHEMBL38	all-trans-Vitamin A acid	NCT00974480	NA	COMPLETED	Skin Aging	Cosmetique Active International	True
+CHEMBL38	all-trans-Vitamin A acid	NCT04897490		RECRUITING	Promyelocytic Leukemia, Adult Acute	Grupo Argentino de Tratamiento de la Leucemia Aguda	False
+CHEMBL38	all-trans-Vitamin A acid	NCT07348107	PHASE1	NOT_YET_RECRUITING	Advanced Pancreatic Ductal Adenocarcinoma	Daniel Breadner	False
+CHEMBL38	all-trans-Vitamin A acid	NCT00334789	PHASE1	COMPLETED	Adult Solid Neoplasm	National Cancer Institute (NCI)	False
+CHEMBL38	all-trans-Vitamin A acid	NCT05881265	PHASE2	RECRUITING	APL	Shanghai Jiao Tong University School of Medicine	False
+CHEMBL38	all-trans-Vitamin A acid	NCT00175812	PHASE1; PHASE2	COMPLETED	Acute Myelogenous Leukemia	University of Bergen	False
+CHEMBL38	Cordes vas	NCT05827081	PHASE3	RECRUITING	Early Breast Cancer	Novartis Pharmaceuticals	False
+CHEMBL38	Retin A	NCT03427554	EARLY_PHASE1	COMPLETED	Acne Vulgaris	Sun Pharmaceutical Industries, Inc.	False
+CHEMBL38	Retin A	NCT01135069	PHASE3	COMPLETED	Acne	Spear Pharmaceuticals	True
+CHEMBL38	all-trans-Tretinoin	NCT02731105	PHASE4	COMPLETED	Acne Vulgaris	GWT-TUD GmbH	False
+CHEMBL38	all-trans-Tretinoin	NCT06685328	NA	ENROLLING_BY_INVITATION	Macular Hole; Macular Hole Surgery; Idiopathic Macular Hole; Macular Hole of Left Eye (Disorder); Macular Hole of Right Eye (Disorder)	Jie Zhong	False
+CHEMBL38	all-trans-Tretinoin	NCT01335581	NA	COMPLETED	Refractory Mixed Type Melasma	ConBio, a Cynosure Company	True
+CHEMBL38	all-trans-Tretinoin	NCT00492856	PHASE3	COMPLETED	Leukemia	SWOG Cancer Research Network	True
+CHEMBL38	all-trans-Tretinoin	NCT02932306	PHASE3	COMPLETED	Acne	Bausch Health Americas, Inc.	True
+CHEMBL38	all-trans-Tretinoin	NCT02965456	PHASE3	COMPLETED	Acne	Bausch Health Americas, Inc.	True
+CHEMBL38	all-trans-Tretinoin	NCT06780644	NA	NOT_YET_RECRUITING	Melasma	Indonesia University	False
+CHEMBL38	all-trans-Tretinoin	NCT00005863	PHASE3	COMPLETED	Leukemia; Myelodysplastic Syndromes; Myelodysplastic/Myeloproliferative Neoplasms	Medical Research Council	False
+CHEMBL38	all-trans-Tretinoin	NCT06925386	PHASE2	NOT_YET_RECRUITING	Acne Vulgaris	Universitas Padjadjaran	False
+CHEMBL38	all-trans-Tretinoin	NCT00717652	PHASE2; PHASE3	SUSPENDED	Melasma	Azidus Brasil	False
+CHEMBL38	all-trans-Tretinoin	NCT02249767	PHASE3	COMPLETED	Acne	Spear Pharmaceuticals	True
+CHEMBL38	all-trans-Tretinoin	NCT00669071	PHASE4	TERMINATED	Melasma	Galderma R&D	True
+CHEMBL38	all-trans-Tretinoin	NCT04658173	NA	UNKNOWN	Anesthesia	Tianjin Nankai Hospital	False
+CHEMBL38	all-trans-Tretinoin	NCT01243450	PHASE3	COMPLETED	Acne	Spear Pharmaceuticals	True
+CHEMBL38	all-trans-Tretinoin	NCT02620813	EARLY_PHASE1	COMPLETED	Acne Vulgaris	University of California, Davis	False
+CHEMBL38	all-trans-Tretinoin	NCT07345507	NA	COMPLETED	Melasma	Jinnah Postgraduate Medical Centre	False
+CHEMBL38	all-trans-Tretinoin	NCT07469228	PHASE1	COMPLETED	Acne Vulgaris	Sun Pharmaceutical Industries, Inc.	False
+CHEMBL38	all-trans-Tretinoin	NCT05461755	PHASE2	COMPLETED	Striae Distensae	Merete Haedersdal	False
+CHEMBL38	all-trans-Tretinoin	NCT06181838	NA	UNKNOWN	Acne Vulgaris; Quality of Life	Indonesia University	False
+CHEMBL38	all-trans-Tretinoin	NCT00551460	PHASE2	COMPLETED	Leukemia	SWOG Cancer Research Network	True
+CHEMBL38	all-trans-Tretinoin	NCT00962767	PHASE3	COMPLETED	Leukemia, Myelocytic, Acute	Wyeth is now a wholly owned subsidiary of Pfizer	False
+CHEMBL38	all-trans-Tretinoin	NCT03761784	PHASE3	COMPLETED	Acne Vulgaris	Sol-Gel Technologies, Ltd.	True
+CHEMBL38	all-trans-Tretinoin	NCT00017225	PHASE2	COMPLETED	Neuroblastoma	German Society for Pediatric Oncology and Hematology GPOH gGmbH	False
+CHEMBL38	all-trans-Tretinoin	NCT00817063	PHASE3	COMPLETED	Eczema	Stiefel, a GSK Company	True
+CHEMBL38	all-trans-Tretinoin	NCT01422785	PHASE4	UNKNOWN	Acne Vulgaris	Zeichner, Joshua, M.D.	False
+CHEMBL38	all-trans-Tretinoin	NCT00005823	PHASE3	COMPLETED	Leukemia; Myelodysplastic Syndromes; Myelodysplastic/Myeloproliferative Neoplasms	Leukemia Research Fund	False
+CHEMBL38	all-trans-Tretinoin	NCT02551718	NA	COMPLETED	Recurrent Acute Leukemia of Ambiguous Lineage; Recurrent Acute Lymphoblastic Leukemia; Recurrent Acute Myeloid Leukemia; Refractory Acute Lymphoblastic Leukemia; Refractory Acute Myeloid Leukemia; Refractory Acute Leukemia of Ambiguous Lineage	University of Washington	True
+CHEMBL38	all-trans-Tretinoin	NCT01231854	PHASE4	TERMINATED	Atopic Dermatitis	Technische Universität Dresden	False
+CHEMBL38	all-trans-Tretinoin	NCT07779811	PHASE2	NOT_YET_RECRUITING	Epidermal Melasma; Facial Hyperpigmentation	Combined Military Hospital, Pakistan	False
+CHEMBL38	all-trans-Tretinoin	NCT00514293	PHASE2	UNKNOWN	Lung Cancer	Raghu Nandan, M.D., Inc	False
+CHEMBL38	all-trans-Tretinoin	NCT07696806	PHASE4	ENROLLING_BY_INVITATION	Melasma (Facial Melasma)	Sameh Sarsik	False
+CHEMBL38	all-trans-Tretinoin	NCT00838812	PHASE3	COMPLETED	Acne Vulgaris	Igefarma Laboratorios S.A.	False
+CHEMBL38	all-trans-Tretinoin	NCT00519675	PHASE3	COMPLETED	Eczema	Basilea Pharmaceutica	False
+CHEMBL38	all-trans-Tretinoin	NCT02788201	PHASE2	COMPLETED	Urothelial Carcinoma; Bladder Cancer; Urinary Bladder Neoplasms	National Cancer Institute (NCI)	True
+CHEMBL38	all-trans-Tretinoin	NCT00842907	PHASE2	UNKNOWN	Photodamage; Photoaging	Federal University of São Paulo	False
+CHEMBL38	beta-Ra	NCT01534871	NA	COMPLETED	Rheumatoid Arthritis	Nova Scotia Health Authority	False
+CHEMBL38	beta-Ra	NCT01284569	PHASE1; PHASE2	COMPLETED	Rheumatoid Arthritis	Ablynx, a Sanofi company	False
+CHEMBL38	beta-Ra	NCT00554606	PHASE2	COMPLETED	Rheumatoid Arthritis	Novartis	True
+CHEMBL38	beta-Ra	NCT05417854	NA	COMPLETED	Rheumatoid Arthritis	SecondWave Systems Inc.	False
+CHEMBL38	beta-Ra	NCT05815433	NA	COMPLETED	Microbial Colonization	University of Calgary	False
+CHEMBL38	beta-Ra	NCT02582567	NA	COMPLETED	Pregnancy	Universidad de Granada	False
+CHEMBL38	beta-Ra	NCT02727764	PHASE1	UNKNOWN	Arthritis, Rheumatoid; Osteo Arthritis	Arthrogen	False
+CHEMBL38	beta-Ra	NCT07524244	NA	RECRUITING	Rheumatoid Arthritis (RA); Crohn's Disease (CD); Ulcerative Colitis (UC)	Fuller Research Foundation	False
+CHEMBL38	beta-Ra	NCT05253638	NA	UNKNOWN	Systemic Lupus Erythematosus	Assiut University	False
+CHEMBL38	beta-Ra	NCT07325435	PHASE4	ACTIVE_NOT_RECRUITING	Type 2 Diabetes (T2DM)	MaryAnn Banerji	False
+CHEMBL38	beta-Ra	NCT03017352	PHASE2	COMPLETED	Diabetes Mellitus, Type 1	Filip Krag Knop	False
+CHEMBL38	beta-Ra	NCT07082309	NA	RECRUITING	Healthy Participants	University of Exeter	False
+CHEMBL38	beta-Ra	NCT02910076	PHASE1; PHASE2	UNKNOWN	Diabetes Type Two	Hadassah Medical Organization	False
+CHEMBL38	beta-Ra	NCT06913881		COMPLETED	Type 2 Diabetes Mellitus (T2DM)	Karolinska Institutet	False
+CHEMBL38	beta-Ra	NCT07349264	NA	COMPLETED	Joint; Joint Diseases	NXTVSION SDN. BHD.	False
+CHEMBL38	beta-Ra	NCT07611552	NA	NOT_YET_RECRUITING	Obesity & Overweight	Huazhong University of Science and Technology	False
+CHEMBL38	beta-Ra	NCT07543302	NA	ENROLLING_BY_INVITATION	Duchenne Muscular Dystrophy (DMD)	taVNS AB	False
+CHEMBL38	beta-Ra	NCT06169137	NA	COMPLETED	Obesity; Body Weight	National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)	False
+CHEMBL38	beta-Ra	NCT04603742	PHASE2	WITHDRAWN	Covid19; Cytokine Storm; Mechanical Ventilation Complication	Weill Medical College of Cornell University	False
+CHEMBL38	beta-Ra	NCT07412418		NOT_YET_RECRUITING	Pulmonary Embolism (Diagnosis); Respiratory Failure With Hypoxia; Chronic Obstructive Pulmonary Disease (COPD)	I.M. Sechenov First Moscow State Medical University	False
+CHEMBL38	beta-Ra	NCT02400229	NA	COMPLETED	Coronary Artery Disease	Charite University, Berlin, Germany	False
+CHEMBL38	beta-Ra	NCT04383197	NA	UNKNOWN	Type 2 Diabetes	University of Copenhagen	False
+CHEMBL38	beta-Ra	NCT02443155	PHASE2	COMPLETED	Diabetes; Diabetes Mellitus, Type 1	Novo Nordisk A/S	True
+CHEMBL38	beta-Ra	NCT03653338	PHASE1; PHASE2	RECRUITING	Sickle Cell Anemia; Beta-thalassemia Major; Diamond-blackfan Anemia	Paul Szabolcs	False
+CHEMBL38	beta-Ra	NCT00664716	PHASE2	COMPLETED	Rheumatoid Arthritis	Biogen	False
+CHEMBL38	beta-Ra	NCT04474639		COMPLETED	Diastolic Function	I.M. Sechenov First Moscow State Medical University	False
+CHEMBL38	beta-Ra	NCT02401958	PHASE4	COMPLETED	Rheumatoid Arthritis	Federal University of São Paulo	False
+CHEMBL38	beta-Ra	NCT05014685	PHASE4	UNKNOWN	Helicobacter Pylori Infection	Shanghai Zhongshan Hospital	False
+CHEMBL38	beta-Ra	NCT07204834	NA	ENROLLING_BY_INVITATION	Heart Failure	Universidad de Granada	False
+CHEMBL38	beta-Ra	NCT00261443	PHASE4	COMPLETED	Bipolar Disorder	Otsuka Pharmaceutical Development & Commercialization, Inc.	True
+CHEMBL38	beta-Ra	NCT07099417		RECRUITING	Valvular Heart Disease Stenosis and Regurgitation; Valvular Heart Disease	I.M. Sechenov First Moscow State Medical University	False
+CHEMBL38	beta-Ra	NCT00744224	NA	COMPLETED	Glucocorticoid-induced Glucometabolic Abnormalities; Glucocorticoid-induced Beta-cell Dysfunction	Amsterdam UMC, location VUmc	False
+CHEMBL38	beta-Ra	NCT02741362	PHASE1	TERMINATED	Systemic Lupus Erythematosus; Rheumatoid Arthritis; Sharp's Syndrome	Arkansas Heart Hospital	False
+CHEMBL38	beta-Ra	NCT04268862		UNKNOWN	Pathophysiology; Metabolic Glucose Disorders	Dasman Diabetes Institute	False
+CHEMBL38	beta-Ra	NCT02717403	PHASE2; PHASE3	COMPLETED	Chronic Disease Management; Rheumatoid Arthritis	M.D. Anderson Cancer Center	False
+CHEMBL38	beta-Ra	NCT03445715	PHASE1	UNKNOWN	Rheumatoid Arthritis	Arthrogen	False
+CHEMBL38	beta-Ra	NCT03458559	PHASE3	UNKNOWN	Prostate Cancer Metastatic to Bone	Amsterdam UMC, location VUmc	False
+CHEMBL38	beta-Ra	NCT00640016	PHASE2	TERMINATED	Asthma	MedImmune LLC	True
+CHEMBL38	beta-Ra	NCT01985334	PHASE4	COMPLETED	COPD	Novartis Pharmaceuticals	True
+CHEMBL38	beta-Ra	NCT04264494	NA	UNKNOWN	RA - Rheumatoid Arthritis	Dalia Salah Saif	False
+CHEMBL38	beta-Ra	NCT00619905	PHASE1; PHASE2	COMPLETED	Rheumatoid Arthritis	Novartis	False
+CHEMBL38	beta-Ra	NCT05061732	PHASE4	UNKNOWN	Helicobacter Pylori Infection	Shanghai Zhongshan Hospital	False
+CHEMBL38	beta-Ra	NCT05198271	NA	UNKNOWN	Rheumatoid Arthritis	University Hospital, Montpellier	False
+CHEMBL38	beta-Ra	NCT02799472	PHASE2	COMPLETED	Arthritis, Rheumatoid	GlaxoSmithKline	True
+CHEMBL38	beta-Ra	NCT04530305		UNKNOWN	Rheumatoid Arthritis	University Hospital, Montpellier	False
+CHEMBL38	beta-Ra	NCT02878031	PHASE4	COMPLETED	Pneumonia	Malaria Consortium	False
+CHEMBL38	beta-Ra	NCT03769337		UNKNOWN	Prosthetic Joint Infections	I.R.C.C.S Ospedale Galeazzi-Sant'Ambrogio	False
+CHEMBL38	beta-Ra	NCT00399282	PHASE1	COMPLETED	Rheumatoid Arthritis	Shahid Beheshti University of Medical Sciences	False
+CHEMBL38	beta-Ra	NCT01729299	NA	UNKNOWN	Diabetes	David Dalessio	False
+CHEMBL38	beta-Ra	NCT02058823	PHASE4	TERMINATED	Hypoxia; Sleep Apnea; Obstructive Sleep Apnea	University Hospital, Grenoble	False
+CHEMBL38	beta-Ra	NCT00664573	PHASE2	TERMINATED	Rheumatoid Arthritis	Biogen	False
+CHEMBL38	beta-Ra	NCT04493762		UNKNOWN	Psoriasis Vulgaris; Rheumatoid Arthritis; Fibrosis, Liver	The University of Hong Kong	False
+CHEMBL38	beta-Ra	NCT01698242	PHASE3	COMPLETED	Heart Failure, Congestive; Cardiovascular Diseases; Heart Diseases	Lynda Powell, PhD, MEd	False
+CHEMBL38	beta-Ra	NCT01791205		COMPLETED	Rheumatoid Arthritis	Hoffmann-La Roche	True
+CHEMBL38	beta-Ra	NCT06177184	NA	RECRUITING	Microbial Colonization	University of Calgary	False
+CHEMBL38	beta-Ra	NCT04307212	NA	COMPLETED	Overweight	USDA Grand Forks Human Nutrition Research Center	False
+CHEMBL38	beta-Ra	NCT02885636	PHASE3	COMPLETED	Congestive Heart Failure; Heart Failure, Left-Sided; Left-Sided Heart Failure	Mayo Clinic	True
+CHEMBL38	beta-Ra	NCT02769767		UNKNOWN	Multiple Sclerosis, Relapsing-Remitting	Instituto Jalisciense de Cancerologia	False
+CHEMBL38	beta-Ra	NCT03326401		COMPLETED	Age Related Macular Degeneration	Hacettepe University	False
+CHEMBL38	beta-Ra	NCT07396792		NOT_YET_RECRUITING	Arterial Hypertension; Heart Rhythm Disorders; Valvular Heart Diseases; Heart Failure; Diabetes Mellitus; Chronic Kidney Disease (Stage 3-4); Metabolic Syndrome; Coronary Artery Disease	I.M. Sechenov First Moscow State Medical University	False
+CHEMBL38	beta-Ra	NCT04135287	PHASE4	UNKNOWN	Diabetes Mellitus, Type 2	Dasman Diabetes Institute	False
+CHEMBL38	beta-Ra	NCT00523328	PHASE2	TERMINATED	Rheumatoid Arthritis	Biogen	False
+CHEMBL38	beta-Ra	NCT04134728	PHASE3	COMPLETED	Arthritis, Rheumatoid	GlaxoSmithKline	True
+CHEMBL38	beta-Ra	NCT04190316	NA	UNKNOWN	ESBL-producing Enterobacteriaceae Infections	University Hospital, Angers	False
+CHEMBL38	beta-Ra	NCT02794519	PHASE2	WITHDRAWN	Asthma	GlaxoSmithKline	False
+CHEMBL38	beta-Ra	NCT07430332	PHASE2	NOT_YET_RECRUITING	Stage 1 Diabetes Mellitus, Type 1	Children's Hospital Medical Center, Cincinnati	False
+CHEMBL38	beta-Ra	NCT07037810	NA	ENROLLING_BY_INVITATION	Type 1 Diabetes (T1D)	Dasman Diabetes Institute	False
+CHEMBL38	beta-Ra	NCT06388213		UNKNOWN	Diabetes Mellitus, Type 2; Anesthesia; Pulmonary Aspiration of Gastric Contents	University Hospital, Geneva	False
+CHEMBL38	beta-Ra	NCT07760662		RECRUITING	Rheumatoid Arthritis (RA; Oxidative Stress; Cardiovascular (CV) Risk	University of La Laguna	False
+CHEMBL38	beta-Ra	NCT00397813	PHASE2	COMPLETED	Atypical Chronic Myeloid Leukemia, BCR-ABL1 Negative; Chronic Myelomonocytic Leukemia; de Novo Myelodysplastic Syndrome; Essential Thrombocythemia; Myeloproliferative Neoplasm; Paroxysmal Nocturnal Hemoglobinuria; Polycythemia Vera; Polycythemia Vera, Post-Polycythemic Myelofibrosis Phase; Primary Myelofibrosis; Refractory Anemia; Refractory Anemia With Excess Blasts; Refractory Anemia With Ring Sideroblasts; Refractory Cytopenia With Multilineage Dysplasia; Refractory Cytopenia With Multilineage Dysplasia and Ring Sideroblasts	Fred Hutchinson Cancer Center	True
+CHEMBL38	beta-Ra	NCT05322200	PHASE4	UNKNOWN	Diabetes Mellitus; Acute Coronary Syndrome; Coronary Artery Disease	Swansea Bay University Health Board	False
+CHEMBL38	beta-Ra	NCT07287722	NA	ACTIVE_NOT_RECRUITING	Peri-implant Soft Tissue Healing	Ali Hassan Eid Toto	False
+CHEMBL38	beta-Ra	NCT05690737	NA	RECRUITING	Migraine Disorders	The Hong Kong Polytechnic University	False
+CHEMBL38	beta-Ra	NCT05218122		UNKNOWN	Knee Osteoarthritis; Syndrome; Traditional Chinese Medicine	Dongzhimen Hospital, Beijing	False
+CHEMBL38	beta-Ra	NCT05654818	NA	COMPLETED	Vitamin d Deficiency	Centre Hospitalier Universitaire de Nīmes	False
+CHEMBL38	beta-Ra	NCT06233422		UNKNOWN	Depression; Sleep Disorders, Circadian Rhythm	Chinese University of Hong Kong	False
+CHEMBL38	beta-Ra	NCT02236481	PHASE4	TERMINATED	Diabetes Mellitus, Type 2; Arthritis, Rheumatoid	Prof. Roberto Giacomelli	False
+CHEMBL38	beta-Ra	NCT04334161		COMPLETED	Roux-en-y Gastric Bypass; Post Prandial Hypoglycemia	Lia Bally	False
+CHEMBL38	beta-Ra	NCT07135245	PHASE2	NOT_YET_RECRUITING	Alzheimer Disease (AD)	Rune Skovgaard Rasmussen	False
+CHEMBL38	beta-Ra	NCT07515391	PHASE2	ENROLLING_BY_INVITATION	Bariatric Surgery Candidate; Type2 Diabetes	Dasman Diabetes Institute	False
+CHEMBL38	Retin-A Micro	NCT04883736	EARLY_PHASE1	COMPLETED	Acne Vulgaris	Sun Pharmaceutical Industries, Inc.	False
+CHEMBL38	Retin-A Micro	NCT07154030	PHASE1	NOT_YET_RECRUITING	Striae	Sohag University	False
+CHEMBL38	Retin-A Micro	NCT00714714	PHASE4	COMPLETED	Acne Vulgaris	Bausch Health Americas, Inc.	True
+CHEMBL38	Retin-A Micro	NCT00907257	PHASE4	COMPLETED	Acne Vulgaris	Bausch Health Americas, Inc.	True
+CHEMBL38	Vitamin A1 acid, all-trans-	NCT02842086	PHASE3	ACTIVE_NOT_RECRUITING	Pre-Exposure Prophylaxis of HIV-1 Infection	Gilead Sciences	True
+CHEMBL38	all-(E)-Retinoic acid	NCT02278861	PHASE2	COMPLETED	Actinic Keratosis	Universidade Federal de Goias	False
+CHEMBL38	all-(E)-Retinoic acid	NCT05295732	PHASE3	COMPLETED	Ichthyosis	LEO Pharma	True
+CHEMBL38	all-(E)-Retinoic acid	NCT03761810	PHASE3	COMPLETED	Acne Vulgaris	Sol-Gel Technologies, Ltd.	True
+CHEMBL38	Vitamin A acid, all-trans-	NCT01175356	PHASE1	COMPLETED	Ganglioneuroblastoma; Localized Resectable Neuroblastoma; Localized Unresectable Neuroblastoma; Regional Neuroblastoma; Stage 4 Neuroblastoma; Stage 4S Neuroblastoma	Children's Oncology Group	True
+CHEMBL38	Vitamin A acid, all-trans-	NCT04385277	PHASE2	ACTIVE_NOT_RECRUITING	Ganglioneuroblastoma, Nodular; Neuroblastoma	Children's Oncology Group	True
+CHEMBL38	Acid A Vit (Belgium, Netherlands)	NCT05730036	PHASE3	RECRUITING	Relapsed Refractory Multiple Myeloma (RRMM)	Regeneron Pharmaceuticals	False
+CHEMBL38	Acid A Vit (Belgium, Netherlands)	NCT01566695	PHASE3	COMPLETED	Myelodysplastic Syndrome	Celgene	True
+CHEMBL38	Acid A Vit (Belgium, Netherlands)	NCT02203331	PHASE2	COMPLETED	Endometriosis	Bayer	True
+CHEMBL38	Acid A Vit (Belgium, Netherlands)	NCT02247479	PHASE3	TERMINATED	Geographic Atrophy	Hoffmann-La Roche	True
+CHEMBL38	Acid A Vit (Belgium, Netherlands)	NCT04680052	PHASE3	ACTIVE_NOT_RECRUITING	Follicular Lymphoma; Marginal Zone Lymphoma	Incyte Corporation	True
+CHEMBL38	Acid A Vit (Belgium, Netherlands)	NCT00478660	PHASE3	COMPLETED	Ankylosing Spondylitis	Abbott	False
+CHEMBL38	Acid A Vit (Belgium, Netherlands)	NCT00493298		COMPLETED	Relapsing-Remitting Multiple Sclerosis	Biogen	False
+CHEMBL38	Acid A Vit (Belgium, Netherlands)	NCT03192969	PHASE3	WITHDRAWN	Giant Cell Arteritis	Bristol-Myers Squibb	False
+CHEMBL38	Acid A Vit (Belgium, Netherlands)	NCT02699736		ENROLLING_BY_INVITATION	HIV; Hepatitis B; Hepatitis C; AIDS; Coinfection; Cardiovascular Diseases; Diabetes Mellitus; Acidosis, Lactic; Renal Insufficiency; Fractures, Bone; End Stage Liver Disease; Kidney Failure, Chronic; Proteinuria	Rigshospitalet, Denmark	False
+CHEMBL38	Acid A Vit (Belgium, Netherlands)	NCT01541215	PHASE3	COMPLETED	Diabetes; Diabetes Mellitus, Type 2	Novo Nordisk A/S	True
+CHEMBL38	Acid A Vit (Belgium, Netherlands)	NCT02576574	PHASE3	COMPLETED	First Line Non-Small Cell Lung Cancer	EMD Serono Research & Development Institute, Inc.	True
+CHEMBL38	Acid A Vit (Belgium, Netherlands)	NCT00245739		APPROVED_FOR_MARKETING	HIV Infections	Tibotec Pharmaceuticals, Ireland	False
+CHEMBL38	Cordes VAS (Germany)	NCT03042429	PHASE3	COMPLETED	Neuroblastoma	University of Cologne	False
+CHEMBL38	Cordes VAS (Germany)	NCT01245140	PHASE2	COMPLETED	Psoriasis	Stiefel, a GSK Company	True
+CHEMBL38	Cordes VAS (Germany)	NCT04731064		UNKNOWN	Hemorrhoidal Disease	University Hospital, Grenoble	False
+CHEMBL38	Cordes VAS (Germany)	NCT00124436	PHASE3	COMPLETED	Hand Dermatoses	Basilea Pharmaceutica	False
+CHEMBL38	Cordes VAS (Germany)	NCT00282724	PHASE2; PHASE3	COMPLETED	Ichthyosis, Lamellar	Stiefel, a GSK Company	False
+CHEMBL38	Acid, Vitamin A	NCT01910831	PHASE4	COMPLETED	Purpura	The Center for Clinical and Cosmetic Research	True
+CHEMBL38	Salt, Tretinoin Zinc	NCT00647556	PHASE3	COMPLETED	Photoaging	Galderma R&D	True
+CHEMBL38	Salt, Tretinoin Zinc	NCT00472966	PHASE4	COMPLETED	Melasma	Galderma R&D	False
+CHEMBL38	Salt, Tretinoin Zinc	NCT02704507	NA	UNKNOWN	Acne	Carilion Clinic	False
+CHEMBL38	Salt, Tretinoin Zinc	NCT06358677	PHASE2	RECRUITING	Metastatic Solid Tumor; Locally Advanced Solid Tumor	University of Utah	False
+CHEMBL38	Salt, Tretinoin Zinc	NCT01048086	PHASE2	WITHDRAWN	Neuroblastoma; Neuroendocrine Tumor	University of Iowa	False
+CHEMBL38	Salt, Tretinoin Zinc	NCT04724473	EARLY_PHASE1	COMPLETED	Acne Vulgaris	Sun Pharmaceutical Industries, Inc.	False
+CHEMBL38	Salt, Tretinoin Zinc	NCT05386823	PHASE1	COMPLETED	Healthy	HighField Biopharmaceuticals Corporation	True
+CHEMBL38	Salt, Tretinoin Zinc	NCT07732192	PHASE4	NOT_YET_RECRUITING	Melasma; Melasma (Facial Melasma)	Combined Military Hospital Abbottabad	False
+CHEMBL38	Salt, Tretinoin Zinc	NCT04241276	PHASE2	ACTIVE_NOT_RECRUITING	Pancreatic Cancer	Queen Mary University of London	False
+CHEMBL38	Salt, Tretinoin Zinc	NCT01820624	PHASE1	COMPLETED	Adult Acute Megakaryoblastic Leukemia (M7); Adult Acute Monoblastic Leukemia (M5a); Adult Acute Monocytic Leukemia (M5b); Adult Acute Myeloblastic Leukemia With Maturation (M2); Adult Acute Myeloblastic Leukemia Without Maturation (M1); Adult Acute Myeloid Leukemia With 11q23 (MLL) Abnormalities; Adult Acute Myeloid Leukemia With Del(5q); Adult Acute Myeloid Leukemia With Inv(16)(p13;q22); Adult Acute Myeloid Leukemia With t(16;16)(p13;q22); Adult Acute Myeloid Leukemia With t(8;21)(q22;q22); Adult Acute Myelomonocytic Leukemia (M4); Adult Erythroleukemia (M6a); Adult Pure Erythroid Leukemia (M6b); Recurrent Adult Acute Myeloid Leukemia	Paolo Caimi, MD	False
+CHEMBL38	Salt, Tretinoin Zinc	NCT00400556	PHASE1	COMPLETED	Multiple Myeloma; Cutaneous Lymphoma	Peter MacCallum Cancer Centre, Australia	False
+CHEMBL38	Salt, Tretinoin Zinc	NCT04548349	PHASE4	COMPLETED	Acne; Healthy	Beth Israel Deaconess Medical Center	True
+CHEMBL38	Salt, Tretinoin Zinc	NCT05493280	NA	COMPLETED	Hyperpigmentation	University of Texas Southwestern Medical Center	True
+CHEMBL38	Tretinoin Cream	NCT03433378	EARLY_PHASE1	COMPLETED	Acne Vulgaris	Sun Pharmaceutical Industries, Inc.	False
+CHEMBL38	Tretinoin Cream	NCT07012811	PHASE4	COMPLETED	Plane Warts	Latakia University	False
+CHEMBL38	Tretinoin Cream	NCT00007631	PHASE3	COMPLETED	Carcinoma, Basal Cell; Carcinoma, Squamous Cell; Skin Neoplasms	US Department of Veterans Affairs	False
+CHEMBL38	Tretinoin Cream	NCT05165524	NA	COMPLETED	Hyperpigmentation; Varicosis	Insel Gruppe AG, University Hospital Bern	False
+CHEMBL38	Tretinoin Cream	NCT05004909	NA	UNKNOWN	Photoaging	Dr.dr.Irma Bernadette, SpKK (K)	False
+CHEMBL38	Tretinoin Cream	NCT07137130	NA	NOT_YET_RECRUITING	Melasma	Indonesia University	False
+CHEMBL38	Tretinoin Cream	NCT00975312	PHASE2	COMPLETED	Lentigo	Pontificia Universidad Catolica de Chile	False
+CHEMBL38	Tretinoin Cream	NCT05428202	PHASE1	COMPLETED	Psoriasis	TC Erciyes University	False
+CHEMBL38	Tretinoin Cream	NCT01149876	PHASE4	COMPLETED	Hyperpigmentation	Massachusetts General Hospital	True
+CHEMBL38	Tretinoin Cream	NCT02180425		COMPLETED	Acne	University of California, Davis	False
+CHEMBL38	Tretinoin Cream	NCT05710068	NA	COMPLETED	Pigmentation; Pigmentation Disorder	Ajou University School of Medicine	False
+CHEMBL38	Tretinoin Cream	NCT06516419	NA	UNKNOWN	Melasma	Dr.dr.Irma Bernadette, SpKK (K)	False
+CHEMBL38	Tretinoin Cream	NCT04118296	PHASE1; PHASE2	COMPLETED	Acne Vulgaris	Sukma Skin Treatment	False
+CHEMBL38	Tretinoin Cream	NCT04059523	PHASE1	COMPLETED	Acne Vulgaris	Sol-Gel Technologies, Ltd.	False
+CHEMBL38	Tretinoin Cream	NCT00469183	PHASE4	COMPLETED	Melasma	Galderma R&D	False
+CHEMBL38	206-129-0	NCT01061567		COMPLETED	Parkinson's Disease	Boehringer Ingelheim	True
+CHEMBL38	206-129-0	NCT03568162	PHASE2	COMPLETED	Moderate to Severe Atopic Dermatitis	Ichnos Sciences SA	True
+CHEMBL38	206-129-0	NCT01255761	PHASE4	COMPLETED	Rheumatoid Arthritis	UCB Pharma	True
+CHEMBL38	206-129-0	NCT01644734	PHASE4	COMPLETED	Pulmonary Disease, Chronic Obstructive	Boehringer Ingelheim	True
+CHEMBL38	206-129-0	NCT03083665	PHASE3	COMPLETED	Partial Seizures With or Without Secondary Generalization; Epilepsy	UCB Biopharma SRL	True
+CHEMBL38	206-129-0	NCT04999839	PHASE2	COMPLETED	Moderate to Severe Plaque Psoriasis	Takeda	True
+CHEMBL38	206-129-0	NCT01296711	PHASE2	TERMINATED	Rheumatoid Arthritis	UCB BIOSCIENCES, Inc.	True
+CHEMBL38	206-129-0	NCT01242488	PHASE2	COMPLETED	Rheumatoid Arthritis	UCB Pharma	False
+CHEMBL38	206-129-0	NCT05438329	PHASE1; PHASE2	ACTIVE_NOT_RECRUITING	Advanced Solid Tumor	DualityBio Inc.	False
+CHEMBL38	206-129-0	NCT06203002	PHASE2	COMPLETED	Diabetic Peripheral Neuropathic Pain	Lexicon Pharmaceuticals	False
+CHEMBL38	206-129-0	NCT01100073		COMPLETED	Parkinson Disease	Boehringer Ingelheim	True
+CHEMBL38	206-129-0	NCT03276936	PHASE3	COMPLETED	Papulopustular Rosacea	Vyne Therapeutics Inc.	True
+CHEMBL38	206-129-0	NCT03906071	PHASE3	COMPLETED	Metastatic Non-Squamous Non-Small Cell Lung Cancer	Mirati Therapeutics Inc.	True
+CHEMBL38	206-129-0	NCT00599339		COMPLETED	Idiopathic Parkinson Disease	UCB Pharma	True
+CHEMBL38	206-129-0	NCT05914116	PHASE1; PHASE2	RECRUITING	Advanced Solid Tumors	DualityBio Inc.	False
+CHEMBL38	206-129-0	NCT01996865	PHASE3	COMPLETED	Lymphoma, Non-Hodgkin	Celgene	True
+CHEMBL38	206-129-0	NCT07012395	PHASE2	RECRUITING	Ulcerative Colitis; Inflammatory Bowel Diseases; Colitis; Colitis, Ulcerative	Spyre Therapeutics, Inc.	False
+CHEMBL38	Aknefug	NCT00869492	PHASE3	UNKNOWN	Acne Vulgaris	Marmara University	False
+CHEMBL38	RETINOIC ACID, ALL TRANS	NCT00005825	PHASE2	UNKNOWN	Lung Cancer	Raghu Nandan, M.D., Inc	False
+CHEMBL38	AT-RA	NCT01007435	PHASE3	COMPLETED	Rheumatoid Arthritis	Hoffmann-La Roche	True
+CHEMBL38	AT-RA	NCT00122382	PHASE3	COMPLETED	Rheumatoid Arthritis	Bristol-Myers Squibb	True
+CHEMBL38	AT-RA	NCT03387423		COMPLETED	Arthritis, Rheumatoid	Pfizer	True
+CHEMBL38	AT-RA	NCT02903160	PHASE2	COMPLETED	Prostate Cancer	Icahn School of Medicine at Mount Sinai	True
+CHEMBL38	AT-RA	NCT06704048	NA	RECRUITING	Infective Endocarditis; Bacterial Infections; Cardiac Rehabilitation; Patient Participation	Region Halland	False
+CHEMBL38	AT-RA	NCT04658615	NA	COMPLETED	Rheumatoid Arthritis; Periodontitis	Universidad de Antioquia	False
+CHEMBL38	AT-RA	NCT06977724	PHASE1	RECRUITING	Dry Eye Syndrome; Systemic Lupus Erythematosus	AbbVie	False
+CHEMBL38	AT-RA	NCT01952925	NA	WITHDRAWN	Afib; Hypertension	Oregon Health and Science University	False
+CHEMBL38	AT-RA	NCT06887725	NA	COMPLETED	Rheumatic Arthritis	Aysima Barlak	False
+CHEMBL38	AT-RA	NCT00950989	PHASE2	COMPLETED	Rheumatoid Arthritis	Amgen	True
+CHEMBL38	AT-RA	NCT06104982	NA	COMPLETED	Spinal Cord Injury Thoracic	Ankara City Hospital Bilkent	False
+CHEMBL38	AT-RA	NCT05887648	NA	COMPLETED	Community-dwelling Older Adults	National University of Singapore	False
+CHEMBL38	AT-RA	NCT04037735	NA	UNKNOWN	Osteoarthritis Arthritis; Joint Disease; Musculoskeletal Disease; Rheumatic Diseases	Peter den Hollander	False
+CHEMBL38	AT-RA	NCT01216384	PHASE1	COMPLETED	Asthma; Rhinitis, Allergic, Perennial	Boehringer Ingelheim	False
+CHEMBL38	AT-RA	NCT01253291	PHASE1	COMPLETED	Rheumatoid Arthritis	Eli Lilly and Company	True
+CHEMBL38	AT-RA	NCT02632240	NA	COMPLETED	Gingival Recession	Medical University of Silesia	False
+CHEMBL38	AT-RA	NCT01225991	PHASE4	COMPLETED	Rheumatoid Arthritis	University of California, Los Angeles	True
+CHEMBL38	AT-RA	NCT00364728		UNKNOWN	SLE; Rheumatoid Arthritis; Healthy Subjects	National Taiwan University Hospital	False
+CHEMBL38	AT-RA	NCT06177405		COMPLETED	Rheumatoid Arthritis	Institute of Biomedical Chemistry, Russia	False
+CHEMBL38	AT-RA	NCT04323566	PHASE2	ENROLLING_BY_INVITATION	Obsessive-Compulsive Disorder; Obsessive-Compulsive Behavior; Schizophrenia; Delusional Disorder; Brief Psychotic Disorder; Schizo Affective Disorder; Other Psychoses; Unspecified Psychosis	Uppsala University Hospital	False
+CHEMBL38	AT-RA	NCT04179851		UNKNOWN	Heart Failure; Congestion	Shaare Zedek Medical Center	False
+CHEMBL38	AT-RA	NCT07652372	PHASE1	ENROLLING_BY_INVITATION	Knee Osteoarthritis	ZhongShan LaiBo RuiChen BioMedicine Co.,Ltd.	False
+CHEMBL38	AT-RA	NCT05217472	PHASE2	WITHDRAWN	Sjogren's Syndrome (SS)	AbbVie	False
+CHEMBL38	AT-RA	NCT06655077	NA	COMPLETED	Rheumatoid Arthritis	University of California, San Francisco	False
+CHEMBL38	AT-RA	NCT07750964	NA	NOT_YET_RECRUITING	Coronary Artery Calcifications; Intravascular Lithotripsy; Rotational Atherectomy; Intravascular Ultrasound	Second Affiliated Hospital, Zhejiang University, School of Medicine	False
+CHEMBL38	AT-RA	NCT07019545	PHASE2	NOT_YET_RECRUITING	Primary Immune Thrombocytopenia (ITP)	Hellenic Society of Hematology	False
+CHEMBL38	AT-RA	NCT04846439	PHASE1; PHASE2	UNKNOWN	Platelet Transfusion Refractoriness; Acute Leukemia in Remission	The First Affiliated Hospital of Soochow University	False
+CHEMBL38	AT-RA	NCT03904342	NA	WITHDRAWN	Depression Chronic; Advanced Cancer; Anxiety	Boston Medical Center	False
+CHEMBL38	AT-RA	NCT03937271		WITHDRAWN	Sjögren's Syndrome; Systemic Lupus Erythematosus; Rheumatoid Arthritis; Systemic Sclerosis; Ankylosing Spondylitis; Dry Eye Syndrome	Taipei Veterans General Hospital, Taiwan	False
+CHEMBL38	AT-RA	NCT04880434	PHASE2	COMPLETED	Relapsed/Refractory Mantle Cell Lymphoma	Kite, A Gilead Company	True
+CHEMBL38	AT-RA	NCT05828147	PHASE4	UNKNOWN	Systemic Lupus Erythematosus; Pulmonary Arterial Hypertension	Chinese SLE Treatment And Research Group	False
+CHEMBL38	AT-RA	NCT02183532	PHASE1	COMPLETED	Healthy	Boehringer Ingelheim	False
+CHEMBL38	AT-RA	NCT05627349	NA	UNKNOWN	Carpal Tunnel Syndrome	China Medical University Hospital	False
+CHEMBL38	AT-RA	NCT06364358	NA	RECRUITING	Chronic Kidney Diseases; Hypertension	University of Chicago	False
+CHEMBL38	AT-RA	NCT00563849	PHASE4	COMPLETED	Rheumatoid Arthritis	Sanofi	False
+CHEMBL38	AT-RA	NCT00240136		COMPLETED	Rheumatoid Arthritis	University of California, Los Angeles	False
+CHEMBL38	AT-RA	NCT04938999	NA	UNKNOWN	Intellectual Disability	Chinese University of Hong Kong	False
+CHEMBL38	AT-RA	NCT04067752	NA	COMPLETED	End-stage Renal Disease	VA Office of Research and Development	False
+CHEMBL38	AT-RA	NCT05703932	NA	COMPLETED	Ankylosing Spondylitis	Bakirkoy Dr. Sadi Konuk Research and Training Hospital	False
+CHEMBL38	AT-RA	NCT01689532	PHASE3	COMPLETED	Arthritis, Rheumatoid	Janssen Pharmaceutical K.K.	True
+CHEMBL38	AT-RA	NCT02126293	PHASE3	COMPLETED	Renal Insufficiency, Chronic; Zinc Deficiency; Trace Element Excess; Trace Element Deficiency	Hamilton Health Sciences Corporation	False
+CHEMBL38	AT-RA	NCT07446504		COMPLETED	Rheumatoid Arthritis , Fibromyalgia	Samsun University	False
+CHEMBL38	AT-RA	NCT04932564	PHASE2	TERMINATED	Musculoskeletal Disease Other; GVHD, Chronic	Tata Memorial Centre	False
+CHEMBL38	AT-RA	NCT07262112	NA	NOT_YET_RECRUITING	Rheumatoid Arthritis	Berra Yamuç Tanrıöğen	False
+CHEMBL38	AT-RA	NCT01615419		COMPLETED	Rheumatoid Arthritis	Hoffmann-La Roche	False
+CHEMBL38	AT-RA	NCT01374971	PHASE3	COMPLETED	Rheumatoid Arthritis	Nathan Wei, MD, FACP, FACR:	True
+CHEMBL38	AT-RA	NCT00584311	NA	COMPLETED	Gout	University of South Florida	False
+CHEMBL38	AT-RA	NCT03726619	NA	COMPLETED	Breast Cancer; Cervical Cancer	Johns Hopkins University	False
+CHEMBL38	AT-RA	NCT04633681	NA	COMPLETED	Eating Behavior	University of Leeds	False
+CHEMBL38	AT-RA	NCT01289444	NA	COMPLETED	HIV	Maureen Lyon	False
+CHEMBL38	AT-RA	NCT05630157	NA	UNKNOWN	Gambling	Università degli Studi del Piemonte Orientale Amedeo Avogadro	False
+CHEMBL38	AT-RA	NCT03812601		COMPLETED	Atrial Fibrillation	Oxford University Hospitals NHS Trust	False
+CHEMBL38	AT-RA	NCT00088764	PHASE2	COMPLETED	Rheumatoid Arthritis	Wayne State University	False
+CHEMBL38	AT-RA	NCT00667199	PHASE2	COMPLETED	Hormone Refractory Prostate Cancer; Bone Metastases	Bayer	False
+CHEMBL38	AT-RA	NCT04559932	NA	COMPLETED	Evaluation of HomeCare RN Respiratory Education	The Hospital for Sick Children	False
+CHEMBL38	AT-RA	NCT05412121	NA	COMPLETED	Rheumatoid Arthritis	University of Michigan	True
+CHEMBL38	AT-RA	NCT01217086	PHASE3	COMPLETED	Rheumatoid Arthritis	Celltrion	False
+CHEMBL38	AT-RA	NCT06256419	NA	RECRUITING	Type 2 Diabetes Mellitus; Susceptibility, Genetic	The Affiliated Hospital of Xuzhou Medical University	False
+CHEMBL38	AT-RA	NCT00923845	PHASE2	COMPLETED	Renal Cell Carcinoma; Graft-Versus-Host Disease; Engraftment Syndrome	National Cancer Institute (NCI)	True
+CHEMBL38	AT-RA	NCT04445181		COMPLETED	Chronic Kidney Disease in Type 2 Diabetes	Bayer	False
+CHEMBL38	AT-RA	NCT07091500	NA	RECRUITING	Obesity; Skeletal Muscle; Brain Connectivity	Washington University School of Medicine	False
+CHEMBL38	AT-RA	NCT03922100	PHASE1; PHASE2	TERMINATED	Acute Myeloid Leukemia (AML); Chronic Myelomonocytic Leukemia (CMML)	Nerviano Medical Sciences	True
+CHEMBL38	AT-RA	NCT01679951	PHASE2	TERMINATED	Rheumatoid Arthritis	Janssen Research & Development, LLC	False
+CHEMBL38	AT-RA	NCT01665430	PHASE3	TERMINATED	Rheumatoid Arthritis	Hoffmann-La Roche	True
+CHEMBL38	AT-RA	NCT04995419	PHASE2	COMPLETED	Metastatic Urothelial Cancer	Astellas Pharma China, Inc.	True
+CHEMBL38	AT-RA	NCT05518331	NA	UNKNOWN	Refractory Aplastic Anemia	Institute of Hematology & Blood Diseases Hospital, China	False
+CHEMBL38	AT-RA	NCT03223545	NA	COMPLETED	Hypertension; Stress; Cardiovascular Diseases	NYU Langone Health	False
+CHEMBL38	AT-RA	NCT03030183	PHASE2	COMPLETED	Paroxysmal Nocturnal Hemoglobinuria (PNH)	Ra Pharmaceuticals	True
+CHEMBL38	AT-RA	NCT00798512	NA	COMPLETED	Carotid Artery Disease; Stroke Prevention	Invatec S.p.A.	False
+CHEMBL38	AT-RA	NCT02706951	PHASE3	COMPLETED	Rheumatoid Arthritis	AbbVie	True
+CHEMBL38	AT-RA	NCT06647069	PHASE1	RECRUITING	Systemic Lupus Erythematosus (SLE); Rheumatoid Arthritis (RA)	Sanofi	False
+CHEMBL38	AT-RA	NCT04947137	PHASE2	COMPLETED	Rheumatoid Arthritis	Navidea Biopharmaceuticals	True
+CHEMBL38	AT-RA	NCT01669902		COMPLETED	Rheumatoid Arthritis	Hoffmann-La Roche	True
+CHEMBL38	AT-RA	NCT07460739	NA	NOT_YET_RECRUITING	Rhumatoid Arthisis; Spondyloarthritis (SA); Psoriatic Arthritis (PsA)	Assistance Publique - Hôpitaux de Paris	False
+CHEMBL38	AT-RA	NCT03161457	PHASE1	TERMINATED	Rheumatoid Arthritis; Arthritis, Rheumatoid	JHL Biotech, Inc.	False
+CHEMBL38	AT-RA	NCT02171637	PHASE1	COMPLETED	Neoplasms	Boehringer Ingelheim	False
+CHEMBL38	AT-RA	NCT01846975	PHASE4	COMPLETED	Rheumatoid Arthritis	Rüdiger B. Müller	False
+CHEMBL38	AT-RA	NCT00249041	PHASE3	COMPLETED	Rheumatoid Arthritis	Amgen	False
+CHEMBL38	AT-RA	NCT03140995	NA	COMPLETED	Rheumatoid Arthritis; Inflammatory Arthritis	University Hospital of Limerick	False
+CHEMBL38	AT-RA	NCT01609205	PHASE4	COMPLETED	Rheumatoid Arthritis	Hamed Rezaei	False
+CHEMBL38	AT-RA	NCT06096337	NA	ACTIVE_NOT_RECRUITING	Persistent Atrial Fibrillation	Boston Scientific Corporation	False
+CHEMBL38	AT-RA	NCT06945666	PHASE4	NOT_YET_RECRUITING	Rheumatoid Arthritis (RA	Jie Chang	False
+CHEMBL38	AT-RA	NCT03074656	NA	COMPLETED	Rheumatoid Arthritis; Spondyloarthritis; Ankylosing Spondylitis; Crohn Disease; Ulcerative Colitis; Psoriasis; Psoriatic Arthritis	Diakonhjemmet Hospital	False
+CHEMBL38	AT-RA	NCT05246293	PHASE2	UNKNOWN	Rheumatoid Arthritis; Interstitial Lung Disease	National Institute of Respiratory Diseases, Mexico	False
+CHEMBL38	AT-RA	NCT05165771	PHASE2	WITHDRAWN	Rheumatoid Arthritis	Gilead Sciences	False
+CHEMBL38	AT-RA	NCT02755532	NA	COMPLETED	Pharmacokinetics; Anesthetics, Local	Federal University of São Paulo	False
+CHEMBL38	AT-RA	NCT04890821	NA	RECRUITING	Tricuspid Regurgitation Functional	Cardiac Implants LLC	False
+CHEMBL38	AT-RA	NCT04170504	PHASE2; PHASE3	COMPLETED	Rheumatoid Arthritis	Guang'anmen Hospital of China Academy of Chinese Medical Sciences	False
+CHEMBL38	AT-RA	NCT04076358	NA	COMPLETED	Arthritis; Fatigue	University of Massachusetts, Amherst	False
+CHEMBL38	AT-RA	NCT02046603	PHASE3	COMPLETED	Rheumatoid Arthritis	Hoffmann-La Roche	True
+CHEMBL38	AT-RA	NCT02097303	PHASE2	COMPLETED	Prostate Cancer	Carolina Research Professionals, LLC	True
+CHEMBL38	AT-RA	NCT06061627	NA	RECRUITING	Heart Failure; Intraventricular Block	The First Affiliated Hospital with Nanjing Medical University	False
+CHEMBL38	AT-RA	NCT01781078	NA	COMPLETED	Bradycardia; Sinus Node Dysfunction	Boston Scientific Corporation	True
+CHEMBL38	AT-RA	NCT01493414	PHASE3	COMPLETED	Myelofibrosis	Novartis Pharmaceuticals	True
+CHEMBL38	AT-RA	NCT05363748		RECRUITING	Renal Artery Fibromuscular Dysplasia	Shanghai Jiao Tong University School of Medicine	False
+CHEMBL38	AT-RA	NCT02935387	PHASE4	TERMINATED	Arthritis, Rheumatoid	UMC Utrecht	False
+CHEMBL38	AT-RA	NCT02278055	PHASE2	COMPLETED	Metastatic Prostate Cancer; Pain	Memorial Sloan Kettering Cancer Center	True
+CHEMBL38	AT-RA	NCT05425485	NA	COMPLETED	Rheumatoid Arthritis	María Ahijón	False
+CHEMBL38	AT-RA	NCT00076206	PHASE2	TERMINATED	Rheumatoid Arthritis	Wyeth is now a wholly owned subsidiary of Pfizer	False
+CHEMBL38	AT-RA	NCT02820038	NA	COMPLETED	Rheumatoid Arthritis	University of North Carolina, Chapel Hill	True
+CHEMBL38	AT-RA	NCT04521361	PHASE1	COMPLETED	Bone Metastatic Castration-resistant Prostate Cancer	Bayer	False
+CHEMBL38	AT-RA	NCT03361735	PHASE2	ACTIVE_NOT_RECRUITING	Prostate Adenocarcinoma	City of Hope Medical Center	True
+CHEMBL38	AT-RA	NCT01071798		COMPLETED	Rheumatoid Arthritis	Hoffmann-La Roche	True
+CHEMBL38	AT-RA	NCT02027298	PHASE2	WITHDRAWN	Primary Sjogren's Syndrome; Secondary Sjogren's Syndrome; Inflammatory Arthritis; Rheumatoid Arthritis	The Cleveland Clinic	False
+CHEMBL38	AT-RA	NCT02089087	PHASE1	COMPLETED	Rheumatoid Arthritis	Novartis Pharmaceuticals	False
+CHEMBL38	AT-RA	NCT05339087	PHASE2	TERMINATED	Pulmonary Vascular Disorder; Primary Pulmonary Hypertension; Systemic Sclerosis; Other Systemic Involvement of Connective Tissue	Heidelberg University	True
+CHEMBL38	AT-RA	NCT02899104		COMPLETED	Prostatic Neoplasms, Castration-Resistant	Bayer	False
+CHEMBL38	AT-RA	NCT01770106	PHASE4	COMPLETED	Rheumatoid Arthritis	Chinese University of Hong Kong	False
+CHEMBL38	AT-RA	NCT04752748		COMPLETED	Early Rheumatoid Arthritis	Federal University of São Paulo	False
+CHEMBL38	AT-RA	NCT01955733	PHASE3	TERMINATED	Arthritis, Rheumatoid	Boehringer Ingelheim	True
+CHEMBL38	AT-RA	NCT04927546	NA	UNKNOWN	Rheumatoid Arthritis	University of Sao Paulo	False
+CHEMBL38	AT-RA	NCT02172105	PHASE1	COMPLETED	Healthy	Boehringer Ingelheim	False
+CHEMBL38	AT-RA	NCT00758602	PHASE4	COMPLETED	Kidney Transplantation	Hoffmann-La Roche	True
+CHEMBL38	AT-RA	NCT06285266		UNKNOWN	Clinical Practice	Kilis 7 Aralik University	False
+CHEMBL38	AT-RA	NCT06036186	NA	COMPLETED	Heart Failure With Preserved Ejection Fraction (HFpEF); Hypertension	BaroPace Inc.	False
+CHEMBL38	AT-RA	NCT04305873		UNKNOWN	Exercise-induced Arterial Hypoxemia	Gepner Yftach	False
+CHEMBL38	AT-RA	NCT04079920		COMPLETED	Rheumatoid Arthritis	Pfizer	True
+CHEMBL38	AT-RA	NCT00963859	PHASE2	COMPLETED	Bladder Cancer	M.D. Anderson Cancer Center	True
+CHEMBL38	AT-RA	NCT01611688	PHASE1	COMPLETED	Inflammation; Rheumatoid Arthritis	Novo Nordisk A/S	False
+CHEMBL38	AT-RA	NCT06628206	PHASE1	RECRUITING	Rheumatoid Arthritis (RA); Psoriatic Arthritis (PsA)	LAPIX Therapeutics Inc.	False
+CHEMBL38	AT-RA	NCT00637104	PHASE2; PHASE3	UNKNOWN	Coronary Artery Disease; Angioplasty, Transluminal, Percutaneous Coronary; Stents	International Biomedical Systems S.p.A.	False
+CHEMBL38	AT-RA	NCT00643526	EARLY_PHASE1	COMPLETED	Rheumatoid Arthritis; Psoriatic Arthritis; Ankylosing Spondylitis; Psoriasis	Centocor, Inc.	False
+CHEMBL38	AT-RA	NCT03636984		UNKNOWN	Rheumatoid Arthritis; Ankylosing Spondylitis	Zhejiang Hisun Pharmaceutical Co. Ltd.	False
+CHEMBL38	AT-RA	NCT03077425	NA	COMPLETED	Pediatric Obesity; Early Childhood Caries	Albert Einstein College of Medicine	False
+CHEMBL38	AT-RA	NCT05152615	NA	COMPLETED	Rheumatoid Arthritis	NYU Langone Health	False
+CHEMBL38	AT-RA	NCT00747214	PHASE2	COMPLETED	Rheumatoid Arthritis	Zalicus	True
+CHEMBL38	AT-RA	NCT04188249		UNKNOWN	Arthritis, Rheumatoid	Peking Union Medical College Hospital	False
+CHEMBL38	AT-RA	NCT04312815	PHASE3	UNKNOWN	Rheumatoid Arthritis(RA)	SinoMab BioScience Ltd	False
+CHEMBL38	AT-RA	NCT01706926	PHASE2	COMPLETED	Rheumatoid Arthritis	MedImmune LLC	True
+CHEMBL38	AT-RA	NCT02822989	NA	COMPLETED	Lupus Erythematosus, Systemic; Musculoskeletal Pain	Northwell Health	True
+CHEMBL38	AT-RA	NCT02833350	PHASE2	COMPLETED	Rheumatoid Arthritis	Genentech, Inc.	True
+CHEMBL38	AT-RA	NCT00459706	PHASE3	COMPLETED	Rheumatoid Arthritis	Pfizer	True
+CHEMBL38	AT-RA	NCT03903835	PHASE3	RECRUITING	Metastatic Castration-resistant Prostate Cancer (mCRPC); Metastatic Hormone-Sensitive Prostate Cancer (mHSPC)	Karolinska Institutet	False
+CHEMBL38	AT-RA	NCT02715908	PHASE3	COMPLETED	Rheumatoid Arthritis	LG Life Sciences	False
+CHEMBL38	AT-RA	NCT07424326	NA	NOT_YET_RECRUITING	Atrial Fibrillation (AF)	Charles University, Czech Republic	False
+CHEMBL38	AT-RA	NCT07230652	PHASE1	RECRUITING	Schizophrenia; Alzheimer's Disease Psychosis	Luye Pharma Group Ltd.	False
+CHEMBL38	AT-RA	NCT01995864	NA	COMPLETED	Schizophrenia; Psychotic Disorder	Columbia University	False
+CHEMBL38	AT-RA	NCT02582749	PHASE2	TERMINATED	Prostate Cancer; Bone Metastases; Prostate Neoplasms	Ajjai Alva, MD	True
+CHEMBL38	AT-RA	NCT01569152	PHASE2	TERMINATED	Rheumatoid Arthritis (RA)	Merck Sharp & Dohme LLC	True
+CHEMBL38	AT-RA	NCT03942783	NA	COMPLETED	Arthritis, Rheumatoid; Arthritis, Psoriatic; Arthritis, Inflammatory	University of Salford	False
+CHEMBL38	AT-RA	NCT07110922	NA	RECRUITING	Heart Diseases	Pugazhendhi Vijayaraman	False
+CHEMBL38	AT-RA	NCT04463121	NA	COMPLETED	Bradycardia; Hypertension, Systolic	BackBeat Medical Inc	False
+CHEMBL38	AT-RA	NCT05291299	NA	UNKNOWN	Rheumatoid Arthritis	Attune Health Research, Inc.	False
+CHEMBL38	AT-RA	NCT01070121		COMPLETED	Rheumatoid Arthritis	University of Alabama at Birmingham	False
+CHEMBL38	AT-RA	NCT04968067	NA	UNKNOWN	Coronary Heart Disease	The Hong Kong Polytechnic University	False
+CHEMBL38	AT-RA	NCT06732934	NA	COMPLETED	Exercise	Suleyman Demirel University	False
+CHEMBL38	AT-RA	NCT05491187	PHASE3	COMPLETED	Visceral Pain	Tribhuvan University Teaching Hospital, Institute Of Medicine.	False
+CHEMBL38	AT-RA	NCT07674134		RECRUITING	Rheumatoid Arthritis (RA)	Centre Hospitalier Princesse Grace	False
+CHEMBL38	AT-RA	NCT04090398	PHASE2	ACTIVE_NOT_RECRUITING	Anatomic Stage IV Breast Cancer AJCC v8; Metastatic HER2-Negative Breast Carcinoma; Metastatic Malignant Neoplasm in the Bone	National Cancer Institute (NCI)	False
+CHEMBL38	AT-RA	NCT01752855	PHASE2	COMPLETED	Rheumatoid Arthritis	AbbVie (prior sponsor, Abbott)	True
+CHEMBL38	AT-RA	NCT05885555	PHASE2	ACTIVE_NOT_RECRUITING	Primary Immune Thrombocytopenia (ITP)	Novartis Pharmaceuticals	False
+CHEMBL38	AT-RA	NCT00106535	PHASE3	COMPLETED	Rheumatoid Arthritis	Hoffmann-La Roche	True
+CHEMBL38	AT-RA	NCT02809833		COMPLETED	Rheumatoid Arthritis	Hoffmann-La Roche	True
+CHEMBL38	AT-RA	NCT07087938	PHASE1; PHASE2	SUSPENDED	Arthritis, Rheumatoid	Crystal Lederhos Smith	False
+CHEMBL38	AT-RA	NCT03626116		COMPLETED	Rheumatoid Arthritis - Hand Joint	Schulthess Klinik	False
+CHEMBL38	AT-RA	NCT02283749	PHASE2	COMPLETED	Non Small Cell Lung Cancer With Bone Metastatses	Angela Taber MD	True
+CHEMBL38	AT-RA	NCT04932876		UNKNOWN	End Stage Kidney Disease; Kidney Transplantion; Covid19; Vaccination	University of Ioannina	False
+CHEMBL38	AT-RA	NCT05535530	NA	COMPLETED	Cleft Lip and Palate	University of Baghdad	False
+CHEMBL38	AT-RA	NCT02043730	PHASE2	COMPLETED	Pancreatic Cancer Stage II	Gruppo Italiano per lo studio dei Carcinomi dell'Apparato Digerente	False
+CHEMBL38	AT-RA	NCT04346511	PHASE2	WITHDRAWN	High Blood Pressure	University of Oklahoma	False
+CHEMBL38	AT-RA	NCT07553871		NOT_YET_RECRUITING	Knee Osteoarthritis; Rheumatoid Arthritis (RA)	Second Affiliated Hospital of Wenzhou Medical University	False
+CHEMBL38	AT-RA	NCT02281799	PHASE4	WITHDRAWN	Pancreatitis; Inflammatory Bowel Diseases	Shaare Zedek Medical Center	False
+CHEMBL38	AT-RA	NCT02495454	PHASE2	TERMINATED	CD20 Positive Diffuse Large B-cell Lymphoma; Elderly Unfit Patients	Fondazione Italiana Linfomi - ETS	True
+CHEMBL38	AT-RA	NCT01295151	PHASE4	COMPLETED	Rheumatoid Arthritis	Julia Brown	False
+CHEMBL38	AT-RA	NCT05533372	PHASE1	COMPLETED	Healthy; Rheumatoid Arthritis	ILAb Co., Ltd.	False
+CHEMBL38	AT-RA	NCT00557622	PHASE2	TERMINATED	Post-Traumatic Stress Disorder; Stress Disorders, Post-Traumatic	GlaxoSmithKline	True
+CHEMBL38	AT-RA	NCT07045896	NA	RECRUITING	Arthritis, Rheumatoid	Peking University People's Hospital	False
+CHEMBL38	AT-RA	NCT07247422	NA	NOT_YET_RECRUITING	Temporary Cardio-neural Pacing; Pacemaker Implantation	Chinese University of Hong Kong	False
+CHEMBL38	AT-RA	NCT06969222	NA	RECRUITING	Knee Arthropathy; Arthroplasty Complications; Robotic Assisted Arthroplasty; TKA Outcomes	Orthopaedic Department of General University Hospital of Laria	False
+CHEMBL38	AT-RA	NCT01126541	PHASE3	COMPLETED	Rheumatoid Arthritis	Hoffmann-La Roche	True
+CHEMBL38	AT-RA	NCT02676102	NA	COMPLETED	Organ Transplants	NYU Langone Health	False
+CHEMBL38	AT-RA	NCT04797494	PHASE2	COMPLETED	Tooth Wear; Randomized Controlled Trial; Vertical Dimension of Occlusion; Composite Resins	Radboud University Medical Center	False
+CHEMBL38	AT-RA	NCT02095405	NA	COMPLETED	Supraventricular Tachycardia (SVT); Atrial Fibrillation	Ottawa Heart Institute Research Corporation	False
+CHEMBL38	AT-RA	NCT07641361	NA	RECRUITING	Obesity & Overweight; Type 2 Diabetes; Type 2 Diabetes (Adult Onset); Obesity Type 2 Diabetes Mellitus; Dehydration	State University of New York at Buffalo	False
+CHEMBL38	AT-RA	NCT04110431	NA	COMPLETED	Chronic Heart Failure	The First Affiliated Hospital with Nanjing Medical University	False
+CHEMBL38	AT-RA	NCT07729995	PHASE1	NOT_YET_RECRUITING	Rheumatoid Arthritis (RA); Systemic Lupus Erthematosus (SLE); Dermatomyositis (DM); Systemic Sclerosis (SSc)	Luminary Therapeutics	False
+CHEMBL38	AT-RA	NCT03576794	PHASE3	UNKNOWN	Polymyalgia Rheumatica	Elisabeth Brouwer	False
+CHEMBL38	AT-RA	NCT01292200	NA	COMPLETED	Breast Cancer	Georgetown University	False
+CHEMBL38	AT-RA	NCT02644499	PHASE4	COMPLETED	Rheumatoid Arthritis	Jawaharlal Institute of Postgraduate Medical Education & Research	False
+CHEMBL38	AT-RA	NCT01788098		COMPLETED	Rheumatoid Arthritis; Leukocytes, Mononuclear; Genetic Association Studies	Slovak Academy of Sciences	False
+CHEMBL38	AT-RA	NCT03414463	NA	COMPLETED	Traumatic Brain Injury; Alexithymia	Indiana University	False
+CHEMBL38	AT-RA	NCT03701230	NA	COMPLETED	Myocardial Injury	Nanjing First Hospital, Nanjing Medical University	False
+CHEMBL38	AT-RA	NCT05659407		UNKNOWN	Systemic Lupus Erythematosus; Rheumatoid Arthritis; BLyS Polymorphism	University of Cagliari	False
+CHEMBL38	AT-RA	NCT03669367	PHASE4	COMPLETED	Palindromic Rheumatism, Wrist	Fundacion Clinic per a la Recerca Biomédica	False
+CHEMBL38	AT-RA	NCT01197534	PHASE3	COMPLETED	Rheumatoid Arthritis	AstraZeneca	True
+CHEMBL38	AT-RA	NCT04292067		RECRUITING	Spondyloarthritis; Rheumatoid Arthritis	Assistance Publique - Hôpitaux de Paris	False
+CHEMBL38	AT-RA	NCT07740200		COMPLETED	Rheumatoid Arthritis (RA)	Synovo Ltd.	False
+CHEMBL38	AT-RA	NCT06181344	NA	RECRUITING	Fear of Cancer Recurrence; Cancer	The University of Hong Kong	False
+CHEMBL38	AT-RA	NCT05764265	PHASE2	TERMINATED	Pulmonary Arterial Hypertension	Novartis Pharmaceuticals	True
+CHEMBL38	AT-RA	NCT04797000	PHASE2	ACTIVE_NOT_RECRUITING	Myelodysplastic Syndromes	Novartis Pharmaceuticals	False
+CHEMBL38	AT-RA	NCT06640309	PHASE2	RECRUITING	Rheumatoid Arthritis	Ain Shams University	False
+CHEMBL38	AT-RA	NCT04650100	NA	COMPLETED	Postoperative Pain	University Hospital, Toulouse	False
+CHEMBL38	AT-RA	NCT07678112	NA	RECRUITING	Rheumatoid Arthritis (RA)	Francisco J. Blanco	False
+CHEMBL38	Retin A (TN)	NCT00528437	PHASE2	COMPLETED	Brain Tumors	NYU Langone Health	True
+CHEMBL38	Retin A (TN)	NCT00689117	PHASE3	COMPLETED	Acne Vulgaris; Acne	Stiefel, a GSK Company	True
+CHEMBL38	Retin A (TN)	NCT01206348	PHASE4	COMPLETED	Acne	Medicis Global Service Corporation	False
+CHEMBL38	Retin A (TN)	NCT00891982	PHASE3	COMPLETED	Acne Vulgaris	Stiefel, a GSK Company	True
+CHEMBL38	Retin A (TN)	NCT02693171		TERMINATED	Neuroblastoma	United Therapeutics	True
+CHEMBL38	cis-Retinoic acid	NCT01930604	PHASE2	UNKNOWN	Hyperhidrosis	Carl Swartling	False
+CHEMBL38	cis-Retinoic acid	NCT07228481	PHASE4	COMPLETED	Acne Cystic	Premier Specialists, Australia	False
+CHEMBL38	cis-Retinoic acid	NCT00054561	PHASE3	COMPLETED	Head and Neck Cancer	Eastern Cooperative Oncology Group	False
+CHEMBL38	cis-Retinoic acid	NCT07264153	NA	COMPLETED	Sacroilitis	Uşak University	False
+CHEMBL38	cis-Retinoic acid	NCT04663906		COMPLETED	Isotretinoin Adverse Reaction; Covid19	University of Aberdeen	False
+CHEMBL38	cis-Retinoic acid	NCT00003585	PHASE1; PHASE2	COMPLETED	Kidney Cancer	University of New Mexico	False
+CHEMBL38	cis-Retinoic acid	NCT02100930	NA	COMPLETED	Neuroblastoma	Memorial Sloan Kettering Cancer Center	True
+CHEMBL38	cis-Retinoic acid	NCT03635892	PHASE2	ACTIVE_NOT_RECRUITING	Advanced or Metastatic Non-clear Cell Renal Cell Carcinoma; Unclassified Renal Cell Carcinoma; Papillary Renal Cell Carcinoma; Fumarate Hydratase Deficient Renal Cell Carcinoma; Succinate Dehydrogenase Deficient Renal Cell Carcinoma; Collecting Duct Renal Cell Carcinoma; Chromophobe Renal Cell Carcinoma	Memorial Sloan Kettering Cancer Center	False
+CHEMBL38	cis-Retinoic acid	NCT07629167	PHASE2	NOT_YET_RECRUITING	Acneiform Drug Eruption; Acneiform Eruptions	University of California, San Francisco	False
+CHEMBL38	cis-Retinoic acid	NCT03471455	PHASE2	UNKNOWN	Tinea	Post Graduate Institute of Medical Education and Research, Chandigarh	False
+CHEMBL38	cis-Retinoic acid	NCT01474590	PHASE3	COMPLETED	Acne	Galderma R&D	True
+CHEMBL38	cis-Retinoic acid	NCT00526318	NA	UNKNOWN	Neuroblastoma	German Society for Pediatric Oncology and Hematology GPOH gGmbH	False
+CHEMBL38	cis-Retinoic acid	NCT01319838	PHASE1	WITHDRAWN	Neuroblastoma	Emory University	False
+CHEMBL38	cis-Retinoic acid	NCT05413200		COMPLETED	Acne Vulgaris; Isotretinoin; Atrophic Acne Scar	Istanbul Training and Research Hospital	False
+CHEMBL38	cis-Retinoic acid	NCT02855138	PHASE4	COMPLETED	Adverse Effects of Medical Drugs	Kayseri Education and Research Hospital	False
+CHEMBL38	cis-Retinoic acid	NCT06483971	NA	UNKNOWN	Cornea	Superior University	False
+CHEMBL38	cis-Retinoic acid	NCT06942039	EARLY_PHASE1	RECRUITING	CNS Embryonal Tumor; CNS, Medulloblastoma; Atypical Teratoid Rhabdoid Tumor; Medulloblastoma, Childhood; Medulloblastoma, Group 3; Medulloblastoma, Group 4; Pineoblastoma; Neuroblastoma; Embryonal Tumor With Multilayered Rosettes; Embryonal Tumor With Abundant Neuropil and True Rosettes; Ependymoblastoma; Medulloepithelioma; CNS Embryonal Tumor With Rhabdoid Features; CNS Embryonal Tumor, Nos	C17 Council	False
+CHEMBL38	cis-Retinoic acid	NCT01880515	PHASE2	COMPLETED	Skin Rash; Lung Cancer	Instituto Nacional de Cancerologia de Mexico	True
+CHEMBL38	cis-Retinoic acid	NCT05684861	PHASE2	COMPLETED	Acne Vulgaris	South Valley University	False
+CHEMBL38	cis-Retinoic acid	NCT07753811	NA	COMPLETED	Dry Eye Disease (DED); Meibomian Gland Dysfunction (Disorder); Acne Vulgaris	Benha University	False
+CHEMBL38	cis-Retinoic acid	NCT06225570	EARLY_PHASE1	RECRUITING	Acne Vulgaris	Medical University of South Carolina	False
+CHEMBL38	cis-Retinoic acid	NCT01104324		UNKNOWN	Osteonecrosis; Acute Lymphoblastic Leukemia	Halton, Jacqueline, M.D.	False
+CHEMBL38	cis-Retinoic acid	NCT05529888	PHASE4	COMPLETED	Acne Vulgaris	Aswan University	False
+CHEMBL38	cis-Retinoic acid	NCT02498288	PHASE1	COMPLETED	Acne Vulgaris	GlaxoSmithKline	False
+CHEMBL38	cis-Retinoic acid	NCT07675239	PHASE4	NOT_YET_RECRUITING	Tinea Corporis	Pak Emirates Military Hospital	False
+CHEMBL38	cis-Retinoic acid	NCT00025012	NA	COMPLETED	Melanoma (Skin); Non-melanomatous Skin Cancer	National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)	False
+CHEMBL38	cis-Retinoic acid	NCT03939364	PHASE1	WITHDRAWN	Leukoplakia, Oral	Skyline Biosciences	False
+CHEMBL38	cis-Retinoic acid	NCT03334682	PHASE3	COMPLETED	Acne Vulgaris	Nantes University Hospital	False
+CHEMBL38	cis-Retinoic acid	NCT03686059	PHASE4	COMPLETED	Ocular Surface Disease	Benha University	False
+CHEMBL38	cis-Retinoic acid	NCT04204304	NA	COMPLETED	Musculoskeletal Disease Other; Isotretinoin Adverse Reaction; Vitamin D Deficiency	Ankara Training and Research Hospital	False
+CHEMBL38	cis-Retinoic acid	NCT02795143	NA	WITHDRAWN	Toxic Epidermal Necrolysis	Massachusetts General Hospital	False
+CHEMBL38	cis-Retinoic acid	NCT07639073	PHASE4	NOT_YET_RECRUITING	Acne Vulgaris	Pakistan Institute of Medical Sciences	False
+CHEMBL38	cis-Retinoic acid	NCT07309341	NA	COMPLETED	Smell Dysfunction	Uşak University	False
+CHEMBL38	cis-Retinoic acid	NCT01954641	NA	COMPLETED	Breast Cancer; Lung Cancer	University of North Carolina, Chapel Hill	False
+CHEMBL38	cis-Retinoic acid	NCT01888341	PHASE1	COMPLETED	Healthy	Dr. Reddy's Laboratories Limited	False
+CHEMBL38	cis-Retinoic acid	NCT02457520	PHASE4	COMPLETED	Acne	Sun Pharmaceutical Industries Limited	True
+CHEMBL38	cis-Retinoic acid	NCT03033303	PHASE2	COMPLETED	Neuroblastoma	Memorial Sloan Kettering Cancer Center	False
+CHEMBL38	cis-Retinoic acid	NCT01888328	PHASE1	COMPLETED	Healthy	Dr. Reddy's Laboratories Limited	False
+CHEMBL38	cis-Retinoic acid	NCT00014729	PHASE1	COMPLETED	Epidermolysis Bullosa	University of North Carolina	False
+CHEMBL38	cis-Retinoic acid	NCT00017368	PHASE2	COMPLETED	Neuroblastoma	Children's Oncology Group	False
+CHEMBL38	cis-Retinoic acid	NCT06250673	NA	COMPLETED	Acne Cystic; Diet, Healthy	Igdir University	False
+CHEMBL38	cis-Retinoic acid	NCT00098020	PHASE2	COMPLETED	Collapsing Glomerulopathy; Glomerulosclerosis, Focal Segmental	National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)	True
+CHEMBL38	cis-Retinoic acid	NCT04594759	PHASE1; PHASE2	COMPLETED	Acne Vulgaris	Medical University of South Carolina	True
+CHEMBL38	cis-Retinoic acid	NCT00072358	PHASE2	COMPLETED	Neuroblastoma	Memorial Sloan Kettering Cancer Center	True
+CHEMBL38	cis-Retinoic acid	NCT04864717	PHASE4	UNKNOWN	Acneiform Eruptions; Cancer, Treatment-Related	Lady Davis Institute	False
+CHEMBL38	cis-Retinoic acid	NCT01020084		COMPLETED	Food Comminution; Jaw Movements	University of Campinas, Brazil	False
+CHEMBL38	cis-Retinoic acid	NCT05869188	NA	COMPLETED	Acne Vulgaris	South Valley University	False
+CHEMBL38	cis-Retinoic acid	NCT02149615	PHASE4	UNKNOWN	Optic Disc Swelling	University of Zurich	False
+CHEMBL38	cis-Retinoic acid	NCT04156815	NA	COMPLETED	Acne Vulgaris	xjpfW	False
+CHEMBL38	cis-Retinoic acid	NCT01764308	PHASE3	TERMINATED	Acne	University of California, Los Angeles	False
+CHEMBL38	cis-Retinoic acid	NCT06047535	PHASE4	NOT_YET_RECRUITING	Neuroblastoma	SciClone Pharmaceuticals	False
+CHEMBL38	cis-Retinoic acid	NCT00000764	PHASE1	COMPLETED	HIV Infections; Anus Neoplasms	National Institute of Allergy and Infectious Diseases (NIAID)	False
+CHEMBL38	cis-Retinoic acid	NCT00701740	PHASE2	COMPLETED	Photoaging; Epidermal p53 Expression	Federal University of São Paulo	False
+CHEMBL38	cis-Retinoic acid	NCT07300917	NA	RECRUITING	Fordyce Spots	Venus Research Center	False
+CHEMBL38	cis-Retinoic acid	NCT01989923	NA	COMPLETED	Cervical Dysplasia	University of Oklahoma	False
+CHEMBL38	cis-Retinoic acid	NCT00416585	PHASE1	COMPLETED	Acne	Shahid Beheshti University of Medical Sciences	False
+CHEMBL38	cis-Retinoic acid	NCT00001073	PHASE3	COMPLETED	HIV Infections; Cervix, Dysplasia	National Institute of Allergy and Infectious Diseases (NIAID)	False
+CHEMBL38	cis-Retinoic acid	NCT03791216		COMPLETED	Psoriasis	Northwestern University	False
+CHEMBL38	cis-Retinoic acid	NCT05218486	PHASE4	UNKNOWN	Acne Vulgaris	Alshimaa Abbas Mohamed Ebrahim	False
+CHEMBL38	cis-Retinoic acid	NCT07420894	NA	COMPLETED	Dermatophytosis; Trichophyton Infection; Resistant Dermatophyte Infection	Multan Medical And Dental College	False
+CHEMBL38	cis-Retinoic acid	NCT04582383	PHASE4	ACTIVE_NOT_RECRUITING	Acne	University of Pennsylvania	False
+CHEMBL38	cis-Retinoic acid	NCT01888224	PHASE1	COMPLETED	Healthy	Dr. Reddy's Laboratories Limited	False
+CHEMBL38	cis-Retinoic acid	NCT02967055		COMPLETED	Contraception	University of Colorado, Denver	True
+CHEMBL38	cis-Retinoic acid	NCT05903716		UNKNOWN	Acne Vulgaris	Marmara University	False
+CHEMBL38	cis-Retinoic acid	NCT04870489	PHASE2	UNKNOWN	Acne Vulgaris	Tel-Aviv Sourasky Medical Center	False
+CHEMBL38	cis-Retinoic acid	NCT01861626	PHASE1	COMPLETED	Healthy Volunteers	Pierre Fabre Dermatology	False
+CHEMBL38	cis-Retinoic acid	NCT07296523		ENROLLING_BY_INVITATION	Isotretinoin; Isotretinoin Adverse Reaction; Acne	Venus Research Center	False
+CHEMBL38	cis-Retinoic acid	NCT03514771	NA	COMPLETED	Acne Scars - Mixed Atrophic and Hypertrophic	David Smart	False
+CHEMBL38	cis-Retinoic acid	NCT00132574	PHASE2	TERMINATED	Acne	Harvard School of Public Health (HSPH)	False
+CHEMBL38	cis-Retinoic acid	NCT04909515	PHASE2	WITHDRAWN	Neuroblastoma	Y-mAbs Therapeutics	False
+CHEMBL38	cis-Retinoic acid	NCT00410631	PHASE3	UNKNOWN	Neuroblastoma	German Society for Pediatric Oncology and Hematology GPOH gGmbH	False
+CHEMBL38	cis-Retinoic acid	NCT00004110	PHASE2	COMPLETED	Neuroblastoma	Memorial Sloan Kettering Cancer Center	False
+CHEMBL38	cis-Retinoic acid	NCT02559778	PHASE2	RECRUITING	Neuroblastoma	Giselle Sholler	False
+CHEMBL38	cis-Retinoic acid	NCT01222000	PHASE3	COMPLETED	Lamellar Ichthyosis	Centre Hospitalier Universitaire de Nice	False
+CHEMBL38	cis-Retinoic acid	NCT02757196	PHASE2	UNKNOWN	Immune Thrombocytopenia	Peking University People's Hospital	False
+CHEMBL38	cis-Retinoic acid	NCT06725290		NOT_YET_RECRUITING	Acne Vulgaris	Cairo University	False
+CHEMBL38	cis-Retinoic acid	NCT05622253	NA	COMPLETED	Acne Vulgaris	Zagazig University	False
+CHEMBL38	cis-Retinoic acid	NCT01139749	PHASE4	UNKNOWN	Seborrhea; Seborrheic Dermatitis; Quality of Life	Federal University of São Paulo	False
+CHEMBL38	cis-Retinoic acid	NCT06033352	PHASE2	COMPLETED	Rosacea	Insel Gruppe AG, University Hospital Bern	False
+CHEMBL38	cis-Retinoic acid	NCT02061384	PHASE2	COMPLETED	Male Infertility; Klinefelter's Syndrome; Y-chromosome Microdeletions	University of Washington	True
+CHEMBL38	cis-Retinoic acid	NCT00324740	PHASE1; PHASE2	TERMINATED	Recurrent Renal Cell Cancer; Stage III Renal Cell Cancer; Stage IV Renal Cell Cancer	National Cancer Institute (NCI)	True
+CHEMBL38	cis-Retinoic acid	NCT00628329		WITHDRAWN	Asthma	University of Kansas	False
+CHEMBL38	cis-Retinoic acid	NCT06485505	PHASE1	RECRUITING	Onychomycosis	Zagazig University	False
+CHEMBL38	cis-Retinoic acid	NCT03611595	PHASE1	COMPLETED	Solid Tumor	Peter Zage	False
+CHEMBL38	cis-Retinoic acid	NCT02771743	PHASE2	UNKNOWN	Newly Diagnosed High Risk Neuroblastoma	Samsung Medical Center	False
+CHEMBL38	cis-Retinoic acid	NCT07341659	NA	ACTIVE_NOT_RECRUITING	Acne	Pierre Fabre Dermo Cosmetique	False
+CHEMBL38	cis-Retinoic acid	NCT04626817	NA	COMPLETED	Muscle Strength	Cevriye Mülkoğlu	False
+CHEMBL38	cis-Retinoic acid	NCT04290572	PHASE3	UNKNOWN	Flat Wart	Centro Dermatológico Dr. Ladislao de la Pascua	False
+CHEMBL38	cis-Retinoic acid	NCT00964119		TERMINATED	Acne	University of Wisconsin, Madison	True
+CHEMBL38	cis-Retinoic acid	NCT02899000	PHASE4	COMPLETED	Acne Vulgaris	Galderma R&D	True
+CHEMBL38	cis-Retinoic acid	NCT07054398	NA	RECRUITING	Acne Vulgaris	Aswan University	False
+CHEMBL38	cis-Retinoic acid	NCT00005576	PHASE1	COMPLETED	Disseminated Neuroblastoma; Recurrent Neuroblastoma; Regional Neuroblastoma	National Cancer Institute (NCI)	False
+CHEMBL38	cis-Retinoic acid	NCT00609739	PHASE1; PHASE2	TERMINATED	Leukemia	Masonic Cancer Center, University of Minnesota	True
+CHEMBL38	cis-Retinoic acid	NCT00038376	PHASE2	COMPLETED	Lymphoma, T-Cell; Mycosis Fungoides; Hematologic Neoplasms	M.D. Anderson Cancer Center	False
+CHEMBL38	cis-Retinoic acid	NCT01334515	PHASE2	COMPLETED	Recurrent Neuroblastoma	Children's Oncology Group	True
+CHEMBL38	cis-Retinoic acid	NCT00975143	PHASE3	COMPLETED	Severe Nodular Acne	Cipher Pharmaceuticals Inc.	True
+CHEMBL38	cis-Retinoic acid	NCT01863615	PHASE1	COMPLETED	Skin Infections (Acne)	GlaxoSmithKline	False
+CHEMBL38	cis-Retinoic acid	NCT04623385	PHASE4	UNKNOWN	Covid19	Kafrelsheikh University	False
+CHEMBL38	cis-Retinoic acid	NCT01888289	PHASE1	COMPLETED	Healthy	Dr. Reddy's Laboratories Limited	False
+CHEMBL38	cis-Retinoic acid	NCT05839223	NA	COMPLETED	Acne Vulgaris	Jordan University of Science and Technology	False
+CHEMBL38	cis-Retinoic acid	NCT03291080	PHASE1; PHASE2	COMPLETED	Neuroblastoma	Nova Laboratories Limited	True
+CHEMBL38	cis-Retinoic acid	NCT00002506	PHASE2	COMPLETED	Cervical Cancer; Esophageal Cancer; Head and Neck Cancer; Lung Cancer; Non-melanomatous Skin Cancer; Penile Cancer	Hoag Memorial Hospital Presbyterian	False
+CHEMBL38	cis-Retinoic acid	NCT00030719	PHASE3	UNKNOWN	Neuroblastoma	University of Leicester	False
+CHEMBL38	cis-Retinoic acid	NCT06873087	PHASE4	COMPLETED	Rosacea	SB Istanbul Education and Research Hospital	False
+CHEMBL38	cis-Retinoic acid	NCT00003599	PHASE3	WITHDRAWN	Lung Cancer	M.D. Anderson Cancer Center	False
+CHEMBL38	cis-Retinoic acid	NCT01183416	PHASE2	COMPLETED	Neuroblastoma	Memorial Sloan Kettering Cancer Center	True
+CHEMBL38	cis-Retinoic acid	NCT03707236	NA	WITHDRAWN	Acne Vulgaris	Massachusetts General Hospital	False
+CHEMBL38	cis-Retinoic acid	NCT00003564	PHASE3	WITHDRAWN	Brain and Central Nervous System Tumors	M.D. Anderson Cancer Center	False
+CHEMBL38	cis-Retinoic acid	NCT01560585	PHASE1; PHASE2	TERMINATED	Alzheimer's Disease	University Hospitals Cleveland Medical Center	True
+CHEMBL38	cis-Retinoic acid	NCT03192163		COMPLETED	Acne Vulgaris	Northwestern University	False
+CHEMBL38	cis-Retinoic acid	NCT06179056		COMPLETED	Acne Vulgaris	Zagazig University	False
+CHEMBL38	cis-Retinoic acid	NCT03370367	PHASE3	COMPLETED	Stage I-II Head and Neck Cancer	Eastern Cooperative Oncology Group	False
+CHEMBL38	cis-Retinoic acid	NCT03026946	PHASE3	UNKNOWN	Hand Eczema	University Medical Center Groningen	False
+CHEMBL38	cis-Retinoic acid	NCT05373901	PHASE1	COMPLETED	High-risk Neuroblastoma	BeiGene	True
+CHEMBL38	cis-Retinoic acid	NCT00070200	PHASE1	COMPLETED	Neuroblastoma	Children's Oncology Group	False
+CHEMBL38	cis-Retinoic acid	NCT02039895	NA	UNKNOWN	Cutaneous T-cell Lymphoma	Far Eastern Memorial Hospital	False
+CHEMBL38	Vitamin a acid, trans-	NCT05696938	NA	COMPLETED	Skin Darken	Shenzhen Precision Health Food Technology Co. Ltd.,	False
+CHEMBL38	Vitamin a acid, trans-	NCT01344135	NA	COMPLETED	Pulmonary Disease, Chronic Obstructive; Muscular Atrophy	Maastricht University Medical Center	False
+CHEMBL38	Vitamin a acid, trans-	NCT02185274		COMPLETED	Transsexualism	Max-Planck-Institute of Psychiatry	False
+CHEMBL38	Vitamin a acid, trans-	NCT03436992	NA	COMPLETED	Diabetes Mellitus, Type 1	Augusta University	True
+CHEMBL38	Vitamin a acid, trans-	NCT04386499	NA	COMPLETED	Infertility, Female	University Of Perugia	False
+CHEMBL38	Vitamin a acid, trans-	NCT03864198	NA	UNKNOWN	Male Infertility	University Of Perugia	False
+CHEMBL38	Vitamin a acid, trans-	NCT02608983	NA	COMPLETED	Healthy	University of Ulster	False
+CHEMBL38	Vitamin a acid, trans-	NCT02896907	EARLY_PHASE1	COMPLETED	Pancreatic Adenocarcinoma; Recurrent Pancreatic Carcinoma; Stage III Pancreatic Cancer; Stage IV Pancreatic Cancer; Unresectable Pancreatic Carcinoma	Sidney Kimmel Comprehensive Cancer Center at Thomas Jefferson University	True
+CHEMBL38	Vitamin a acid, trans-	NCT01055418	PHASE4	COMPLETED	Endothelial Function; Cognition	Northumbria University	False
+CHEMBL38	Vitamin a acid, trans-	NCT03811756	NA	COMPLETED	Dermis Density; Trans Epidermal Water Loss (TEWL); Skin Hydration; Wrinkles; Dermis Thickness	VIST - Faculty of Applied Sciences	False
+CHEMBL38	Vitamin a acid, trans-	NCT02378246	NA	ACTIVE_NOT_RECRUITING	Thyroid Gland; Node; Pregnancy; Cognitive Developmental Delay	Göteborg University	False
+CHEMBL38	Vitamin a acid, trans-	NCT05682092	NA	COMPLETED	Skin Laxity; Skin Fold	Shenzhen Precision Health Food Technology Co. Ltd.,	False
+CHEMBL38	Avita (TN)	NCT02992249		COMPLETED	Burns	Avita Medical	False
+CHEMBL38	Avita (TN)	NCT06012240	PHASE3	RECRUITING	Alopecia Areata	AbbVie	False
+CHEMBL38	Avita (TN)	NCT04021862	PHASE2	COMPLETED	Atopic Dermatitis; Eczema	Janssen Research & Development, LLC	True
+CHEMBL38	Avita (TN)	NCT03333941		COMPLETED	Burns	Avita Medical	True
+CHEMBL38	Avita (TN)	NCT04086745	PHASE4	COMPLETED	Rheumatoid Arthritis	Eli Lilly and Company	True
+CHEMBL38	Avita (TN)	NCT06750809	NA	ACTIVE_NOT_RECRUITING	Surgical Wound; Trauma Wound; Autografts; Partial-thickness Burn; Partial Thickness Wounds	Avita Medical	False
+CHEMBL38	Avita (TN)	NCT07556159		RECRUITING	Asthma	Sanofi	False
+CHEMBL38	Avita (TN)	NCT06063967	PHASE3	ACTIVE_NOT_RECRUITING	Crohn's Disease	AbbVie	False
+CHEMBL38	Avita (TN)	NCT05889182	PHASE3	ACTIVE_NOT_RECRUITING	Hidradenitis Suppurativa	AbbVie	False
+CHEMBL38	Avita (TN)	NCT04019041	PHASE2	COMPLETED	Hidradenitis Suppurativa; Acne Inversa; Suppurative Hidradenitis	Janssen Research & Development, LLC	True
+CHEMBL38	Avita (TN)	NCT04530344	PHASE3	COMPLETED	Vitiligo	Incyte Corporation	True
+CHEMBL38	Avita (TN)	NCT01138917	NA	COMPLETED	Burns	Avita Medical	True
+CHEMBL38	Avita (TN)	NCT04303195	PHASE2	COMPLETED	Diabetic Gastroparesis; Idiopathic Gastroparesis	Neurogastrx, Inc.	True
+CHEMBL38	Avita (TN)	NCT02380612	NA	COMPLETED	Burns	Avita Medical	True
+CHEMBL38	Avita (TN)	NCT07046260		RECRUITING	Cancer	Harbinger Health	False
+CHEMBL38	Avita (TN)	NCT02994654	NA	COMPLETED	Burns	Avita Medical	True
+CHEMBL38	Avita (0.025% gel)	NCT01915758	PHASE1	COMPLETED	Acne Vulgaris	GlaxoSmithKline	False
+CHEMBL38	Avita (0.025% gel)	NCT00823901	PHASE2; PHASE3	COMPLETED	Rosacea	Massachusetts General Hospital	True
+CHEMBL38	Vitamine A acid	NCT00375505	PHASE3	COMPLETED	Breast Cancer	Novartis Pharmaceuticals	True
+CHEMBL38	Vitamine A acid	NCT02972138		COMPLETED	Sickle Cells Disease	Società Italiana Talassemie ed Emoglobinopatie	False
+CHEMBL38	Vitamine A acid	NCT07293624		ENROLLING_BY_INVITATION	Bariatric Surgery; Bariatric Sleeve Gastrectomy; Inflamation; Systemic Inflammation; Dietary Inflammatory Index (DII); Systemic Inflammation Markers	Istanbul Bilgi University	False
+CHEMBL38	Vitamine A acid	NCT04153227		COMPLETED	Osteoporosis; Bladder Disease	Corporacion Parc Tauli	False
+CHEMBL38	Vitamine A acid	NCT00811291	NA	COMPLETED	Healthy	Ludwig-Maximilians - University of Munich	False
+CHEMBL38	Vitamine A acid	NCT03903952	NA	COMPLETED	ASC-US; Human Papilloma Virus	Sanliurfa Mehmet Akif Inan Education and Research Hospital	False
+CHEMBL38	Vitamine A acid	NCT03762148	NA	COMPLETED	Iron-deficiency	Isabelle Herter-Aeberli	False
+CHEMBL38	Vitamine A acid	NCT07451717		COMPLETED	The Impact of Extreme Physical Exertion on Health; The Impact of Extreme Physical Exertion on Glucose; The Impact of Extreme Physical Exertion on Respiratory System; The Impact of Extreme Physical Exertion on Joints and Muscles; The Impact of Extreme Physical Exertion on Cardiovascular System; The Impact of Extreme Physical Exertion on Kidney Function and Water-electrolytes Balance; The Impact of Extreme Physical Exertion on Neurological System	Medical University of Gdansk	False
+CHEMBL38	Vitamine A acid	NCT02970838	NA	COMPLETED	Obesity; Diabetes Type 2; Weight Loss	University Medicine Greifswald	False
+CHEMBL38	Vitamine A acid	NCT06929403	NA	COMPLETED	Dyslipidemia; Cardiac Disease; Cardiovascular Diseases	Istanbul Bilgi University	False
+CHEMBL38	Vitamine A acid	NCT07114341	NA	COMPLETED	Sport Nutrition; Sports Performance in Children; Ergogenic Athletic Performance; Ergogenic Support; Sports Nutritional Sciences	Istanbul Bilgi University	False
+CHEMBL38	Vitamine A acid	NCT01316081	NA	COMPLETED	Metabolic Syndrome	Swiss Federal Institute of Technology	False
+CHEMBL38	Vitamine A acid	NCT04482465	NA	COMPLETED	Age-related Macular Degeneration; Vitamin D Deficiency	Universitaire Ziekenhuizen KU Leuven	False
+CHEMBL38	Vitamine A acid	NCT06757244	PHASE2	RECRUITING	Pancreas Neoplasms	Hopital Foch	False
+CHEMBL38	Vitamine A acid	NCT03509662	PHASE2	COMPLETED	Cardiac Arrest	Amsterdam UMC, location VUmc	False
+CHEMBL38	Vitamine A acid	NCT02270749	PHASE4	COMPLETED	Vitamin B12 Deficiency	Rijnstate Hospital	False
+CHEMBL38	Vitamine A acid	NCT04100226	NA	UNKNOWN	Lung Diseases, Interstitial; Vitamin D Deficiency	Cairo University	False
+CHEMBL38	Vitamine A acid	NCT07234916	NA	ENROLLING_BY_INVITATION	Weight Loss; Nutritional Deficiencies; GLP - 1; Obese Patients	Erasmus Medical Center	False
+CHEMBL38	Vitamine A acid	NCT06082362		UNKNOWN	Male Infertility	IRCCS San Raffaele	False
+CHEMBL38	Vitamine A acid	NCT04911660	PHASE2	COMPLETED	Kidney Stone	Insel Gruppe AG, University Hospital Bern	False
+CHEMBL38	Vitamine A acid	NCT03592680	NA	UNKNOWN	Atrial Fibrillation	Algemeen Ziekenhuis Maria Middelares	False
+CHEMBL38	Vitamine A acid	NCT02275676		UNKNOWN	Inflammatory Bowel Disease; Malnutrition	University Hospital Muenster	False
+CHEMBL38	Vitamine A acid	NCT04828642	NA	COMPLETED	Hypertrophy	Universidad Europea de Madrid	False
+CHEMBL38	Vitamine A acid	NCT01291433	PHASE3	COMPLETED	Radiation Induced Brachial Plexopathy	Assistance Publique - Hôpitaux de Paris	False
+CHEMBL38	Vitamine A acid	NCT04731987	NA	COMPLETED	Metabolic Syndrome; Vascular Compliance; Predisposition to Cardiovascular Disease	University Hospital, Clermont-Ferrand	False
+CHEMBL38	Vitamine A acid	NCT03807791	NA	COMPLETED	Vitamin C Deficiency; Scurvy	Hospices Civils de Lyon	False
+CHEMBL38	Vitamine A acid	NCT02916121	NA	UNKNOWN	Schizophrenia	Taipei Medical University WanFang Hospital	False
+CHEMBL38	Vitamine A acid	NCT01902186	PHASE4	TERMINATED	HIV Infection; Osteopenia	Giovanni Di Perri	False
+CHEMBL38	Vitamine A acid	NCT01266928	PHASE3	COMPLETED	Preterm Premature Rupture of Membranes	Erzincan Military Hospital	False
+CHEMBL38	Vitamine A acid	NCT05842395	PHASE4	COMPLETED	Distal Radius Fracture; Vitamine c; Prophylaxis	Damascus University	False
+CHEMBL38	Vitamine A acid	NCT01718366	PHASE1; PHASE2	UNKNOWN	MDS	Groupe Francophone des Myelodysplasies	False
+CHEMBL38	Vitamine A acid	NCT04177069		UNKNOWN	AMD	VISUfarma SpA	False
+CHEMBL38	Vitamine A acid	NCT01087411	NA	WITHDRAWN	Cardiovascular Risk Factors; Metabolic Risk Factors; Sedentary Lifestyle; Overweight	Karolinska Institutet	False
+CHEMBL38	Vitamine A acid	NCT00638560	PHASE1	COMPLETED	Obesity; Type 2 Diabetes	University of Leipzig	False
+CHEMBL38	Vitamine A acid	NCT02061267	NA	COMPLETED	Metabolic Syndrome	National Research Council, Spain	False
+CHEMBL38	Vitamine A acid	NCT02266641	NA	COMPLETED	Off-spring Cancer Risk	National Taiwan University Hospital	False
+CHEMBL38	Vitamine A acid	NCT03408639	PHASE3	COMPLETED	Anemia in End-Stage Renal Disease	Cinnagen	True
+CHEMBL38	Vitamine A acid	NCT04972643	NA	COMPLETED	Alzheimer Disease; Dementia Disorder	Taichung Veterans General Hospital	False
+CHEMBL38	Vitamine A acid	NCT00707330	PHASE1	COMPLETED	Oxidative Stress	Rigshospitalet, Denmark	False
+CHEMBL38	Vitamine A acid	NCT02392767	NA	COMPLETED	"Endothelial Dysfunction; Hyperhomocysteinemia; Hypertension Grade I, Subgroup ""Borderline"" (WHO)"	Dr. Loges & Co. GmbH	True
+CHEMBL38	Vitamine A acid	NCT03033667	NA	COMPLETED	Metabolism Disorder	Cairo University	False
+CHEMBL38	Vitamine A acid	NCT00630214	PHASE2	COMPLETED	Hypocalcemia	Asan Medical Center	False
+CHEMBL38	Vitamine A acid	NCT02553551	NA	UNKNOWN	Chronic Cholecystitis; Cholelithiasis	Taeho Hong	False
+CHEMBL38	Vitamine A acid	NCT00460733	PHASE4	COMPLETED	Colles' Fracture	Sanofi	False
+CHEMBL38	Vitamine A acid	NCT06102577	NA	COMPLETED	Adverse Effects; Ascorbic Acid; Oxidative Stress	Centre Medicina Esportiva i Osteopatia, Spain	False
+CHEMBL38	Vitamine A acid	NCT07748650	NA	COMPLETED	Female Indoor Athletes	Fu Jen Catholic University Hospital	False
+CHEMBL38	Vitamine A acid	NCT06105060	EARLY_PHASE1	COMPLETED	Non-alcoholic Steatohepatitis	Beni-Suef University	False
+CHEMBL38	Vitamine A acid	NCT03849677		COMPLETED	Healthy; Diet Modification	Erasme University Hospital	False
+CHEMBL38	Retinoic acid, cis-	NCT00005847	PHASE2	COMPLETED	Prostate Cancer	Eastern Cooperative Oncology Group	False
+CHEMBL38	Retinoic acid, cis-	NCT01891526		COMPLETED	Hepatic Insufficiency	University Hospital, Gentofte, Copenhagen	False
+CHEMBL38	Retinoic acid, cis-	NCT00176527	PHASE2	TERMINATED	Prostate Cancer	University of Medicine and Dentistry of New Jersey	False
+CHEMBL38	Retinoic acid, cis-	NCT00201279	PHASE3	COMPLETED	Oral Cavity; Squamous Cell Carcinoma	National Health Research Institutes, Taiwan	False
+CHEMBL38	Retinoic acid, cis-	NCT00939965	NA	UNKNOWN	Neuroblastoma	Children's Cancer and Leukaemia Group	False
+CHEMBL38	Retinoic acid, cis-	NCT01526603	NA	COMPLETED	Neuroblastoma	Masonic Cancer Center, University of Minnesota	False
+CHEMBL38	Retinoic acid, cis-	NCT01103375	PHASE1	TERMINATED	Adult Anaplastic Astrocytoma; Adult Anaplastic Oligodendroglioma; Adult Diffuse Astrocytoma; Adult Giant Cell Glioblastoma; Adult Glioblastoma; Adult Gliosarcoma; Adult Mixed Glioma; Adult Oligodendroglioma; Recurrent Adult Brain Tumor	Wake Forest University Health Sciences	False
+CHEMBL38	Retinoic acid, cis-	NCT01916187	PHASE1	WITHDRAWN	Neuroblastoma	NCIC Clinical Trials Group	False
+CHEMBL38	Retinoic acid, cis-	NCT01183897	PHASE2	COMPLETED	Neuroblastoma	Memorial Sloan Kettering Cancer Center	True
+CHEMBL38	Retinoic acid (Standard)	NCT01640678	PHASE4	UNKNOWN	Piebaldism; Segmental Vitiligo	Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)	False
+CHEMBL38	Retinoic acid (Standard)	NCT03022019	NA	TERMINATED	Non-segmental Vitiligo; Vitiligo	Netherlands Institute for Pigment Disorders	False
+CHEMBL38	Retinoic acid (Standard)	NCT01226303	PHASE3	UNKNOWN	Acute Promyelocytic Leukemia	Associazione Italiana Ematologia Oncologia Pediatrica	False
+CHEMBL38	Retinoic acid (Standard)	NCT03064867	PHASE1; PHASE2	ACTIVE_NOT_RECRUITING	Diffuse Large B-cell-lymphoma	Molly Gallogly	False
+CHEMBL38	Retinoic acid (Standard)	NCT06319872	PHASE1	RECRUITING	Alcohol Use Disorder; Retinal Dystrophies; Age-Related Macular Degeneration; Retinitis Pigmentosa; Stargardt Disease	University of Rochester	False
 CHEMBL3707313	Trifarotene	NCT01616654	PHASE2	COMPLETED	Acne Vulgaris	Galderma R&D	True
-CHEMBL3707313	Trifarotene	NCT05550337	PHASE3	COMPLETED	Acne Vulgaris	Teva Pharmaceuticals USA	True
-CHEMBL3707313	Trifarotene	NCT01804335	PHASE1	COMPLETED	Lymphoma	M.D. Anderson Cancer Center	False
-CHEMBL3707313	Trifarotene	NCT02189629	PHASE3	COMPLETED	Acne Vulgaris	Galderma R&D	True
-CHEMBL3707313	Trifarotene	NCT06063473	PHASE1	COMPLETED	Acne Vulgaris	Sun Pharmaceutical Industries, Inc.	False
-CHEMBL3707313	Trifarotene	NCT06733402	PHASE1	COMPLETED	Acne Vulgaris	Sun Pharmaceutical Industries, Inc.	False
-CHEMBL3707313	Trifarotene	NCT07186413	PHASE3	RECRUITING	Acne Vulgaris	Galderma R&D	False
 CHEMBL3707313	Trifarotene	NCT03915860	PHASE3	COMPLETED	Acne Vulgaris	Galderma R&D	True
 CHEMBL3707313	Trifarotene	NCT05089708	PHASE4	COMPLETED	Acne Vulgaris	Galderma R&D	True
-CHEMBL3707313	Trifarotene	NCT03738800	PHASE2	TERMINATED	Lamellar Ichthyosis	Mayne Pharma International Pty Ltd	True
+CHEMBL3707313	Trifarotene	NCT01804335	PHASE1	COMPLETED	Lymphoma	M.D. Anderson Cancer Center	False
+CHEMBL3707313	Trifarotene	NCT05550337	PHASE3	COMPLETED	Acne Vulgaris	Teva Pharmaceuticals USA	True
+CHEMBL3707313	Trifarotene	NCT07186413	PHASE3	ACTIVE_NOT_RECRUITING	Acne Vulgaris	Galderma R&D	False
 CHEMBL3707313	Trifarotene	NCT02556788	PHASE3	COMPLETED	Acne Vulgaris	Galderma R&D	True
+CHEMBL3707313	Trifarotene	NCT06063473	PHASE1	COMPLETED	Acne Vulgaris	Sun Pharmaceutical Industries, Inc.	False
+CHEMBL3707313	Trifarotene	NCT04451330	PHASE4	COMPLETED	Acne Vulgaris	Galderma R&D	True
 CHEMBL3707313	Trifarotene	NCT02566369	PHASE3	COMPLETED	Acne Vulgaris	Galderma R&D	True
 CHEMBL3707313	Trifarotene	NCT04856904	PHASE4	COMPLETED	Acne Vulgaris	Galderma R&D	True
-CHEMBL3707313	Trifarotene	NCT04451330	PHASE4	COMPLETED	Acne Vulgaris	Galderma R&D	True
+CHEMBL3707313	Trifarotene	NCT03738800	PHASE2	TERMINATED	Lamellar Ichthyosis	Mayne Pharma International Pty Ltd	True
+CHEMBL3707313	Trifarotene	NCT02189629	PHASE3	COMPLETED	Acne Vulgaris	Galderma R&D	True
+CHEMBL3707313	Trifarotene	NCT06733402	PHASE1	COMPLETED	Acne Vulgaris	Sun Pharmaceutical Industries, Inc.	False

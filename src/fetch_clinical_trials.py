@@ -3,7 +3,6 @@ import requests
 import pandas as pd
 from pathlib import Path
 import time
-import urllib.parse
 
 CT_BASE = "https://clinicaltrials.gov/api/v2/studies"
 
@@ -103,15 +102,25 @@ def clinical_trials_for_names(names: list[str], max_studies_per_term: int = 200)
     """
     results = []
     seen_nct = set()
+    skipped = 0
 
     for raw_name in names:
         term = raw_name.strip()
         if not term:
             continue
 
-        encoded = urllib.parse.quote(term)
+        # CT.gov's query parser rejects brackets outright, and no trial is
+        # registered under a full IUPAC name anyway. Skip instead of spending a
+        # request on a guaranteed 400.
+        if any(ch in term for ch in "[]"):
+            skipped += 1
+            continue
+
+        # Pass the raw term: requests percent-encodes params itself. Encoding it
+        # here first produced double-encoded queries (%27 -> %2527) that CT.gov
+        # rejects with a 400, silently dropping every synonym with punctuation.
         print(f"Searching ClinicalTrials.gov for: '{term}'")
-        studies = query_clinical_trials(encoded, max_studies=max_studies_per_term)
+        studies = query_clinical_trials(term, max_studies=max_studies_per_term)
         time.sleep(0.25)
 
         for st in studies:
@@ -123,6 +132,9 @@ def clinical_trials_for_names(names: list[str], max_studies_per_term: int = 200)
             seen_nct.add(nct)
             parsed["search_term"] = term
             results.append(parsed)
+
+    if skipped:
+        print(f"  (skipped {skipped} structural/IUPAC synonym(s) CT.gov cannot parse)")
 
     return results
 
@@ -151,7 +163,7 @@ def build_clinical_trials(
         synonyms = [n.strip() for n in name_field.split("|") if n.strip()]
 
         # Add best name first if available
-        best_name = row.get("best_name") or row.get("pref_name")
+        best_name = row.get("best_pubchem_name") or row.get("pref_name")
         if best_name:
             synonyms.insert(0, best_name)
 

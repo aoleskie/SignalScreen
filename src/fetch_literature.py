@@ -36,11 +36,10 @@ def robust_get(
                     f"(attempt {attempt}/{retries})"
                 )
 
-        except (
-            requests.exceptions.ReadTimeout,
-            requests.exceptions.ConnectTimeout,
-            requests.exceptions.ConnectionError,
-        ) as e:
+        # Broad on purpose: a truncated body (ChunkedEncodingError /
+        # ProtocolError) is just as transient as a timeout, and letting it escape
+        # discards the whole run's work.
+        except requests.exceptions.RequestException as e:
             last_exc = e
             if verbose:
                 print(
@@ -89,23 +88,48 @@ def pubmed_esearch_simple(term: str, retmax=200):
     return data.get("esearchresult", {}).get("idlist", [])
 
 
+EFETCH_BATCH_SIZE = 100
+
+
 def pubmed_efetch(pmids: list[str]):
+    """Fetch PubMed records, batched. One 200-ID request is more likely to come
+    back truncated than two 100-ID ones."""
     if not pmids:
-        return ""
-    params = {"db": "pubmed", "id": ",".join(pmids), "retmode": "xml"}
-    r = robust_get(f"{NCBI_EUTIL}/efetch.fcgi", params=params, timeout=30)
-    return r.text
-
-
-def parse_pubmed_xml(xml_text: str):
-    import xml.etree.ElementTree as ET
-    if not xml_text:
         return []
 
-    root = ET.fromstring(xml_text)
+    documents = []
+    for i in range(0, len(pmids), EFETCH_BATCH_SIZE):
+        batch = pmids[i:i + EFETCH_BATCH_SIZE]
+        params = {"db": "pubmed", "id": ",".join(batch), "retmode": "xml"}
+        try:
+            r = robust_get(f"{NCBI_EUTIL}/efetch.fcgi", params=params, timeout=60)
+        except RuntimeError as e:
+            print(f"[warn] efetch batch {i // EFETCH_BATCH_SIZE} failed, skipping: {e}")
+            continue
+        documents.append(r.text)
+        time.sleep(0.34)  # NCBI allows 3 requests/sec without an API key
+    return documents
+
+
+def parse_pubmed_xml(xml_docs):
+    import xml.etree.ElementTree as ET
+    if not xml_docs:
+        return []
+    if isinstance(xml_docs, str):
+        xml_docs = [xml_docs]
+
+    articles = []
+    for xml_text in xml_docs:
+        if not xml_text:
+            continue
+        try:
+            articles.extend(ET.fromstring(xml_text).findall(".//PubmedArticle"))
+        except ET.ParseError as e:
+            print(f"[warn] unparseable PubMed XML batch, skipping: {e}")
+
     papers = []
 
-    for article in root.findall(".//PubmedArticle"):
+    for article in articles:
         pmid = article.findtext(".//PMID")
         title = article.findtext(".//ArticleTitle")
 
@@ -194,23 +218,34 @@ def query_bindingdb_inchikey(inchikey: str):
 # ------------------------------------------------------------
 # ChEMBL DOCUMENT LINKAGE
 # ------------------------------------------------------------
+DOCUMENT_BATCH_SIZE = 20
+
+
 def fetch_activity_documents_for_molecule(mol_chembl_id: str):
+    """
+    Collect the ChEMBL document IDs behind a molecule's activities.
+
+    The activity resource already carries document_chembl_id, so there is no need
+    to resolve each activity's assay first. Retinoic acid has 2332 activity rows
+    over 1843 assays; the per-assay walk cost ~4000 sequential requests for that
+    one molecule, which this reduces to one paginated pass.
+    """
     docs = set()
     url = f"{CHEMBL_API}/activity.json"
-    params = {"molecule_chembl_id": mol_chembl_id, "limit": 1000}
+    params = {
+        "molecule_chembl_id": mol_chembl_id,
+        "limit": 1000,
+        "only": "document_chembl_id",
+    }
 
     while True:
         r = robust_get(url, params=params, timeout=120)
         data = r.json()
 
         for act in data.get("activities", []):
-            assay_id = act.get("assay_chembl_id")
-            if assay_id:
-                a_resp = robust_get(f"{CHEMBL_API}/assay/{assay_id}.json", timeout=120)
-                assay_obj = a_resp.json()
-                doc_id = assay_obj.get("document_chembl_id")
-                if doc_id:
-                    docs.add(doc_id)
+            doc_id = act.get("document_chembl_id")
+            if doc_id:
+                docs.add(doc_id)
 
         next_page = data.get("page_meta", {}).get("next")
         if not next_page:
@@ -219,24 +254,33 @@ def fetch_activity_documents_for_molecule(mol_chembl_id: str):
         url = "https://www.ebi.ac.uk" + next_page
         params = None
 
-    return list(docs)
+    return sorted(docs)
 
 
 def fetch_chembl_document_records(document_ids: list[str]):
+    """Fetch document metadata in batches via document_chembl_id__in."""
     out = []
-    for doc_id in document_ids:
-        r = robust_get(f"{CHEMBL_API}/document/{doc_id}.json", timeout=120)
-        doc = r.json()
-        pmid = doc.get("pubmed_id")
-
-        out.append({
-            "chembl_document_id": doc_id,
-            "pmid": str(pmid) if pmid else None,
-            "title": doc.get("title"),
-            "year": doc.get("year"),
-            "doi": doc.get("doi"),
-            "chembl_doc_link": f"https://www.ebi.ac.uk/chembl/document_report_card/{doc_id}/",
-        })
+    for i in range(0, len(document_ids), DOCUMENT_BATCH_SIZE):
+        batch = document_ids[i:i + DOCUMENT_BATCH_SIZE]
+        r = robust_get(
+            f"{CHEMBL_API}/document.json",
+            params={
+                "document_chembl_id__in": ",".join(batch),
+                "limit": DOCUMENT_BATCH_SIZE,
+            },
+            timeout=120,
+        )
+        for doc in r.json().get("documents", []):
+            doc_id = doc.get("document_chembl_id")
+            pmid = doc.get("pubmed_id")
+            out.append({
+                "chembl_document_id": doc_id,
+                "pmid": str(pmid) if pmid else None,
+                "title": doc.get("title"),
+                "year": doc.get("year"),
+                "doi": doc.get("doi"),
+                "chembl_doc_link": f"https://www.ebi.ac.uk/chembl/document_report_card/{doc_id}/",
+            })
     return out
 
 
@@ -260,7 +304,7 @@ def build_literature(
         raw_names = row.get("all_pubchem_synonyms") or ""
         name_list = [n.strip() for n in raw_names.split("|") if n.strip()]
 
-        for extra in (row.get("best_name"), row.get("pref_name")):
+        for extra in (row.get("best_pubchem_name"), row.get("pref_name")):
             if extra and isinstance(extra, str) and extra.strip():
                 name_list.append(extra.strip())
 
@@ -273,12 +317,14 @@ def build_literature(
 
         for term in name_list:
             print(term)
-            pmids = pubmed_esearch_simple(term)
-            if not pmids:
+            try:
+                pmids = pubmed_esearch_simple(term)
+                if not pmids:
+                    continue
+                papers = parse_pubmed_xml(pubmed_efetch(pmids))
+            except Exception as e:
+                print(f"[warn] PubMed lookup failed for {ligand_id} / '{term}': {e}")
                 continue
-
-            xml = pubmed_efetch(pmids)
-            papers = parse_pubmed_xml(xml)
 
             for p in papers:
                 pmid = p["pmid"]
@@ -331,9 +377,14 @@ def build_literature(
         # ------------------------------------------------------------
         # ChEMBL LITERATURE
         # ------------------------------------------------------------
-        doc_ids = fetch_activity_documents_for_molecule(ligand_id)
-        if doc_ids:
-            docs = fetch_chembl_document_records(doc_ids)
+        try:
+            doc_ids = fetch_activity_documents_for_molecule(ligand_id)
+            docs = fetch_chembl_document_records(doc_ids) if doc_ids else []
+        except Exception as e:
+            print(f"[warn] ChEMBL literature failed for {ligand_id}: {e}")
+            docs = []
+
+        if docs:
             for c in docs:
                 rows.append({
                     "ligand_id": ligand_id,

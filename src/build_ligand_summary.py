@@ -3,6 +3,8 @@ import pandas as pd
 from pathlib import Path
 from pandas.errors import EmptyDataError
 
+RARG_CHEMBL_ID = "CHEMBL2003"
+
 
 # --------------------------------------------------------------------
 # Helper summaries
@@ -145,6 +147,9 @@ def build_ligand_summary(
     # Helper: best target per ligand (lowest affinity)
     # ----------------------------------------------------------------
     def best_target_for_lig(lig):
+        """Strongest-binding target for a ligand. Affinities are nM from
+        comparable endpoints only (see fetch_target_info.normalize_affinity_nm),
+        so the minimum is meaningful across assays."""
         if lig not in targets_by_lig.groups:
             return None, None, None
 
@@ -153,15 +158,31 @@ def build_ligand_summary(
             return None, None, None
 
         sub["numeric_aff"] = pd.to_numeric(sub["best_affinity"], errors="coerce")
-        sub = sub.sort_values("numeric_aff", ascending=True, na_position="last")
+        sub = sub.dropna(subset=["numeric_aff"])
+        if sub.empty:
+            return None, None, None
 
-        top = sub.iloc[0]
+        top = sub.sort_values("numeric_aff", ascending=True).iloc[0]
         gene = top.get("gene_symbol")
         name = top.get("target_name")
-        affinity = top.get("best_affinity")
-        assay_type = top.get("best_assay_type")
 
-        return f"{gene} ({name})", affinity, assay_type
+        return f"{gene} ({name})", top["numeric_aff"], top.get("best_assay_type")
+
+    def rarg_affinity_for_lig(lig):
+        """RARG affinity in nM, which is what the old best_rarg_affinity column
+        claimed to hold but did not."""
+        if lig not in targets_by_lig.groups:
+            return None, None
+        sub = targets_by_lig.get_group(lig)
+        sub = sub[sub["target_chembl_id"] == RARG_CHEMBL_ID].copy()
+        if sub.empty or "best_affinity" not in sub.columns:
+            return None, None
+        sub["numeric_aff"] = pd.to_numeric(sub["best_affinity"], errors="coerce")
+        sub = sub.dropna(subset=["numeric_aff"])
+        if sub.empty:
+            return None, None
+        top = sub.sort_values("numeric_aff", ascending=True).iloc[0]
+        return top["numeric_aff"], top.get("best_assay_type")
 
     # ----------------------------------------------------------------
     # Main ligand loop
@@ -169,13 +190,14 @@ def build_ligand_summary(
     for _, comp in df_compound.iterrows():
         ligand_id = comp["molecule_chembl_id"]
 
-        best_name = comp.get("best_name") or comp.get("pref_name")
+        best_name = comp.get("best_pubchem_name") or comp.get("pref_name")
         smiles = comp.get("canonical_smiles")
         pubchem_cid = comp.get("pubchem_cid")
         cas = comp.get("cas_number")
 
         # ---------------- Target summary ----------------
         top_target, best_aff, best_assay_type = best_target_for_lig(ligand_id)
+        rarg_aff, rarg_assay_type = rarg_affinity_for_lig(ligand_id)
         num_targets = (
             len(targets_by_lig.get_group(ligand_id))
             if ligand_id in targets_by_lig.groups
@@ -238,8 +260,10 @@ def build_ligand_summary(
             "pubchem_cid": pubchem_cid,
             "cas_number": cas,
             "top_target": top_target,
-            "best_rarg_affinity": best_aff,
-            "best_rarg_assay_type": best_assay_type,
+            "top_target_affinity_nm": best_aff,
+            "top_target_assay_type": best_assay_type,
+            "rarg_affinity_nm": rarg_aff,
+            "rarg_assay_type": rarg_assay_type,
             "num_targets_total": num_targets,
             "num_pathways": num_pathways,
             "num_clinical_trials": num_clin,
