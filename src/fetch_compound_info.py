@@ -6,7 +6,43 @@ from pathlib import Path
 import re
 import time
 
+from src.compound_names import choose_display_name, official_name, is_bare_code
+
 PUGREST_BASE = "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound"
+CHEMBL_BASE = "https://www.ebi.ac.uk/chembl/api/data"
+CHEMBL_BATCH_SIZE = 25
+
+
+def fetch_chembl_pref_names(chembl_ids):
+    """
+    ChEMBL's curated pref_name for each molecule, batched.
+
+    This is the best available name when it exists: 'TRETINOIN' rather than
+    whichever synonym PubChem happens to list first.
+    """
+    out = {}
+    ids = [i for i in chembl_ids if isinstance(i, str) and i.strip()]
+    for i in range(0, len(ids), CHEMBL_BATCH_SIZE):
+        batch = ids[i:i + CHEMBL_BATCH_SIZE]
+        try:
+            r = requests.get(
+                f"{CHEMBL_BASE}/molecule.json",
+                params={
+                    "molecule_chembl_id__in": ",".join(batch),
+                    "limit": CHEMBL_BATCH_SIZE,
+                    "only": "molecule_chembl_id,pref_name",
+                },
+                timeout=60,
+            )
+            r.raise_for_status()
+        except Exception as e:
+            print(f"[warn] ChEMBL pref_name batch failed: {e}")
+            continue
+        for m in r.json().get("molecules", []):
+            if m.get("pref_name"):
+                out[m["molecule_chembl_id"]] = m["pref_name"]
+        time.sleep(0.2)
+    return out
 
 def get_pubchem_cid_from_inchikey(inchi_key: str):
     """Map an InChIKey to PubChem CID via PUG-REST."""
@@ -72,6 +108,8 @@ def build_compound_info(
         on="molecule_chembl_id"
     )
 
+    pref_names = fetch_chembl_pref_names(top_ids)
+
     records = []
     for _, row in df_top.iterrows():
         chembl_id = row["molecule_chembl_id"]
@@ -79,9 +117,9 @@ def build_compound_info(
         inchi_key = row.get("standard_inchi_key")
 
         pubchem_cid = None
-        best_pubchem_name = None
         all_synonyms = None
         cas_number = None
+        syns = []
 
         if pd.notna(inchi_key):
             pubchem_cid = get_pubchem_cid_from_inchikey(inchi_key)
@@ -92,15 +130,37 @@ def build_compound_info(
                 time.sleep(0.1)
                 if syns:
                     all_synonyms = "|".join(syns)
-                    best_pubchem_name = syns[0]
                     cas_number = extract_cas_from_synonyms(syns)
+
+        # Name preference: ChEMBL's curated pref_name, then an INN/USAN-tagged
+        # synonym, then the most readable remaining synonym. None of those
+        # existing means the compound genuinely has no common name -- leave it
+        # blank rather than presenting an accession as a name.
+        best_name = pref_names.get(chembl_id)
+        name_source = "chembl_pref_name" if best_name else None
+
+        if not best_name:
+            best_name = official_name(syns)
+            name_source = "inn_usan" if best_name else None
+
+        if not best_name:
+            best_name = choose_display_name(syns)
+            if not best_name:
+                name_source = "unnamed"
+            elif is_bare_code(best_name):
+                # A catalogue/development code is the best available label, but
+                # it is not a name; say so rather than implying otherwise.
+                name_source = "code"
+            else:
+                name_source = "synonym"
 
         records.append({
             "molecule_chembl_id": chembl_id,
             "canonical_smiles": smiles,
             "standard_inchi_key": inchi_key,
             "pubchem_cid": pubchem_cid,
-            "best_pubchem_name": best_pubchem_name,
+            "best_name": best_name,
+            "name_source": name_source,
             "all_pubchem_synonyms": all_synonyms,
             "cas_number": cas_number,
         })

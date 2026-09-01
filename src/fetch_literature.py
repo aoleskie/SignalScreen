@@ -304,7 +304,7 @@ def build_literature(
         raw_names = row.get("all_pubchem_synonyms") or ""
         name_list = [n.strip() for n in raw_names.split("|") if n.strip()]
 
-        for extra in (row.get("best_pubchem_name"), row.get("pref_name")):
+        for extra in (row.get("best_name"), row.get("pref_name")):
             if extra and isinstance(extra, str) and extra.strip():
                 name_list.append(extra.strip())
 
